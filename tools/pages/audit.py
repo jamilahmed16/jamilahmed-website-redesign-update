@@ -88,13 +88,29 @@ for col, (step, title, body) in zip(hw.cols(25, 25, 25, 25, gap=40, cls="ja-rule
     col.heading(title, tag="h3", mb=10)
     col.text(f"<p>{body}</p>")
 
-# 7. Pricing
-pr = p.row(bg="ink", cls="ja-dark", pad=(96, 96), pad_mobile=(56, 56))
-pl, prr = pr.cols(50, 50, align="center", gap=64)
+# 7. Pricing: what sets the price (left) and a card of what every audit includes (right)
+pr = p.row(bg="ink", cls="ja-dark ja-pricing", pad=(112, 112), pad_mobile=(64, 64))
+pl, pc = pr.cols(50, 50, align="center", gap=80, cls=["", "ja-price-card"])
 pl.heading("Pricing", tag="h2", mb=20)
-pl.text("<p>Every audit is quoted to your site's size, number of markets and goals, so you only pay for the depth you need. "
-        "You get a fixed price after a short call, before any work starts. No retainer is required.</p>", cls="ja-lead")
-prr.button("Get your quote", "/contact/")
+pl.text("<p>You pay for the depth your business needs, not a one-size package. Every audit gets a fixed price "
+        "after a short call, before any work starts.</p>", cls="ja-lead", mb=36)
+pl.heading("What sets the price", tag="h3", mb=16)
+pl.text("<ul>"
+        "<li>Size of the site: pages, templates and subdomains</li>"
+        "<li>Number of markets and languages</li>"
+        "<li>How many competitors we benchmark</li>"
+        "<li>How deep the AI search analysis goes</li>"
+        "</ul>", cls="ja-list")
+pc.heading("Every audit includes", tag="h3", mb=20)
+pc.text("<ul>"
+        "<li>Google and AI search audited together</li>"
+        "<li>Written report with evidence and fixes</li>"
+        "<li>Walkthrough of every finding</li>"
+        "<li>Prioritised 90-day plan</li>"
+        "<li>Delivery in 24 to 72 hours</li>"
+        "<li>Fixed price, no retainer</li>"
+        "</ul>", cls="ja-list ja-checks", mb=32)
+pc.button("Get your fixed quote", "/contact/")
 
 # 8. FAQ
 FAQ = [
@@ -127,12 +143,20 @@ schema = {"@context": "https://schema.org", "@graph": [
 ]}
 qc.text('<script type="application/ld+json">' + json.dumps(schema) + '</script>', mb=0)
 
-# 9. CTA
-cta = p.row(bg="ink", cls="ja-dark", pad=(112, 112), pad_mobile=(64, 64))
-(c,) = cta.cols(100)
-c.heading("Find out what's holding you back on Google <em>and</em> in AI answers", tag="h2", mb=24, cls="ja-measure")
-c.text("<p>Tell me about your company and I'll come back with a fixed quote and a delivery date.</p>", cls="ja-lead", mb=40)
-c.button("Book your audit", "/contact/")
+# 9. Closing CTA: light band (contrasts with the dark footer), headline left, next steps right
+cta = p.row(bg="stone_deep", cls="ja-closing", pad=(112, 112), pad_mobile=(64, 64))
+cl, cr = cta.cols(55, 45, align="center", gap=80)
+cl.heading("Find out what's holding you back on Google <em>and</em> in AI answers", tag="h2", mb=24)
+cl.text("<p>Tell me about your company. You'll get a fixed quote and a delivery date, and if an audit isn't the right "
+        "first step, I'll tell you.</p>", cls="ja-lead", mb=40)
+cl.button("Book your audit", "/contact/", inline=True)
+cl.button("See all consulting", "/consulting/", ghost=True, inline=True)
+cr.heading("What happens next", tag="h3", mb=20)
+cr.text("<ol class=\"ja-next\">"
+        "<li><strong>Send a short brief</strong><span>Your site, markets and goals. It takes two minutes.</span></li>"
+        "<li><strong>Short call and fixed quote</strong><span>We agree scope, competitors and timeline.</span></li>"
+        "<li><strong>Audit and walkthrough</strong><span>Delivered in 24 to 72 hours, then we go through it together.</span></li>"
+        "</ol>", cls="ja-next-wrap")
 
 if __name__ == "__main__":
     print(payload(POST_ID, p))

@@ -725,3 +725,35 @@ body:has(.ja26-root) .ja-toc-list a.is-active .ja-toc-n { background: var(--ja-b
 body:has(.ja26-root) #fl-to-top { background: var(--ja-ink) !important; border: 1px solid var(--ja-brass); border-radius: 0 !important; color: var(--ja-brass-light) !important; opacity: .92; }
 body:has(.ja26-root) #fl-to-top:hover { background: var(--ja-brass) !important; color: var(--ja-ink) !important; }
 body:has(.ja26-root) #fl-to-top i, body:has(.ja26-root) #fl-to-top svg { color: inherit !important; fill: currentColor; }
+
+/* =====================================================================
+ * Service pages: pricing card and closing call to action
+ * ===================================================================== */
+body:has(.ja26-root) .ja-price-card > .fl-col-content {
+	background: var(--ja-graphite); border: 1px solid rgba(205,165,111,.35); border-top: 3px solid var(--ja-brass);
+	padding: 36px 20px 40px; margin: 0 20px 0 0;
+}
+body:has(.ja26-root) .ja-checks ul { list-style: none; padding: 0; margin: 0; }
+body:has(.ja26-root) .ja-checks li { position: relative; padding-left: 30px !important; }
+body:has(.ja26-root) .ja-checks li::before {
+	content: ""; position: absolute; left: 2px; top: 20px; width: 12px; height: 7px;
+	border-left: 2px solid var(--ja-brass-light); border-bottom: 2px solid var(--ja-brass-light); transform: rotate(-45deg);
+	background: none !important;
+}
+body:has(.ja26-root) .ja-closing { border-top: 3px solid var(--ja-brass); }
+body:has(.ja26-root) .ja-next { list-style: none; counter-reset: jn; margin: 0; padding: 0; }
+body:has(.ja26-root) .ja-next li {
+	counter-increment: jn; display: grid; grid-template-columns: 44px 1fr; column-gap: 16px; row-gap: 4px;
+	padding: 18px 0; border-top: 1px solid var(--ja-line); margin: 0;
+}
+body:has(.ja26-root) .ja-next li:last-child { border-bottom: 1px solid var(--ja-line); }
+body:has(.ja26-root) .ja-next li::before {
+	content: counter(jn, decimal-leading-zero); grid-row: span 2; width: 44px; height: 44px;
+	display: inline-flex; align-items: center; justify-content: center;
+	border: 1px solid var(--ja-brass); color: var(--ja-brass-deep); font-family: var(--ja-mono); font-size: 13px;
+}
+body:has(.ja26-root) .ja-next strong { font-family: var(--ja-body); font-weight: 600; color: var(--ja-ink); font-size: 17px; }
+body:has(.ja26-root) .ja-next span { color: var(--ja-muted); font-size: 15.5px; line-height: 1.55; }
+@media (max-width: 768px) {
+	body:has(.ja26-root) .ja-price-card > .fl-col-content { padding: 24px 4px 28px; margin: 40px 20px 0; }
+}
