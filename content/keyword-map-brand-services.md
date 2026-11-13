@@ -2,7 +2,7 @@
 
 Source: `data/semrush-brand-service-keywords-us-2026-11-14.csv` (29 keywords). KD = Semrush keyword difficulty.
 
-## Existing pages
+## Existing pages (titles applied 14 Nov 2026)
 
 | Page | Primary keyword | Supporting keywords | Proposed SEO title |
 |---|---|---|---|
