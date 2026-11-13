@@ -70,6 +70,22 @@ def themer_patch(post_id):
     print("themer modules:", php(code))
 
 
+def js():
+    src = open(os.path.join(ROOT, "wp-content/themes/bb-theme-child/assets/js/ja26-toc.js"), "rb").read()
+    b64 = base64.b64encode(src).decode()
+    code = (
+        "$f=get_stylesheet_directory().'/assets/js/ja26-toc.js'; wp_mkdir_p(dirname($f));"
+        f"$w=file_put_contents($f,base64_decode('{b64}'));clearstatcache();$v=filemtime($f);"
+        "$tag='<script src=\"'.get_stylesheet_directory_uri().'/assets/js/ja26-toc.js?ver='.$v.'\" defer></script>';"
+        "$sw=(array)get_option('auhfc_settings_sitewide');"
+        "$sw['footer']=trim(preg_replace('#<!-- ja26-js -->.*<!-- /ja26-js -->#s','',$sw['footer']??'')).\"\\n<!-- ja26-js -->\".$tag.'<!-- /ja26-js -->';"
+        "update_option('auhfc_settings_sitewide',$sw);"
+        "if(class_exists('WpeCommon')){WpeCommon::purge_varnish_cache();}"
+        "return ['bytes'=>$w,'ver'=>$v];"
+    )
+    print("js:", php(code))
+
+
 def page(script):
     name = os.path.splitext(os.path.basename(script))[0]
     env = {**os.environ, "POST_ID": str(PAGES[name])}
@@ -84,6 +100,8 @@ def page(script):
 if __name__ == "__main__":
     if sys.argv[1] == "css":
         css()
+    elif sys.argv[1] == "js":
+        js()
     elif sys.argv[1] == "page":
         for script in sys.argv[2:]:
             print(script, end=" ")

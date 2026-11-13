@@ -5,7 +5,7 @@ from bb import Page, payload
 p = Page()
 
 # Title band: breadcrumbs, H1 (post title), author and dates.
-hero = p.row(bg="ink", cls="ja26-root ja-dark ja-post-hero", pad=(72, 56), pad_mobile=(40, 36), width=860)
+hero = p.row(bg="ink", cls="ja26-root ja-dark ja-post-hero", pad=(72, 56), pad_mobile=(40, 36), width=1200)
 (h,) = hero.cols(100)
 h.text("<p>[wpseo_breadcrumb]</p>", cls="ja-crumbs", mb=20)
 h._add("heading", {"heading": "Post title", "tag": "h1", "class": "", "margin_top": 0, "margin_bottom": 22, "margin_unit": "px",
@@ -14,8 +14,9 @@ h.text("<p>By [wpbb post:author_name type='display' link='yes' link_type='archiv
        "Updated [wpbb post:modified_date format='j M Y']</p>", cls="ja-meta")
 
 # Article column.
-body = p.row(bg="stone", cls="ja-article", pad=(56, 72), pad_mobile=(32, 48), width=860)
-(c,) = body.cols(100)
+body = p.row(bg="stone", cls="ja-article", pad=(56, 72), pad_mobile=(32, 48), width=1200)
+toc, c = body.cols(28, 72, gap=56, cls=["ja-toc-col", "ja-article-col"])
+toc.text('<div class="ja-toc-mount"></div>', cls="ja-toc-wrap")
 c._add("photo", {"photo_source": "library", "photo": "", "photo_src": "", "align": "center", "class": "ja-featured",
                  "margin_bottom": 40, "margin_unit": "px",
                  "connections": {"photo": {"object": "post", "property": "featured_image_url", "field": "photo",
@@ -23,7 +24,7 @@ c._add("photo", {"photo_source": "library", "photo": "", "photo_src": "", "align
 c.text("<p>__THEMER__fl-post-content</p>", cls="ja-prose")
 
 # Author box and navigation.
-au = p.row(bg="stone", cls="ja-after", pad=(0, 64), pad_mobile=(0, 40), width=860)
+au = p.row(bg="stone", cls="ja-after", pad=(0, 64), pad_mobile=(0, 40), width=1200)
 pic, a = au.cols(20, 80, gap=32, cls=["ja-author-wrap", "ja-author-wrap"], mobile=[30, 70])
 pic.photo(791, "https://jamilahmed.com/wp-content/uploads/2025/09/Jamil-Ahmed-Personal-Avatar.jpg", alt="Jamil Ahmed", cls="ja-author-pic")
 a.heading("<a href=\"/about-me/\">Jamil Ahmed</a>", tag="h3", mb=10)
