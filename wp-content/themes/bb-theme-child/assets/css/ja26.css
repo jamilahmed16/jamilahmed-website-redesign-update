@@ -654,10 +654,14 @@ body:has(.ja26-root) .ja-prose .ja-sponsor-mobile { display: none; }
 /* =====================================================================
  * Single post: two columns with a sticky "Chapters" sidebar
  * ===================================================================== */
-body:has(.ja26-root) .ja-post-hero .fl-row-content,
-body:has(.ja26-root) .ja-after .fl-row-content { padding-left: calc(28% + 28px); }
-body:has(.ja26-root) .ja-post-hero .fl-row-content .fl-col-group { max-width: 860px; }
-body:has(.ja26-root) .ja-after .fl-col-group { max-width: 860px; }
+/* Margins (not row padding) so the offset is a % of the content width, matching the 28% sidebar column at every viewport. */
+body:has(.ja26-root) .ja-post-hero .fl-row-content .fl-col-group { margin-left: calc(28% + 28px); max-width: 836px; }
+/* Author box and post navigation start on the article's text edge: column offset + 20px module margin. */
+body:has(.ja26-root) .ja-after .fl-col-group { margin-left: calc(28% + 48px); max-width: 796px; }
+body:has(.ja26-root) .ja-after .fl-col-content { padding-left: 0 !important; }
+body:has(.ja26-root) .ja-after .ja-author-wrap:first-child .fl-module,
+body:has(.ja26-root) .ja-after .ja-hair .fl-module,
+body:has(.ja26-root) .ja-after .ja-hair .fl-module-content { margin-left: 0 !important; }
 body:has(.ja26-root) .ja-article .fl-col-group { display: flex; align-items: stretch; }
 body:has(.ja26-root) .ja-toc-col > .fl-col-content { height: 100%; display: block; }
 body:has(.ja26-root) .ja-toc-wrap { position: sticky; top: 24px; margin: 0 !important; }
@@ -711,7 +715,8 @@ body:has(.ja26-root) .ja-toc-list a.is-active .ja-toc-n { background: var(--ja-b
 	body:has(.ja26-root) .ja-toc-col { display: none !important; }
 	body:has(.ja26-root) .ja-article-col { width: 100% !important; }
 	html.ja-has-toc body:has(.ja26-root) .ja-prose #ez-toc-container { display: block !important; }
-	body:has(.ja26-root) .ja-post-hero .fl-row-content, body:has(.ja26-root) .ja-after .fl-row-content { padding-left: 0; }
+	body:has(.ja26-root) .ja-post-hero .fl-row-content .fl-col-group, body:has(.ja26-root) .ja-after .fl-col-group { margin-left: 0; }
+	body:has(.ja26-root) .ja-after .ja-author-wrap:first-child .fl-module, body:has(.ja26-root) .ja-after .ja-hair .fl-module { margin-left: 20px !important; }
 	body:has(.ja26-root) .ja-article-col > .fl-col-content { padding-left: 0 !important; }
 }
 /* Theme scroll-to-top button in brand colours */
