@@ -32,3 +32,24 @@ Source: `data/semrush-brand-service-keywords-us-2026-11-14.csv` (29 keywords). K
 | Perplexity SEO | perplexity seo (320, KD 29) | |
 
 Every pillar post links to the Consulting page and the audit page; every service page links to the relevant pillar posts.
+
+## "seo consultant" deep dive (Keyword Overview, US desktop, 14 Nov 2026)
+
+Source: `data/semrush-keyword-overview-seo-consultant-us-2026-11-14.pdf`.
+
+- Volume 18.1K US, 44.7K global (UK 8.1K, AU 4.4K, CA 2.4K). KD 48, CPC $16.75, intent informational.
+- **Easier variations with the same demand:** seo consulting (9.9K, KD 24), seo consulting services (9.9K, KD 28).
+  Harder: seo consultant services (3.6K, KD 57), seo consultants (3.6K, KD 41).
+- **Question cluster (~3.4K/mo combined):** what is seo consulting (1.0K, KD 23), what is a/an seo consultant (720 + 720, KD 41-48),
+  what to ask seo consultants (590, KD 15), what does an seo consultant do (390, KD 31).
+- **SERP is mixed:** service pages (Bruce Clay, Coalition, Eric Schwartzman) and guides (Coursera, Neil Patel, Primary Position,
+  Entrepreneur), plus a local pack, Upwork and two YouTube videos. A one-person consultant site (ericschwartzman.com, Authority
+  Score 26) ranks #3 with a dedicated `/seo-consultant/` page, so a personal site can win this.
+- Keyword Magic Tool: 68,751 related terms, almost all low-volume local "near me" / city long tail. Not worth separate pages.
+
+### Actions
+| Page | Change |
+|---|---|
+| Consulting `/consulting/` | Target **seo consulting services** (9.9K, KD 28) + seo consulting (9.9K, KD 24) + ai seo consultant |
+| Home `/` | Keep **seo consultant** (18.1K) |
+| New guide | "What does an SEO consultant do? (and what to ask before you hire one)": the question cluster, links to Consulting and the audit page |
