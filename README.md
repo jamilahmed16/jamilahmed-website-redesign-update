@@ -24,7 +24,7 @@ To roll back: Settings → Reading → "Your latest posts", then set the new pag
 | Single post template | 232 | all posts | `tools/pages/single.py` |
 | Blog index template | 870 | `/blog/` | `tools/pages/blog.py` |
 | Archive template | 393 | categories, author, search | `tools/pages/archive.py` |
-| Legal pages (drafts) | 867, 868, 869 | `/privacy-policy/`, `/terms-conditions/`, `/affiliate-disclosure/` | `tools/pages/privacy.py`, `terms.py`, `disclosure.py` |
+| Legal pages (published 13 Nov 2026) | 867, 868, 869 | `/privacy-policy/`, `/terms-conditions/`, `/affiliate-disclosure/` | `tools/pages/privacy.py`, `terms.py`, `disclosure.py` |
 
 Other pieces:
 
