@@ -21,6 +21,32 @@ Source: the SEMrush Organic Positions export (US, 12 Nov 2026), in `data/`, plus
 
 US data only. Search Console (worldwide clicks and impressions) can still change individual calls, marked ⚑ below.
 
+## Backlinks (SEMrush export, 2,200 links, 13 Nov 2026)
+
+- **2,194 of 2,200 links point to the homepage. 2,091 (95%) are spam**, from 2,032 domains:
+  - "Boost Your Rankings with High Authority Backlinks from jamilahmed.com" (1,782 links)
+  - "Tiered Link Building" (97)
+  - "DA 50 PA 40 Premium PBN" (91)
+  - "paid blog posts" (19)
+- **The spam is recent and accelerating:** 136 new links in September, **1,563 in October** and 270 in the first 12 days of
+  November. It looks like an automated spam or negative-SEO campaign, not links anyone earned.
+- **Real links are very few:**
+  - reinforcelab.com/management/ (2 followed links: "SEO consultant", "Jamil Ahmed")
+  - domestika.org/en/jadirectives (nofollow)
+  - The rest of the 109 "non-spam" rows are domain-stats and scraper sites.
+- **Post-level links:** only 4 posts have any, all from scraper or aggregator sites:
+  - semrush-agency-growth-kit-review (whatarethebest.com)
+  - diib-vs-semrush and copy-ai-reviews (affsignal.com)
+  - best-seo-tools-for-saas-companies (vuink.com)
+- **Every post marked "Retire" has zero backlinks**, so deleting them loses nothing. copy-ai-reviews still gets its planned
+  301 into the AI writing tools page.
+- **Disavow:** `data/disavow-candidates.txt` lists the 2,032 spam-only domains in Google's format. Two steps:
+  1. Check Search Console → Security & Manual actions.
+  2. Given the October spike, upload the file at https://search.google.com/search-console/disavow-links. Not one of these
+     domains carries value, so disavowing them is low-risk.
+
+  Google says it ignores most spam links on its own. The file is there so you don't have to rely on that.
+
 ## Decision for every post
 
 **Rewrite.** Keep the URL, rewrite in the AI-search format, update the title (no year in the slug).
@@ -52,7 +78,7 @@ US data only. Search Console (worldwide clicks and impressions) can still change
 | what-is-personal-branding, personal-branding-strategy | how-to-build-a-personal-brand |
 | copy-ai-reviews, copy-ai-vs-chatgpt, copy-ai-vs-rytr, copy-ai-vs-writesonic, jasper-ai-vs-copy-ai | best-ai-tools-for-writing-seo-rich-blog-content |
 
-**Retire (delete; 410, or 301 if the page has real backlinks ⚑).** Off-positioning, with no meaningful rankings.
+**Retire (delete; none of these has a single backlink).** Off-positioning, with no meaningful rankings.
 
 | Post | Note |
 |---|---|
