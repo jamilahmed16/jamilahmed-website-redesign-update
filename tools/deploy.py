@@ -36,16 +36,38 @@ def css():
         "$f=get_stylesheet_directory().'/assets/css/ja26.css';"
         f"$w=file_put_contents($f,base64_decode('{b64}'));clearstatcache();$v=filemtime($f);"
         "$h=preg_replace('/ja26\\.css\\?ver=\\d+/','ja26.css?ver='.$v,get_option('ja26_head_code'));"
-        "update_option('ja26_head_code',$h,false);$n=0;"
-        "foreach(get_posts(['post_type'=>'page','post_status'=>'any','numberposts'=>-1,'meta_key'=>'_ja26']) as $p){"
-        "$m=get_post_meta($p->ID,'_auhfc',true);if(!is_array($m)){$m=['behavior'=>'append','body'=>'','footer'=>''];}"
-        "$m['head']=$h;update_post_meta($p->ID,'_auhfc',wp_slash($m));$n++;}"
-        "return ['bytes'=>$w,'ver'=>$v,'pages'=>$n];"
+        "update_option('ja26_head_code',$h,false);"
+        "$sw=(array)get_option('auhfc_settings_sitewide');"
+        "$sw['head']=preg_replace('/ja26\\.css\\?ver=\\d+/','ja26.css?ver='.$v,$sw['head']);"
+        "update_option('auhfc_settings_sitewide',$sw);"
+        "if(class_exists('WpeCommon')){WpeCommon::purge_varnish_cache();}"
+        "return ['bytes'=>$w,'ver'=>$v,'sitewide'=>strpos($sw['head'],'ja26.css?ver='.$v)!==false];"
     )
     print("css:", php(code))
 
 
-PAGES = {"home": 853, "about": 854, "consulting": 855, "newsletter": 856, "podcast": 857, "contact": 858, "header": 865, "footer": 866, "privacy": 867, "terms": 868, "disclosure": 869}
+PAGES = {"home": 853, "about": 854, "consulting": 855, "newsletter": 856, "podcast": 857, "contact": 858, "header": 865, "footer": 866, "single": 232, "archive": 393, "blog": 870, "privacy": 867, "terms": 868, "disclosure": 869}
+
+
+THEMER = {
+    "fl-post-content": {},
+    "fl-author-bio": {"image_size": "88", "bg_color": "", "text_color": ""},
+    "fl-post-navigation": {"navigation_link": "both", "prev_text": "&larr; %title", "next_text": "%title &rarr;",
+                           "in_same_term": "0", "tax_select": "category", "aria_label": "Posts",
+                           "screen_reader_text": "Posts navigation"},
+}
+
+
+def themer_patch(post_id):
+    """Swap rich-text placeholders (__THEMER__<slug>) for real Themer modules, which the write ability rejects."""
+    code = ("$map=json_decode(base64_decode('" + base64.b64encode(json.dumps(THEMER).encode()).decode() + "'),true);$n=0;$pid=" + str(post_id) + ";"
+            "foreach(['_fl_builder_data','_fl_builder_draft'] as $key){ $d=get_post_meta($pid,$key,true); if(!is_array($d)) continue;"
+            " foreach($d as $id=>$node){ if($node->type==='module' && ($node->settings->type??'')==='rich-text' && preg_match('/__THEMER__([a-z-]+)/',$node->settings->text??'',$m) && isset($map[$m[1]])){"
+            "  $cls=$node->settings->class; $s=new stdClass; foreach(array_merge($map[$m[1]],['type'=>$m[1],'class'=>$cls]) as $k=>$v){ $s->$k=$v; }"
+            "  $d[$id]->settings=$s; $n++; } }"
+            " update_post_meta($pid,$key,$d); }"
+            "if(class_exists('FLBuilderModel')){FLBuilderModel::delete_all_asset_cache($pid);} return $n;")
+    print("themer modules:", php(code))
 
 
 def page(script):
@@ -55,6 +77,8 @@ def page(script):
     r = run("novamira/beaver-builder-set-layout", json.loads(nodes))
     d = r.get("data", r)
     print("layout:", d.get("node_counts", d) if isinstance(d, dict) else d)
+    if "__THEMER__" in nodes:
+        themer_patch(PAGES[name])
 
 
 if __name__ == "__main__":

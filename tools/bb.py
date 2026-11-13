@@ -15,7 +15,8 @@ import json
 GLOBAL = {
     "ink": ("03691dfdb", "141312"),
     "graphite": ("dfe687e25", "1F1D1B"),
-    "stone": ("1c6c26cf9", "F4F3F1"),
+    "stone": ("1c6c26cf9", "E9E7E3"),
+    "stone_deep": ("d5459b7b0", "DFDCD7"),
     "brass": ("cb83eab4f", "AF824B"),
     "brass_deep": ("8f4e0e3ca", "87622F"),
     "brass_light": ("0eca0c646", "CDA56F"),
@@ -166,6 +167,10 @@ class Col:
             "pagination": "none", "show_search": "0", "class": cls,
         })
 
+
+    def raw(self, module, settings):
+        """Any native module (Themer modules such as fl-post-content) with explicit settings."""
+        return self._add(module, settings)
 
     def menu(self, slug, cls=""):
         return self._add("menu", {

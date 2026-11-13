@@ -19,15 +19,21 @@ To roll back: Settings → Reading → "Your latest posts", then set the new pag
 | The Jamil Ahmed Show | 857 | `/podcast/` | `tools/pages/podcast.py` |
 | Contact | 858 | `/contact/` | `tools/pages/contact.py` |
 | Blog (posts index) | 859 | `/blog/` | empty page, set as the posts page |
-| Themer header | 865 | shows on the 6 pages above only | `tools/pages/header.py` |
-| Themer footer | 866 | shows on the 6 pages above only | `tools/pages/footer.py` |
+| Themer header | 865 | sitewide | `tools/pages/header.py` |
+| Themer footer | 866 | sitewide (old footer 277 unpublished) | `tools/pages/footer.py` |
+| Single post template | 232 | all posts | `tools/pages/single.py` |
+| Blog index template | 870 | `/blog/` | `tools/pages/blog.py` |
+| Archive template | 393 | categories, author, search | `tools/pages/archive.py` |
+| Legal pages (drafts) | 867, 868, 869 | `/privacy-policy/`, `/terms-conditions/`, `/affiliate-disclosure/` | `tools/pages/privacy.py`, `terms.py`, `disclosure.py` |
 
 Other pieces:
 
 - **Design system:** `design/DESIGN.md`, saved on the site as the active Novamira design `jamil-black-brass`.
 - **Beaver global colors:** the "JA Ink / Graphite / Stone / Brass / Brass Deep / Brass Light / Muted / Line" swatches in the color picker.
-- **Styles:** `wp-content/themes/bb-theme-child/assets/css/ja26.css`. They only apply to pages whose first row has the class
-  `ja26-root`, so the rest of the site is untouched. The fonts and this stylesheet load per page through Head & Footer Code.
+- **Styles:** `wp-content/themes/bb-theme-child/assets/css/ja26.css`, loaded sitewide with the fonts through Head & Footer Code
+  (sitewide head). Rules are scoped to `body:has(.ja26-root)`; every template's first row carries that class.
+- **Rollback:** the pre-rollout templates, theme settings, head code and menus are saved in the WordPress option
+  `ja26_rollback_20261113`.
 - **Menu:** "JA 2026 Main", not assigned to any theme location.
 - **Forms:** the newsletter forms use the site's existing Beaver "email-address" service (account "Jamil"). Contact uses
   Beaver's native contact form, which mails the site admin address.

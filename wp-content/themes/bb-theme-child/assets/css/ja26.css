@@ -6,12 +6,13 @@
  */
 
 body:has(.ja26-root) {
-	--ja-bg: #F4F3F1;
+	--ja-bg: #E9E7E3;
+	--ja-bg-deep: #DFDCD7;
 	--ja-surface: #FFFFFF;
 	--ja-ink: #141312;
 	--ja-graphite: #1F1D1B;
 	--ja-muted: #5E5A55;
-	--ja-line: #DAD6D0;
+	--ja-line: #CFCAC2;
 	--ja-brass: #AF824B;
 	--ja-brass-deep: #87622F;
 	--ja-brass-light: #CDA56F;
@@ -447,3 +448,93 @@ body:has(.ja26-root) .ja-legal h2 { font-size: clamp(22px, 2.2vw, 28px); text-tr
 body:has(.ja26-root) .ja-legal h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
 body:has(.ja26-root) .ja-legal li { margin-bottom: 10px; }
 body:has(.ja26-root) .ja-legal code { font-family: var(--ja-mono); font-size: 14px; background: rgba(20,19,18,.06); padding: 1px 6px; }
+
+
+/* =====================================================================
+ * Sitewide rollout: posts, archives, footer
+ * ===================================================================== */
+
+/* Old theme chrome under the Themer header/footer */
+body:has(.ja26-root) .fl-page { background: var(--ja-bg); }
+body:has(.ja26-root) .fl-page-header-primary, body:has(.ja26-root) .fl-page-bar { display: none; }
+
+/* Breadcrumbs and post meta in the dark title band */
+body:has(.ja26-root) .ja-crumbs p, body:has(.ja26-root) .ja-crumbs span, body:has(.ja26-root) .ja-crumbs a {
+	font-family: var(--ja-mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ja-on-dark-muted) !important; text-decoration: none;
+}
+body:has(.ja26-root) .ja-crumbs a:hover { color: var(--ja-brass-light) !important; }
+body:has(.ja26-root) .ja-post-hero h1.fl-heading { font-size: clamp(34px, 4.4vw, 60px); line-height: 1.06; }
+body:has(.ja26-root) .ja-meta p { font-family: var(--ja-mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ja-on-dark-muted); }
+body:has(.ja26-root) .ja-meta a { color: var(--ja-on-dark) !important; text-decoration: none; }
+body:has(.ja26-root) .ja-meta img { display: none; }
+body:has(.ja26-root) .ja-featured img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+
+/* ---------- Article prose (post content) ---------- */
+body:has(.ja26-root) .ja-prose { font-size: 19px; line-height: 1.72; color: var(--ja-ink); }
+body:has(.ja26-root) .ja-prose :where(p, ul, ol) { font-size: 19px; line-height: 1.72; margin: 0 0 1.15em; max-width: none; }
+body:has(.ja26-root) .ja-prose :where(h2) { font-family: var(--ja-head); font-weight: 500; font-size: clamp(28px, 3vw, 38px); line-height: 1.12; text-transform: none; margin: 1.9em 0 0.6em; color: var(--ja-ink); }
+body:has(.ja26-root) .ja-prose :where(h3) { font-family: var(--ja-head); font-weight: 500; font-size: clamp(22px, 2.2vw, 27px); line-height: 1.2; margin: 1.6em 0 0.5em; color: var(--ja-ink); }
+body:has(.ja26-root) .ja-prose :where(h4, h5, h6) { font-family: var(--ja-body); font-weight: 600; font-size: 19px; margin: 1.4em 0 0.4em; color: var(--ja-ink); }
+body:has(.ja26-root) .ja-prose a { color: var(--ja-brass-deep); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+body:has(.ja26-root) .ja-prose a:hover { color: var(--ja-ink); }
+body:has(.ja26-root) .ja-prose :where(ul, ol) { padding-left: 1.3em; }
+body:has(.ja26-root) .ja-prose li { margin-bottom: 0.45em; }
+body:has(.ja26-root) .ja-prose li::marker { color: var(--ja-brass-deep); }
+body:has(.ja26-root) .ja-prose img { height: auto; max-width: 100%; }
+body:has(.ja26-root) .ja-prose figure, body:has(.ja26-root) .ja-prose .wp-caption { max-width: 100%; margin: 1.6em 0; }
+body:has(.ja26-root) .ja-prose figcaption, body:has(.ja26-root) .ja-prose .wp-caption-text { font-family: var(--ja-mono); font-size: 12px; color: var(--ja-muted); margin-top: 8px; }
+body:has(.ja26-root) .ja-prose blockquote { margin: 1.6em 0; padding: 4px 0 4px 24px; border-left: 3px solid var(--ja-brass); font-size: 21px; color: var(--ja-ink); background: none; }
+body:has(.ja26-root) .ja-prose hr { border: 0; border-top: 1px solid var(--ja-line); margin: 2.4em 0; }
+body:has(.ja26-root) .ja-prose :where(code, kbd) { font-family: var(--ja-mono); font-size: 0.85em; background: rgba(20,19,18,.07); padding: 1px 6px; }
+body:has(.ja26-root) .ja-prose table { width: 100%; border-collapse: collapse; margin: 1.6em 0; font-size: 16px; line-height: 1.5; display: block; overflow-x: auto; }
+body:has(.ja26-root) .ja-prose :where(th, td) { border: 0; border-bottom: 1px solid var(--ja-line); padding: 12px 14px; text-align: left; vertical-align: top; }
+body:has(.ja26-root) .ja-prose th, body:has(.ja26-root) .ja-prose thead td { font-family: var(--ja-mono); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ja-ink); background: var(--ja-bg-deep); }
+body:has(.ja26-root) .ja-prose tr:nth-child(even) td { background: rgba(255,255,255,.35); }
+/* Buttons authored inside old posts (orange "Click here" etc.) follow the brand */
+body:has(.ja26-root) .ja-prose :where(.wp-block-button__link, a.button, .su-button, .button) { background: var(--ja-brass) !important; color: var(--ja-ink) !important; border-radius: 0 !important; font-family: var(--ja-mono); font-size: 13px; letter-spacing: .08em; text-transform: uppercase; text-decoration: none; padding: 14px 22px; display: inline-block; border: 0; }
+
+/* Easy Table of Contents */
+body:has(.ja26-root) #ez-toc-container { background: var(--ja-bg-deep) !important; border: 0 !important; border-top: 3px solid var(--ja-brass) !important; border-radius: 0 !important; box-shadow: none !important; padding: 20px 24px !important; width: 100% !important; margin: 0 0 2em !important; }
+body:has(.ja26-root) #ez-toc-container .ez-toc-title { font-family: var(--ja-mono) !important; font-size: 12px !important; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ja-ink) !important; font-weight: 500 !important; }
+body:has(.ja26-root) #ez-toc-container a { color: var(--ja-ink) !important; text-decoration: none !important; font-size: 16px; }
+body:has(.ja26-root) #ez-toc-container a:hover { color: var(--ja-brass-deep) !important; }
+body:has(.ja26-root) #ez-toc-container li { margin: 6px 0 !important; }
+
+/* Author box */
+body:has(.ja26-root) .ja-author .fl-author-bio-content, body:has(.ja26-root) .ja-author .fl-author-bio { background: transparent !important; border-radius: 0 !important; padding: 0 !important; }
+body:has(.ja26-root) .ja-author .fl-author-bio-thumb img { border-radius: 0 !important; width: 88px; height: 88px; object-fit: cover; }
+body:has(.ja26-root) .ja-author .fl-author-bio-name { font-family: var(--ja-head); font-size: 26px; font-weight: 500; color: var(--ja-ink); }
+body:has(.ja26-root) .ja-author .fl-author-bio-text { font-size: 16px; line-height: 1.65; color: var(--ja-muted); }
+body:has(.ja26-root) .ja-author-wrap > .fl-col-content { border-top: 3px solid var(--ja-brass); padding-top: 28px; }
+
+/* Post navigation */
+body:has(.ja26-root) .ja-postnav a { font-family: var(--ja-body); font-size: 15px; font-weight: 500; color: var(--ja-ink) !important; text-decoration: none; }
+body:has(.ja26-root) .ja-postnav a:hover { color: var(--ja-brass-deep) !important; }
+
+/* Archive pagination */
+body:has(.ja26-root) .fl-builder-pagination ul.page-numbers { display: flex; gap: 6px; flex-wrap: wrap; padding: 0; border: 0; }
+body:has(.ja26-root) .fl-builder-pagination li { border: 0 !important; }
+body:has(.ja26-root) .fl-builder-pagination li a.page-numbers, body:has(.ja26-root) .fl-builder-pagination li span.page-numbers {
+	font-family: var(--ja-mono); font-size: 13px; border: 1px solid var(--ja-ink) !important; border-radius: 0; padding: 10px 14px; color: var(--ja-ink); background: transparent; }
+body:has(.ja26-root) .fl-builder-pagination li span.current { background: var(--ja-ink); color: var(--ja-on-dark); }
+body:has(.ja26-root) .ja-archive-desc p { color: var(--ja-on-dark-muted); font-size: 19px; }
+
+/* ---------- Full footer ---------- */
+body:has(.ja26-root) .ja-social p { display: flex; gap: 10px; flex-wrap: wrap; margin: 0; }
+body:has(.ja26-root) .ja-social a { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border: 1px solid rgba(244,243,241,.28); color: var(--ja-on-dark) !important; transition: background-color .15s ease, color .15s ease, border-color .15s ease; }
+body:has(.ja26-root) .ja-social a:hover { background: var(--ja-brass); border-color: var(--ja-brass); color: var(--ja-ink) !important; }
+body:has(.ja26-root) .ja-social svg { width: 18px; height: 18px; fill: currentColor; }
+body:has(.ja26-root) .ja-footer-latest .fl-post-feed-post, body:has(.ja26-root) .ja-footer-latest .fl-post-grid-post { background: transparent; border: 0; border-bottom: 1px solid rgba(244,243,241,.14); padding: 0 0 12px; margin: 0 0 12px; box-shadow: none; height: auto !important; }
+body:has(.ja26-root) .ja-footer-latest .fl-post-grid-text, body:has(.ja26-root) .ja-footer-latest .fl-post-feed-text { padding: 0; }
+body:has(.ja26-root) .ja-footer-latest :where(h2, h3, h4) { margin: 0; font-family: var(--ja-body) !important; font-size: 15px !important; font-weight: 400 !important; line-height: 1.5 !important; text-transform: none !important; }
+body:has(.ja26-root) .ja-footer-latest :where(h2, h3, h4) a { color: var(--ja-on-dark) !important; text-decoration: none; }
+body:has(.ja26-root) .ja-footer-latest :where(h2, h3, h4) a:hover { color: var(--ja-brass-light) !important; }
+
+/* Rollout fixes */
+body:has(.ja26-root) .ja-author-pic img { width: 100%; max-width: 140px; aspect-ratio: 1; object-fit: cover; object-position: 50% 20%; }
+body:has(.ja26-root) .ja-author-wrap h3 a { color: var(--ja-ink); text-decoration: none; }
+body:has(.ja26-root) .ja-author-text p { font-size: 16px; line-height: 1.65; color: var(--ja-muted); }
+body:has(.ja26-root) .ja-social a { width: 36px; height: 36px; }
+body:has(.ja26-root) .ja-social p { gap: 8px; }
+body:has(.ja26-root) .ja-footer-latest a, body:has(.ja26-root) .ja-footer-latest .fl-post-feed-title, body:has(.ja26-root) .ja-footer-latest .fl-post-grid-title { font-family: var(--ja-body) !important; font-weight: 400 !important; font-size: 15px !important; line-height: 1.5 !important; text-transform: none !important; letter-spacing: 0 !important; }
+body:has(.ja26-root) [class*="ez-toc-sticky"], body:has(.ja26-root) .ez-toc-open-icon { display: none !important; }

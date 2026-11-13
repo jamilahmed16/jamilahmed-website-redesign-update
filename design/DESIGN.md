@@ -2,12 +2,13 @@
 name: "Jamil Ahmed: Black & Brass Authority"
 description: "Editorial authority for an SEO and AI Search consultant: warm off-black bands, a quiet stone ground, one brass accent, condensed Oswald headlines over IBM Plex, square corners throughout."
 colors:
-  bg: "#F4F3F1"
+  bg: "#E9E7E3"
+  bg-deep: "#DFDCD7"
   surface: "#FFFFFF"
   ink: "#141312"
   graphite: "#1F1D1B"
   muted: "#5E5A55"
-  line: "#DAD6D0"
+  line: "#CFCAC2"
   accent: "#AF824B"
   accent-deep: "#87622F"
   accent-light: "#CDA56F"
@@ -48,9 +49,9 @@ jamilahmed.com is the personal authority site of Jamil Ahmed, SEO & AI Search Co
 
 ## Colors
 
-- Stone ground #F4F3F1 for reading bands; white #FFFFFF reserved for form fields.
+- Stone ground #E9E7E3 for reading bands (darkened from #F4F3F1 on 13 Nov 2026), #DFDCD7 for tinted blocks such as the table of contents; white #FFFFFF reserved for form fields.
 - Off-black #141312 for ink and for dark full-bleed bands; graphite #1F1D1B for a second dark step.
-- Muted #5E5A55 for secondary text; line #DAD6D0 for hairlines.
+- Muted #5E5A55 for secondary text; line #CFCAC2 for hairlines.
 - On off-black, secondary text is #B3ADA5; form placeholders use #8A847D.
 - Brass #AF824B is the only accent. On stone, brass is for large type, rules and button fills only (contrast); small brass text on stone uses #87622F. On off-black, brass text uses #CDA56F.
 - Warm palette declared on purpose: brass has been this brand's colour since 2023 and appears on the LinkedIn banner; neutrals all lean warm to match it. Never mix in cool greys.
