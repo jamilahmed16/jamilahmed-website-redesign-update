@@ -1,5 +1,5 @@
 /*
- * Jamil Ahmed: sticky "Chapters" sidebar for single posts.
+ * Jamil Ahmed: sticky "Table of Contents" sidebar for single posts.
  * Builds a numbered table of contents from the H2s in the article (.ja-prose),
  * highlights the chapter in view, shows reading progress and total reading time.
  * Mounts into .ja-toc-mount (left column of the single-post template). No dependencies.
@@ -22,8 +22,8 @@
 
 	var nav = document.createElement('nav');
 	nav.className = 'ja-toc';
-	nav.setAttribute('aria-label', 'Chapters');
-	var html = '<div class="ja-toc-head"><span>Chapters</span><span class="ja-toc-pct" aria-hidden="true">0%</span></div><ol class="ja-toc-list">';
+	nav.setAttribute('aria-label', 'Table of contents');
+	var html = '<div class="ja-toc-head"><span>Table of Contents</span><span class="ja-toc-pct" aria-hidden="true">0%</span></div><ol class="ja-toc-list">';
 	heads.forEach(function (h, i) {
 		var inner = h.querySelector('[id]');
 		var id = h.id || (inner && inner.id) || ('ch-' + (i + 1) + '-' + slug(h.textContent));
