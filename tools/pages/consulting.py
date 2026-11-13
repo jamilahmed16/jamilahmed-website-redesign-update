@@ -33,7 +33,7 @@ eng = p.row(bg="graphite", cls="ja-dark", pad=(112, 112), pad_mobile=(64, 64))
 eh.heading("Engagements", tag="h2", mb=48)
 for title, desc, items in [
     ("SEO &amp; AI Search Audit",
-     "A senior diagnostic of your visibility on Google and inside AI answers, delivered as a prioritised 90-day plan.",
+     "A senior diagnostic of your visibility on Google and inside AI answers, delivered in 24 to 72 hours with a walkthrough and a prioritised 90-day plan. <a href=\"/seo-ai-search-audit/\">See what the audit includes</a>.",
      ["Technical SEO and site architecture review", "AI search visibility: where you are cited, and where competitors are",
       "Content authority and evidence gaps", "Competitor and demand analysis", "A 90-day action plan your team can run"]),
     ("Executive advisory",
@@ -74,7 +74,7 @@ for q, ans in [
     ("Which industries do you know best?",
      "Pharmaceutical and life sciences, healthcare, B2B SaaS, manufacturing, technology, professional services and e-commerce. My background in pharma makes regulated, evidence-heavy markets a particular strength."),
     ("How do we start?",
-     "Book a consultation. We talk through your goals and current results, and I recommend the right starting point, usually the SEO &amp; AI Search Audit."),
+     "Book a consultation. We talk through your goals and current results, and I recommend the right starting point, usually the <a href=\"/seo-ai-search-audit/\">SEO &amp; AI Search Audit</a>."),
 ]:
     (qc,) = qa.cols(100, cls="ja-qa")
     qc.heading(q, tag="h3", mb=10)

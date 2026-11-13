@@ -67,7 +67,8 @@ main.text(
     "your team can act on.</p>",
     cls="ja-lead", mb=32,
 )
-main.button("Book a consultation", "/contact/")
+main.button("Book a consultation", "/contact/", inline=True)
+main.button("What the audit includes", "/seo-ai-search-audit/", ghost=True, inline=True)
 side.heading("Executive advisory", tag="h3", mb=12)
 side.text(
     "<p>Ongoing strategy for founders and C-suite leaders: what to own in search, what to automate, "

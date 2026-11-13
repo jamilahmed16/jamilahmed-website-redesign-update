@@ -18,6 +18,7 @@ To roll back: Settings → Reading → "Your latest posts", then set the new pag
 | Newsletter | 856 | `/newsletter/` | `tools/pages/newsletter.py` |
 | The Jamil Ahmed Show | 857 | `/podcast/` | `tools/pages/podcast.py` |
 | Contact | 858 | `/contact/` | `tools/pages/contact.py` |
+| SEO & AI Search Audit (published 14 Nov 2026) | 872 | `/seo-ai-search-audit/` | `tools/pages/audit.py` |
 | Blog (posts index) | 859 | `/blog/` | empty page, set as the posts page |
 | Themer header | 865 | sitewide | `tools/pages/header.py` |
 | Themer footer | 866 | sitewide (old footer 277 unpublished) | `tools/pages/footer.py` |
