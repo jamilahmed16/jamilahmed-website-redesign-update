@@ -1,0 +1,442 @@
+/*
+ * Jamil Ahmed: Black & Brass (2026)
+ * Applies only to pages whose first Beaver Builder row has the class ja26-root. Beaver Builder node
+ * settings own layout, spacing and per-section colour; this file owns the
+ * type system, the shared helper classes and the theme chrome on these pages.
+ */
+
+body:has(.ja26-root) {
+	--ja-bg: #F4F3F1;
+	--ja-surface: #FFFFFF;
+	--ja-ink: #141312;
+	--ja-graphite: #1F1D1B;
+	--ja-muted: #5E5A55;
+	--ja-line: #DAD6D0;
+	--ja-brass: #AF824B;
+	--ja-brass-deep: #87622F;
+	--ja-brass-light: #CDA56F;
+	--ja-on-dark: #F4F3F1;
+	--ja-on-dark-muted: #B3ADA5;
+	--ja-head: "Oswald", "Arial Narrow", sans-serif;
+	--ja-body: "IBM Plex Sans", system-ui, sans-serif;
+	--ja-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+	background: var(--ja-bg);
+	color: var(--ja-ink);
+	font-family: var(--ja-body);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.65;
+	-webkit-font-smoothing: antialiased;
+}
+
+body:has(.ja26-root) ::selection { background: var(--ja-brass); color: var(--ja-ink); }
+
+/* ---------- Type ---------- */
+
+body:has(.ja26-root) .fl-builder-content :where(h1, h2, h3, h4, h5, h6),
+body:has(.ja26-root) .fl-builder-content :where(h1, h2, h3, h4, h5, h6) a {
+	font-family: var(--ja-head);
+	font-weight: 500;
+	letter-spacing: 0.01em;
+	text-transform: none;
+	color: inherit;
+}
+body:has(.ja26-root) .fl-builder-content :where(h1, h2) { text-transform: uppercase; line-height: 1.04; }
+body:has(.ja26-root) .fl-builder-content :where(h3, h4) { line-height: 1.15; }
+body:has(.ja26-root) .fl-builder-content :where(h1) { font-size: clamp(44px, 5.6vw, 84px); }
+body:has(.ja26-root) .fl-builder-content :where(h2) { font-size: clamp(34px, 3.8vw, 56px); }
+body:has(.ja26-root) .fl-builder-content :where(h3) { font-size: clamp(22px, 2vw, 28px); }
+body:has(.ja26-root) .fl-builder-content :where(h4) { font-size: 20px; }
+
+body:has(.ja26-root) .fl-builder-content :where(p, li) { font-size: 18px; line-height: 1.65; }
+body:has(.ja26-root) .fl-builder-content .fl-rich-text :where(p, ul, ol) { max-width: 64ch; }
+body:has(.ja26-root) .fl-builder-content .fl-rich-text :where(p:last-child) { margin-bottom: 0; }
+body:has(.ja26-root) .fl-builder-content a { color: var(--ja-brass-deep); text-underline-offset: 3px; }
+body:has(.ja26-root) .fl-builder-content a:hover { color: var(--ja-ink); }
+body:has(.ja26-root) .fl-builder-content strong { font-weight: 600; }
+
+/* Brass emphasis inside a headline: wrap the words in <em>. */
+body:has(.ja26-root) .fl-builder-content :where(h1, h2) em {
+	font-style: normal;
+	color: var(--ja-brass);
+}
+
+/* ---------- Helper classes (set in each node's Advanced > Class field) ---------- */
+
+/* Lead paragraph. */
+body:has(.ja26-root) .ja-lead p { font-size: 21px; line-height: 1.55; color: var(--ja-muted); }
+
+/* Dark band: flips text colours. Put on the row. */
+body:has(.ja26-root) .ja-dark { color: var(--ja-on-dark); }
+body:has(.ja26-root) .ja-dark .fl-rich-text, body:has(.ja26-root) .ja-dark .fl-rich-text p, body:has(.ja26-root) .ja-dark li { color: var(--ja-on-dark-muted); }
+body:has(.ja26-root) .ja-dark .fl-rich-text strong { color: var(--ja-on-dark); }
+body:has(.ja26-root) .ja-dark :where(h1, h2, h3, h4) { color: var(--ja-on-dark); }
+body:has(.ja26-root) .ja-dark .fl-builder-content a, body:has(.ja26-root) .ja-dark a { color: var(--ja-brass-light); }
+body:has(.ja26-root) .ja-dark a:hover { color: var(--ja-on-dark); }
+body:has(.ja26-root) .ja-dark .ja-lead p { color: var(--ja-on-dark-muted); }
+
+/* Brass top rule: stat blocks, list items, pillars. Put on the column. */
+body:has(.ja26-root) .ja-rule > .fl-col-content { border-top: 3px solid var(--ja-brass); padding-top: 22px; }
+
+/* Hairline separator between stacked items. Put on the column. */
+body:has(.ja26-root) .ja-hair > .fl-col-content { border-top: 1px solid var(--ja-line); padding-top: 26px; }
+body:has(.ja26-root) .ja-dark .ja-hair > .fl-col-content { border-top-color: rgba(244, 243, 241, 0.16); }
+
+/* Big figure for stat blocks. */
+body:has(.ja26-root) .ja-stat.fl-heading {
+	font-family: var(--ja-head);
+	font-size: clamp(44px, 4.6vw, 68px) !important;
+	font-weight: 500;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+/* Small mono caption under a stat or a photo. */
+body:has(.ja26-root) .ja-caption p {
+	font-family: var(--ja-mono);
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	line-height: 1.5;
+	color: var(--ja-muted);
+}
+body:has(.ja26-root) .ja-dark .ja-caption p { color: var(--ja-on-dark-muted); }
+
+/* Square photos, never rounded. */
+body:has(.ja26-root) .fl-builder-content .fl-photo-img,
+body:has(.ja26-root) .fl-builder-content img { border-radius: 0 !important; }
+
+/* Portrait panel: brass frame offset behind the photo. Put on the photo module. */
+body:has(.ja26-root) .ja-portrait .fl-photo-content { position: relative; }
+body:has(.ja26-root) .ja-portrait .fl-photo-content::before {
+	content: "";
+	position: absolute;
+	inset: 18px -18px -18px 18px;
+	border: 1px solid var(--ja-brass);
+	z-index: 0;
+}
+body:has(.ja26-root) .ja-portrait .fl-photo-img { position: relative; z-index: 1; display: block; }
+
+/* ---------- Buttons ---------- */
+
+body:has(.ja26-root) .fl-builder-content .fl-button-wrap a.fl-button,
+body:has(.ja26-root) .fl-builder-content .fl-button-wrap a.fl-button:visited {
+	font-family: var(--ja-mono);
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	line-height: 1.2;
+	padding: 17px 26px;
+	border-radius: 0 !important;
+	border: 1px solid var(--ja-brass);
+	background: var(--ja-brass);
+	color: var(--ja-ink);
+	box-shadow: none;
+	transition: background-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+}
+body:has(.ja26-root) .fl-builder-content .fl-button-wrap a.fl-button *,
+body:has(.ja26-root) .fl-builder-content .fl-button-wrap a.fl-button:visited * { color: inherit; }
+body:has(.ja26-root) .fl-builder-content .fl-button-wrap a.fl-button:hover,
+body:has(.ja26-root) .fl-builder-content .fl-button-wrap a.fl-button:focus-visible {
+	background: var(--ja-ink);
+	border-color: var(--ja-ink);
+	color: var(--ja-on-dark);
+}
+body:has(.ja26-root) .fl-builder-content .fl-button-wrap a.fl-button:active { transform: translateY(1px); }
+body:has(.ja26-root) .ja-dark .fl-button-wrap a.fl-button:hover,
+body:has(.ja26-root) .ja-dark .fl-button-wrap a.fl-button:focus-visible {
+	background: var(--ja-on-dark);
+	border-color: var(--ja-on-dark);
+	color: var(--ja-ink);
+}
+
+/* Secondary (outline) button. Put ja-btn-ghost on the button module. */
+body:has(.ja26-root) .fl-builder-content .ja-btn-ghost.fl-button-wrap a.fl-button,
+body:has(.ja26-root) .fl-builder-content .ja-btn-ghost.fl-button-wrap a.fl-button:visited {
+	background: transparent;
+	border-color: currentColor;
+	color: var(--ja-ink);
+}
+body:has(.ja26-root) .ja-dark .fl-builder-content .ja-btn-ghost.fl-button-wrap a.fl-button,
+body:has(.ja26-root) .ja-dark .ja-btn-ghost.fl-button-wrap a.fl-button,
+body:has(.ja26-root) .ja-dark .ja-btn-ghost.fl-button-wrap a.fl-button:visited { color: var(--ja-on-dark); background: transparent; border-color: currentColor; }
+body:has(.ja26-root) .fl-builder-content .ja-btn-ghost.fl-button-wrap a.fl-button:hover {
+	background: var(--ja-ink);
+	border-color: var(--ja-ink);
+	color: var(--ja-on-dark);
+}
+
+/* Focus ring everywhere on these pages. */
+body:has(.ja26-root) a:focus-visible,
+body:has(.ja26-root) button:focus-visible,
+body:has(.ja26-root) input:focus-visible {
+	outline: 2px solid var(--ja-brass);
+	outline-offset: 3px;
+}
+
+/* ---------- Lists inside rich text ---------- */
+
+body:has(.ja26-root) .ja-list ul { list-style: none; padding: 0; margin: 0; }
+body:has(.ja26-root) .ja-list li {
+	position: relative;
+	padding: 14px 0 14px 26px;
+	border-top: 1px solid var(--ja-line);
+	margin: 0;
+}
+body:has(.ja26-root) .ja-list li:last-child { border-bottom: 1px solid var(--ja-line); }
+body:has(.ja26-root) .ja-list li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 26px;
+	width: 10px;
+	height: 2px;
+	background: var(--ja-brass);
+}
+body:has(.ja26-root) .ja-dark .ja-list li { border-color: rgba(244, 243, 241, 0.16); }
+
+/* ---------- Forms (WPForms on these pages) ---------- */
+
+body:has(.ja26-root) .wpforms-container input[type="text"],
+body:has(.ja26-root) .wpforms-container input[type="email"],
+body:has(.ja26-root) .wpforms-container textarea,
+body:has(.ja26-root) .wpforms-container select {
+	border-radius: 0 !important;
+	border: 1px solid var(--ja-line) !important;
+	background: var(--ja-surface) !important;
+	color: var(--ja-ink) !important;
+	font-family: var(--ja-body) !important;
+	font-size: 16px !important;
+	padding: 14px 16px !important;
+	height: auto !important;
+}
+body:has(.ja26-root) .wpforms-container label { font-family: var(--ja-body); font-weight: 500; color: inherit; }
+body:has(.ja26-root) .wpforms-container button[type="submit"] {
+	font-family: var(--ja-mono) !important;
+	font-size: 13px !important;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	background: var(--ja-brass) !important;
+	color: var(--ja-ink) !important;
+	border: 1px solid var(--ja-brass) !important;
+	border-radius: 0 !important;
+	padding: 16px 26px !important;
+	height: auto !important;
+}
+body:has(.ja26-root) .wpforms-container button[type="submit"]:hover { background: var(--ja-ink) !important; color: var(--ja-on-dark) !important; border-color: var(--ja-ink) !important; }
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 768px) {
+	body:has(.ja26-root) { font-size: 17px; }
+	body:has(.ja26-root) .fl-builder-content :where(p, li) { font-size: 17px; }
+	body:has(.ja26-root) .ja-lead p { font-size: 19px; }
+	body:has(.ja26-root) .ja-portrait .fl-photo-content::before { inset: 12px -10px -12px 10px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	body:has(.ja26-root) * { transition: none !important; }
+}
+
+/* ---------- Inline button pairs ----------
+ * Beaver columns are flex columns; a column holding .ja-inline buttons wraps as a row instead. */
+body:has(.ja26-root) .fl-col-content:has(> .ja-inline) { flex-direction: row; flex-wrap: wrap; align-content: center; }
+body:has(.ja26-root) .fl-col-content:has(> .ja-inline) > * { flex: 0 0 100%; }
+body:has(.ja26-root) .fl-col-content:has(> .ja-inline) > .ja-inline { flex: 0 0 auto; margin: 0 12px 12px 0 !important; }
+
+/* ---------- Hero ---------- */
+body:has(.ja26-root) .ja-hero .ja-hero-photo img {
+	width: 100%;
+	aspect-ratio: 4 / 5;
+	object-fit: cover;
+	object-position: 6% 50%;
+}
+@media (max-width: 768px) {
+	body:has(.ja26-root) .ja-hero .ja-hero-photo img { aspect-ratio: 4 / 3; }
+}
+body:has(.ja26-root) .ja-hero .fl-col:first-child > .fl-col-content { padding-bottom: 96px; }
+@media (max-width: 768px) {
+	body:has(.ja26-root) .ja-hero .fl-col:first-child > .fl-col-content { padding-bottom: 8px; }
+}
+
+/* ---------- Home sections ---------- */
+body:has(.ja26-root) .ja-measure { max-width: 18ch; }
+body:has(.ja26-root) .ja-recognition .fl-heading { font-size: 22px; text-transform: none; }
+body:has(.ja26-root) .ja-recognition .ja-hair > .fl-col-content { border-top-color: var(--ja-ink); }
+body:has(.ja26-root) .ja-work h3, body:has(.ja26-root) .ja-duo h3 { font-size: clamp(24px, 2.2vw, 32px); }
+body:has(.ja26-root) .ja-side > .fl-col-content { border-left: 1px solid rgba(244, 243, 241, 0.16); padding-left: 48px; }
+body:has(.ja26-root) .ja-timeline li { display: grid; grid-template-columns: 10em 1fr; column-gap: 16px; align-items: baseline; }
+body:has(.ja26-root) .ja-timeline li strong {
+	font-family: var(--ja-mono);
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--ja-brass-deep);
+}
+body:has(.ja26-root) .ja-industry-list.fl-heading {
+	font-size: clamp(30px, 3.6vw, 54px);
+	line-height: 1.18;
+	text-transform: uppercase;
+	color: var(--ja-on-dark);
+}
+body:has(.ja26-root) .ja-industry-list span { color: var(--ja-brass); padding: 0 0.15em; }
+
+/* Posts: editorial text list, brass rule on top of each item */
+body:has(.ja26-root) .ja-posts .fl-post-grid-post {
+	background: transparent;
+	border: 0;
+	border-top: 3px solid var(--ja-brass);
+	box-shadow: none;
+	height: auto !important;
+}
+body:has(.ja26-root) .ja-posts .fl-post-grid-text { padding: 22px 0 0; }
+body:has(.ja26-root) .ja-posts .fl-post-grid-title { margin: 0 0 10px; font-size: 24px; line-height: 1.2; }
+body:has(.ja26-root) .ja-posts .fl-post-grid-title a { font-family: var(--ja-head); font-weight: 500; color: var(--ja-ink); text-decoration: none; }
+body:has(.ja26-root) .ja-posts .fl-post-grid-title a:hover { color: var(--ja-brass-deep); }
+body:has(.ja26-root) .ja-posts .fl-post-grid-meta {
+	font-family: var(--ja-mono);
+	font-size: 12px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--ja-muted);
+	margin: 0 0 14px;
+}
+body:has(.ja26-root) .ja-posts .fl-post-grid-content p { font-size: 16px; line-height: 1.6; color: var(--ja-muted); }
+body:has(.ja26-root) .ja-posts .fl-post-grid-more {
+	display: inline-block;
+	margin-top: 4px;
+	font-family: var(--ja-mono);
+	font-size: 12px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--ja-brass-deep);
+}
+
+@media (max-width: 768px) {
+	body:has(.ja26-root) .ja-side > .fl-col-content { border-left: 0; padding-left: 0; border-top: 1px solid rgba(244, 243, 241, 0.16); padding-top: 40px; }
+	body:has(.ja26-root) .ja-timeline li { grid-template-columns: 1fr; row-gap: 4px; }
+}
+
+/* ---------- Beaver subscribe + contact forms ---------- */
+body:has(.ja26-root) .ja-form input[type="text"],
+body:has(.ja26-root) .ja-form input[type="email"],
+body:has(.ja26-root) .ja-form input[type="tel"],
+body:has(.ja26-root) .ja-form textarea {
+	border-radius: 0 !important;
+	border: 1px solid var(--ja-line) !important;
+	background: var(--ja-surface) !important;
+	color: var(--ja-ink) !important;
+	font-family: var(--ja-body) !important;
+	font-size: 16px !important;
+	line-height: 1.4 !important;
+	padding: 15px 16px !important;
+	height: auto !important;
+	box-shadow: none !important;
+}
+body:has(.ja26-root) .ja-form textarea { min-height: 160px; }
+body:has(.ja26-root) .ja-form input::placeholder, body:has(.ja26-root) .ja-form textarea::placeholder { color: #8A847D; }
+body:has(.ja26-root) .ja-form label { font-family: var(--ja-body); font-size: 15px; font-weight: 500; color: inherit; margin-bottom: 6px; }
+body:has(.ja26-root) .ja-form a.fl-button,
+body:has(.ja26-root) .ja-form a.fl-button:visited {
+	font-family: var(--ja-mono) !important;
+	font-size: 13px !important;
+	font-weight: 500;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	line-height: 1.2;
+	padding: 17px 26px !important;
+	border-radius: 0 !important;
+	border: 1px solid var(--ja-brass) !important;
+	background: var(--ja-brass) !important;
+	color: var(--ja-ink) !important;
+	box-shadow: none !important;
+}
+body:has(.ja26-root) .ja-form a.fl-button *, body:has(.ja26-root) .ja-form a.fl-button i { color: inherit !important; }
+body:has(.ja26-root) .ja-form a.fl-button:hover { background: var(--ja-ink) !important; border-color: var(--ja-ink) !important; color: var(--ja-on-dark) !important; }
+body:has(.ja26-root) .ja-dark .ja-form a.fl-button:hover { background: var(--ja-on-dark) !important; border-color: var(--ja-on-dark) !important; color: var(--ja-ink) !important; }
+body:has(.ja26-root) .ja-dark .ja-form input[type="email"], body:has(.ja26-root) .ja-dark .ja-form input[type="text"] { border-color: transparent !important; }
+body:has(.ja26-root) .ja-form .fl-form-success-message, body:has(.ja26-root) .ja-form .fl-success-msg { font-size: 16px; color: inherit; }
+body:has(.ja26-root) .ja-form .fl-form-error-message { color: #B3261E; }
+
+/* Hero buttons align with the text edge */
+body:has(.ja26-root) .fl-col-content:has(> .ja-inline) > .ja-inline { margin: 0 0 12px 20px !important; }
+body:has(.ja26-root) .fl-col-content:has(> .ja-inline) > .ja-inline + .ja-inline { margin-left: 12px !important; }
+
+/* Cut-out portrait on a dark hero */
+body:has(.ja26-root) .ja-cutout img { width: auto; max-height: 560px; margin: 0 auto; display: block; }
+
+/* Q&A */
+body:has(.ja26-root) .ja-qa .fl-col-content { border-top: 1px solid var(--ja-line); padding-top: 26px; }
+body:has(.ja26-root) .ja-qa h3 { font-size: 22px; }
+body:has(.ja26-root) .ja-step.fl-heading { font-family: var(--ja-mono); font-size: 13px !important; letter-spacing: 0.1em; color: var(--ja-brass-deep); text-transform: uppercase; }
+
+/* Form submit buttons: Beaver renders them as a.fl-button or button.fl-button */
+body:has(.ja26-root) .ja-form .fl-button,
+body:has(.ja26-root) .ja-form .fl-button:visited {
+	font-family: var(--ja-mono) !important;
+	font-size: 13px !important;
+	font-weight: 500 !important;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	line-height: 1.2 !important;
+	padding: 17px 26px !important;
+	border-radius: 0 !important;
+	border: 1px solid var(--ja-brass) !important;
+	background: var(--ja-brass) !important;
+	color: var(--ja-ink) !important;
+	box-shadow: none !important;
+	height: auto !important;
+}
+body:has(.ja26-root) .ja-form .fl-button span, body:has(.ja26-root) .ja-form .fl-button i { color: inherit !important; }
+body:has(.ja26-root) .ja-form .fl-button:hover { background: var(--ja-ink) !important; border-color: var(--ja-ink) !important; color: var(--ja-on-dark) !important; }
+body:has(.ja26-root) .ja-dark .ja-form .fl-button:hover { background: var(--ja-on-dark) !important; border-color: var(--ja-on-dark) !important; color: var(--ja-ink) !important; }
+body:has(.ja26-root) .ja-form-narrow { max-width: 560px; }
+
+/* ---------- Header (Themer) ---------- */
+body:has(.ja26-root) .fl-builder-content[data-type="header"] { position: relative; z-index: 50; }
+body:has(.ja26-root) .ja-header .ja-logo img { max-height: 46px; width: auto; }
+body:has(.ja26-root) .ja-nav .menu > li > a,
+body:has(.ja26-root) .ja-nav .fl-menu a {
+	font-family: var(--ja-body);
+	font-size: 15px;
+	font-weight: 500;
+	color: var(--ja-on-dark) !important;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+body:has(.ja26-root) .ja-nav .fl-menu a:hover { color: var(--ja-brass-light) !important; }
+body:has(.ja26-root) .ja-nav .fl-menu-mobile-toggle { color: var(--ja-on-dark); border-color: rgba(244,243,241,.3); border-radius: 0; background: transparent; }
+body:has(.ja26-root) .ja-nav .fl-menu-mobile-toggle .hamburger-menu rect { fill: var(--ja-on-dark); }
+body:has(.ja26-root) .ja-header .fl-module-button { text-align: right; }
+body:has(.ja26-root) .ja-header .fl-button-wrap a.fl-button { padding: 13px 18px; }
+@media (max-width: 992px) {
+	body:has(.ja26-root) .ja-header .fl-col:last-child { display: none; }
+	body:has(.ja26-root) .ja-nav .fl-menu .menu { background: var(--ja-ink); }
+}
+
+/* ---------- Footer (Themer) ---------- */
+body:has(.ja26-root) .ja-footer h4 { font-family: var(--ja-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ja-brass-light) !important; }
+body:has(.ja26-root) .ja-footer p { font-size: 15px; line-height: 1.7; }
+body:has(.ja26-root) .ja-footer-links p { line-height: 2.1; }
+body:has(.ja26-root) .ja-footer-links a { color: var(--ja-on-dark) !important; text-decoration: none; }
+body:has(.ja26-root) .ja-footer-links a:hover { color: var(--ja-brass-light) !important; }
+body:has(.ja26-root) .ja-footer .ja-logo img { max-height: 52px; width: auto; }
+body:has(.ja26-root) .ja-footer-bottom a { color: var(--ja-on-dark-muted) !important; }
+
+/* Polish */
+body:has(.ja26-root) .ja-header .fl-button-wrap a.fl-button { white-space: nowrap; }
+body:has(.ja26-root) .ja-footer-bottom p { max-width: none; }
+body:has(.ja26-root) .ja-footer .ja-logo img { opacity: 1; }
+@media (max-width: 768px) {
+	body:has(.ja26-root) .fl-col-content:has(> .ja-inline) > .ja-inline,
+	body:has(.ja26-root) .fl-col-content:has(> .ja-inline) > .ja-inline + .ja-inline { margin: 0 0 12px 20px !important; }
+	body:has(.ja26-root) .ja-header .fl-col-group { display: flex; align-items: center; }
+	body:has(.ja26-root) .ja-nav .fl-menu-mobile-toggle { margin-left: auto; float: right; }
+}
+body:has(.ja26-root) .fl-col-content:has(> .ja-inline) > * { flex: 1 1 100%; min-width: 0; }
+body:has(.ja26-root) .fl-col-content:has(> .ja-inline) > .ja-inline { flex: 0 0 auto; }
+body:has(.ja26-root) .ja-header .fl-col-content { justify-content: center; }
+body:has(.ja26-root) .ja-header .fl-module-button { margin-top: 0 !important; margin-bottom: 0 !important; }
