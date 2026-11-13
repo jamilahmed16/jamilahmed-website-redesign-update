@@ -3,8 +3,10 @@
 Personal authority site for **Jamil Ahmed, SEO & AI Search Consultant**. Its sibling is the company site, reinforcelab.com:
 both use Oswald, IBM Plex and square corners, but this site uses Jamil's brass `#AF824B` in place of the company red.
 
-Everything is built **natively in Beaver Builder**, so every page stays editable in the Beaver editor. All of it is on
-the live WordPress site as **drafts**, and nothing public has changed yet.
+Everything is built **natively in Beaver Builder**, so every page stays editable in the Beaver editor.
+
+**Launched 13 Nov 2026:** pages 853 to 859 are published, the front page is Home (853) and the posts page is Blog (859).
+To roll back: Settings → Reading → "Your latest posts", then set the new pages back to draft.
 
 ## What's on the site
 
@@ -53,15 +55,16 @@ to scope fonts and CSS. But WP Engine blocks PHP files from being written by the
 The site works without them: the `ja26-root` CSS scope and the per-page head code do the same job. If you ever deploy the
 child theme through WP Engine Git push or SFTP, both files are safe to include.
 
-## Launch checklist (needs Jamil's go-ahead)
+## Still open after launch
 
-1. Publish pages 853 to 859.
-2. Settings → Reading: set the front page to **Home (853)** and the posts page to **Blog (859)**.
+1. ~~Publish pages 853 to 859.~~ Done.
+2. ~~Settings → Reading: front page Home (853), posts page Blog (859).~~ Done.
 3. Restore or recreate **Privacy Policy, Terms & Conditions and Affiliate Disclosure**. They return 404 today and the new
    footer links to them.
 4. Decide what happens to the old Beaver page **"Home" (820, `/home/`)**: redirect it to `/` with Yoast, or delete it.
 5. Podcast: add the real Spotify or Apple link. Also confirm the show name, since the cover art reads "Talk About Brand".
 6. Phase 2: roll the header, footer and type system out to blog archives and single posts (Themer layouts 393 and 232).
+   `/blog/` still uses the old archive layout, including the old "2M+ innovators" newsletter claim.
 7. After launch, consider deactivating the Novamira plugin on production, or moving this work to a WP Engine staging copy.
    The plugin describes itself as meant for development and staging.
 
