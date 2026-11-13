@@ -24,14 +24,14 @@ GUIDES = [("What is SEO", "/what-is-seo/"), ("SEO basics", "/seo-basics/"), ("Sm
           ("What is personal branding", "/what-is-personal-branding/"), ("Personal branding strategy", "/personal-branding-strategy/"),
           ("How to start a blog", "/how-to-start-a-blog/")]
 QUICK = [("Home", "/"), ("About", "/about-me/"), ("Consulting", "/consulting/"), ("Blog", "/blog/"),
-         ("Newsletter", "/newsletter/"), ("Podcast", "/podcast/"), ("Contact", "/contact/"),
-         ("Privacy Policy", "/privacy-policy/"), ("Terms &amp; Conditions", "/terms-conditions/"),
+         ("Newsletter", "/newsletter/"), ("Podcast", "/podcast/"), ("Contact", "/contact/")]
+LEGAL = [("Privacy Policy", "/privacy-policy/"), ("Terms &amp; Conditions", "/terms-conditions/"),
          ("Affiliate Disclosure", "/affiliate-disclosure/"), ("Sitemap", "/sitemap_index.xml")]
 links = lambda items: "<p>" + "<br>".join(f'<a href="{u}">{t}</a>' for t, u in items) + "</p>"
 
 p = Page()
 top = p.row(bg="ink", cls="ja-dark ja-footer", pad=(96, 48), pad_mobile=(64, 32))
-brand, guides, latest, quick = top.cols(31, 21, 27, 21, gap=40)
+brand, guides, latest, quick, legal = top.cols(27, 18, 23, 16, 16, gap=28)
 brand.photo(72, f"{UP}/2023/01/Jamil-Ahmed-logo.png", alt="Jamil Ahmed", cls="ja-logo", mb=20)
 brand.text("<p>Jamil Ahmed is an SEO &amp; AI Search Consultant, Semrush Ambassador and Founder &amp; CEO of "
            "<a href=\"https://reinforcelab.com/\">Reinforce Lab Ltd</a>. He helps founders, B2B and pharmaceutical "
@@ -47,6 +47,8 @@ latest._add("post-grid", {"layout": "feed", "data_source": "custom_query", "post
                            "class": "ja-footer-latest"})
 quick.heading("Quick links", tag="h4", mb=14)
 quick.text(links(QUICK), cls="ja-footer-links")
+legal.heading("Legal", tag="h4", mb=14)
+legal.text(links(LEGAL), cls="ja-footer-links")
 
 bot = p.row(bg="ink", cls="ja-dark ja-footer-bottom", pad=(0, 40), pad_mobile=(0, 32))
 (b,) = bot.cols(100, cls="ja-hair")

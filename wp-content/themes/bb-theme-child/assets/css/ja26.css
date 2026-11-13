@@ -578,3 +578,8 @@ body:has(.ja26-root) .ja-footer-latest .fl-post-feed-post, body:has(.ja26-root) 
 body:has(.ja26-root) .ja-footer-latest .fl-post-feed-post:first-child, body:has(.ja26-root) .ja-footer-latest .fl-post-grid-post:first-child { padding-top: 0 !important; }
 body:has(.ja26-root) .ja-footer .fl-module-rich-text:not(.ja-footer-links):not(.ja-social) p { font-size: 15px; line-height: 1.65; color: var(--ja-on-dark-muted); }
 body:has(.ja26-root) .ja-footer-bottom .ja-caption p { font-family: var(--ja-body); font-size: 14px; letter-spacing: 0; text-transform: none; color: var(--ja-on-dark-muted); }
+body:has(.ja26-root) .ja-social a { width: 34px; height: 34px; }
+body:has(.ja26-root) .ja-social p { gap: 6px; flex-wrap: nowrap; }
+body:has(.ja26-root) .ja-social svg { width: 16px; height: 16px; }
+@media (max-width: 768px) { body:has(.ja26-root) .ja-social p { flex-wrap: wrap; } }
+body:has(.ja26-root) .ja-footer h4.fl-heading { white-space: nowrap; }
