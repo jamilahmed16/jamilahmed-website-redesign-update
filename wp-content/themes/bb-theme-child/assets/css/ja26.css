@@ -598,3 +598,14 @@ body:has(.ja26-root) .ja-footer-latest :where(h2, h3, h4) a { color: var(--ja-on
 body:has(.ja26-root) .ja-footer-latest :where(h2, h3, h4) a:hover { color: var(--ja-brass-light) !important; }
 body:has(.ja26-root) .ja-footer-latest .fl-post-feed-post, body:has(.ja26-root) .ja-footer-latest .fl-post-grid-post { padding: 9px 0 !important; }
 body:has(.ja26-root) .ja-footer-latest .fl-post-feed-header, body:has(.ja26-root) .ja-footer-latest .fl-post-feed-text { margin: 0 !important; padding: 0 !important; }
+
+/* ---------- AEO blocks inside articles ---------- */
+body:has(.ja26-root) .ja-prose .ja-disclosure { font-size: 14px; line-height: 1.55; color: var(--ja-muted); border-bottom: 1px solid var(--ja-line); padding-bottom: 14px; margin-bottom: 28px; }
+body:has(.ja26-root) .ja-prose .ja-answer { background: var(--ja-ink); color: var(--ja-on-dark); padding: 26px 28px; margin: 0 0 24px; border-left: 4px solid var(--ja-brass); }
+body:has(.ja26-root) .ja-prose .ja-answer p { color: var(--ja-on-dark); font-size: 19px; line-height: 1.6; margin: 0; }
+body:has(.ja26-root) .ja-prose .ja-answer strong { color: var(--ja-brass-light); }
+body:has(.ja26-root) .ja-prose .ja-takeaways { background: var(--ja-bg-deep); border-top: 3px solid var(--ja-brass); padding: 22px 26px 8px; margin: 0 0 28px; }
+body:has(.ja26-root) .ja-prose .ja-takeaways > p:first-child { font-family: var(--ja-mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 10px; }
+body:has(.ja26-root) .ja-prose .ja-takeaways li { font-size: 17px; }
+body:has(.ja26-root) .ja-prose .ja-cta-inline { margin-top: 2em; padding: 20px 24px; border: 1px solid var(--ja-ink); font-weight: 500; }
+@media (max-width: 768px) { body:has(.ja26-root) .ja-prose .ja-answer p { font-size: 17px; } body:has(.ja26-root) .ja-prose .ja-answer { padding: 20px; } }
