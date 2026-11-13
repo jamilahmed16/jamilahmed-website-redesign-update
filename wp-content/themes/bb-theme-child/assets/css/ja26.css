@@ -531,7 +531,8 @@ body:has(.ja26-root) .ja-footer-latest :where(h2, h3, h4) a { color: var(--ja-on
 body:has(.ja26-root) .ja-footer-latest :where(h2, h3, h4) a:hover { color: var(--ja-brass-light) !important; }
 
 /* Rollout fixes */
-body:has(.ja26-root) .ja-author-pic img { width: 100%; max-width: 140px; aspect-ratio: 1; object-fit: cover; object-position: 50% 20%; }
+body:has(.ja26-root) .ja-author-pic { margin-top: 4px !important; margin-right: 0 !important; }
+body:has(.ja26-root) .ja-author-pic img { width: 100%; max-width: 148px; aspect-ratio: 1; object-fit: cover; object-position: 50% 20%; }
 body:has(.ja26-root) .ja-author-wrap h3 a { color: var(--ja-ink); text-decoration: none; }
 body:has(.ja26-root) .ja-author-text p { font-size: 16px; line-height: 1.65; color: var(--ja-muted); }
 body:has(.ja26-root) .ja-social a { width: 36px; height: 36px; }
