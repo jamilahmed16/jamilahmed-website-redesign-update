@@ -1,0 +1,4083 @@
+{
+ "items": [
+  {
+   "id": 853,
+   "type": "page",
+   "status": "publish",
+   "slug": "home-2026",
+   "title": "Home",
+   "url": "https://jamilahmed.com/",
+   "date": "2026-11-13 13:27:39",
+   "modified": "2026-11-13 13:27:39",
+   "words": 0,
+   "bb": true,
+   "cats": [],
+   "tags": 0,
+   "yoast": {
+    "title": "Jamil Ahmed | SEO & AI Search Consultant",
+    "desc": "Jamil Ahmed helps founders, B2B and pharmaceutical companies get found on Google and cited in ChatGPT, Perplexity and AI Overviews.",
+    "kw": "SEO & AI Search Consultant",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [
+    "https://reinforcelab.com/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 854,
+   "type": "page",
+   "status": "publish",
+   "slug": "about-me",
+   "title": "About",
+   "url": "https://jamilahmed.com/about-me/",
+   "date": "2026-11-13 13:27:39",
+   "modified": "2026-11-13 13:27:39",
+   "words": 0,
+   "bb": true,
+   "cats": [],
+   "tags": 0,
+   "yoast": {
+    "title": "About Jamil Ahmed | SEO & AI Search Consultant",
+    "desc": "Pharmacist, Semrush Ambassador and Founder & CEO of Reinforce Lab. 13+ years across SEO, pharma marketing and international business.",
+    "kw": "Jamil Ahmed",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [
+    "https://www.linkedin.com/in/ahmedjamil16/",
+    "https://reinforcelab.com/",
+    "https://jadirectives.com/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 855,
+   "type": "page",
+   "status": "publish",
+   "slug": "consulting",
+   "title": "Consulting",
+   "url": "https://jamilahmed.com/consulting/",
+   "date": "2026-11-13 13:27:39",
+   "modified": "2026-11-13 13:27:39",
+   "words": 0,
+   "bb": true,
+   "cats": [],
+   "tags": 0,
+   "yoast": {
+    "title": "SEO & AI Search Consulting | Jamil Ahmed",
+    "desc": "SEO & AI Search audits, executive advisory and full AI Growth System builds for B2B, pharma and growth-stage companies.",
+    "kw": "AI search consulting",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 856,
+   "type": "page",
+   "status": "publish",
+   "slug": "newsletter",
+   "title": "Newsletter",
+   "url": "https://jamilahmed.com/newsletter/",
+   "date": "2026-11-13 13:27:39",
+   "modified": "2026-11-13 13:27:39",
+   "words": 0,
+   "bb": true,
+   "cats": [],
+   "tags": 0,
+   "yoast": {
+    "title": "AI Growth Systems for C-Suite Newsletter | Jamil Ahmed",
+    "desc": "Practical AI, automation workflows and search strategy for business leaders. Join 7,600+ subscribers.",
+    "kw": "AI Growth Systems newsletter",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 857,
+   "type": "page",
+   "status": "publish",
+   "slug": "podcast",
+   "title": "The Jamil Ahmed Show",
+   "url": "https://jamilahmed.com/podcast/",
+   "date": "2026-11-13 13:27:39",
+   "modified": "2026-11-13 13:27:39",
+   "words": 0,
+   "bb": true,
+   "cats": [],
+   "tags": 0,
+   "yoast": {
+    "title": "The Jamil Ahmed Show | Podcast",
+    "desc": "Conversations with experts, CEOs and founders about SEO, AI search and building a business people can find.",
+    "kw": "The Jamil Ahmed Show",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 858,
+   "type": "page",
+   "status": "publish",
+   "slug": "contact",
+   "title": "Contact",
+   "url": "https://jamilahmed.com/contact/",
+   "date": "2026-11-13 13:27:39",
+   "modified": "2026-11-13 13:27:39",
+   "words": 0,
+   "bb": true,
+   "cats": [],
+   "tags": 0,
+   "yoast": {
+    "title": "Book a Consultation | Jamil Ahmed",
+    "desc": "Tell Jamil Ahmed about your company and goals for Google and AI search. Every message gets a personal reply.",
+    "kw": "book SEO consultation",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [
+    "https://www.linkedin.com/in/ahmedjamil16/",
+    "https://www.youtube.com/@jamilahmed.official",
+    "https://twitter.com/jamilahmed_16",
+    "https://reinforcelab.com/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 859,
+   "type": "page",
+   "status": "publish",
+   "slug": "blog",
+   "title": "Blog",
+   "url": "https://jamilahmed.com/blog/",
+   "date": "2026-11-13 13:27:39",
+   "modified": "2026-11-13 13:27:39",
+   "words": 0,
+   "bb": false,
+   "cats": [],
+   "tags": 0,
+   "yoast": {
+    "title": "",
+    "desc": "",
+    "kw": "",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 820,
+   "type": "page",
+   "status": "publish",
+   "slug": "home",
+   "title": "Home",
+   "url": "https://jamilahmed.com/home/",
+   "date": "2026-08-12 17:41:04",
+   "modified": "2026-08-20 23:47:30",
+   "words": 41,
+   "bb": true,
+   "cats": [],
+   "tags": 0,
+   "yoast": {
+    "title": "",
+    "desc": "",
+    "kw": "",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [
+    [
+     "https://lite.demos.wpbeaverbuilder.com/wp-content/uploads/sites/28/2020/02/holding-logo.png",
+     "",
+     false
+    ],
+    [
+     "https://lite.demos.wpbeaverbuilder.com/wp-content/uploads/sites/28/2020/02/holding-logo.png",
+     "",
+     false
+    ],
+    [
+     "https://lite.demos.wpbeaverbuilder.com/wp-content/uploads/sites/28/2020/02/holding-logo.png",
+     "",
+     false
+    ],
+    [
+     "https://lite.demos.wpbeaverbuilder.com/wp-content/uploads/sites/28/2020/02/holding-logo.png",
+     "",
+     false
+    ],
+    [
+     "https://lite.demos.wpbeaverbuilder.com/wp-content/uploads/sites/28/2020/02/holding-logo.png",
+     "",
+     false
+    ],
+    [
+     "https://lite.demos.wpbeaverbuilder.com/wp-content/uploads/sites/28/2020/02/holding-logo.png",
+     "",
+     false
+    ]
+   ],
+   "h1_in_content": 1,
+   "tpl": ""
+  },
+  {
+   "id": 774,
+   "type": "post",
+   "status": "draft",
+   "slug": "local-seo-for-rehab-centers",
+   "title": "Local SEO for Rehab Centers",
+   "url": null,
+   "date": "2025-05-05 09:18:45",
+   "modified": "2025-05-05 09:18:45",
+   "words": 4635,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Local SEO for Rehab Centers | Jamil Ahmed",
+    "desc": "Are you an owner of Drug Rehab? Our Local SEO for rehab centers can assist you with your local promotional goal and get more customers.",
+    "kw": "Local SEO for Rehab Centers",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    762,
+    "https://jamilahmed.com/wp-content/uploads/2024/12/Small-Business-SEO.webp",
+    780,
+    420,
+    true,
+    "Small Business SEO. SEO for Small Business"
+   ],
+   "links": [
+    "https://ranksonfire.com/",
+    "https://jamilahmed.com/best-local-seo-tools/",
+    "https://jamilahmed.com/semrush-vs-brightlocal/",
+    "https://jamilahmed.com/small-business-seo/",
+    "https://jamilahmed.com/semrush-app-center/",
+    "https://jamilahmed.com/personal-branding-seo/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 771,
+   "type": "post",
+   "status": "publish",
+   "slug": "best-ai-tools-for-writing-seo-rich-blog-content",
+   "title": "10 Best AI Tool for Writing SEO Rich Blog Content",
+   "url": "https://jamilahmed.com/best-ai-tools-for-writing-seo-rich-blog-content/",
+   "date": "2025-01-14 21:06:42",
+   "modified": "2025-05-20 10:59:31",
+   "words": 1166,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "10 Best AI Tools for Writing SEO Rich Blog Content | Jamil Ahmed",
+    "desc": "",
+    "kw": "Best AI Tool for Writing SEO Rich Blog Content",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [
+    "https://semrush.sjv.io/9g7Oje",
+    "https://www.frase.io/pricing/?via=jaaff1988",
+    "https://writesonic.com?via=rahat10",
+    "https://jamilahmed.com/copy-ai-vs-writesonic/",
+    "https://jamilahmed.com/copy-ai-vs-rytr/",
+    "https://jamilahmed.com/copy-ai-reviews/",
+    "https://jamilahmed.com/jasper-ai-vs-copy-ai/",
+    "https://jamilahmed.com/how-to-make-money-with-chatgpt/"
+   ],
+   "imgs": [],
+   "h1_in_content": 1,
+   "tpl": ""
+  },
+  {
+   "id": 224,
+   "type": "post",
+   "status": "publish",
+   "slug": "what-is-personal-branding",
+   "title": "What is Personal Branding: A Guide for Authentic Online Presence",
+   "url": "https://jamilahmed.com/what-is-personal-branding/",
+   "date": "2024-12-27 10:25:32",
+   "modified": "2024-12-28 04:35:31",
+   "words": 1380,
+   "bb": false,
+   "cats": [
+    "Personal Branding"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "What is Personal Branding? | Jamil Ahmed",
+    "desc": "Do you know what is personal branding? Learn how to build a unique, compelling personal brand to enhance your career or business success.",
+    "kw": "What is Personal Branding",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    397,
+    "https://jamilahmed.com/wp-content/uploads/2023/03/what-is-personal-branding.webp",
+    1500,
+    808,
+    true,
+    "what-is-personal-branding"
+   ],
+   "links": [
+    "https://jamilahmed.com/how-to-start-a-blog/",
+    "https://jamilahmed.com/how-to-build-a-personal-brand/",
+    "https://jamilahmed.com/personal-branding-strategy/",
+    "https://jamilahmed.com/personal-branding-seo/",
+    "https://jamilahmed.com/",
+    "https://jamilahmed.com/about-me/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 240,
+   "type": "post",
+   "status": "publish",
+   "slug": "how-to-start-a-blog",
+   "title": "How to Start a Blog: A Beginners Guide",
+   "url": "https://jamilahmed.com/how-to-start-a-blog/",
+   "date": "2024-12-27 07:31:33",
+   "modified": "2024-12-28 04:29:55",
+   "words": 3401,
+   "bb": true,
+   "cats": [
+    "Blogging"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How to Start a Blog and Make Money From It | Jamil Ahmed",
+    "desc": "Have you ever wondered how to start a blog and make money from it? Starting a blog can be an excellent way to earn a side income.",
+    "kw": "How to Start a Blog",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    367,
+    "https://jamilahmed.com/wp-content/uploads/2023/03/Personal-Blog.webp",
+    1625,
+    875,
+    true,
+    "Personal Blog"
+   ],
+   "links": [
+    "https://jamilahmed.com/how-to-build-a-personal-brand/",
+    "https://jamilahmed.com/how-to-make-money-with-chatgpt/",
+    "https://jamilahmed.com/copy-ai-vs-chatgpt/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 604,
+   "type": "post",
+   "status": "publish",
+   "slug": "small-business-seo",
+   "title": "Small Business SEO: Why SEO is Important for Small Business?",
+   "url": "https://jamilahmed.com/small-business-seo/",
+   "date": "2024-12-26 20:10:53",
+   "modified": "2026-08-10 21:18:51",
+   "words": 4379,
+   "bb": true,
+   "cats": [
+    "Blogging",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Small Business SEO: Why SEO is Important for Small Business? | Jamil Ahmed",
+    "desc": "Are you leveraging Small Business SEO to elevate your business's visibility and establish your authority in the market?",
+    "kw": "small business seo",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    762,
+    "https://jamilahmed.com/wp-content/uploads/2024/12/Small-Business-SEO.webp",
+    780,
+    420,
+    true,
+    "Small Business SEO. SEO for Small Business"
+   ],
+   "links": [
+    "https://jamilahmed.com/what-is-seo/",
+    "https://jamilahmed.com/seo-glossary/",
+    "https://jamilahmed.com/best-seo-services/",
+    "https://jamilahmed.com/best-local-seo-tools/",
+    "https://jamilahmed.com/semrush-vs-brightlocal/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 313,
+   "type": "post",
+   "status": "publish",
+   "slug": "what-is-seo",
+   "title": "What is SEO (Search Engine Optimization)?",
+   "url": "https://jamilahmed.com/what-is-seo/",
+   "date": "2024-12-25 10:12:30",
+   "modified": "2024-12-28 04:39:09",
+   "words": 3599,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "What is SEO - Search Engine Optimization | Jamil Ahmed",
+    "desc": "Unlock the power of SEO with this comprehensive guide. Learn the basics, discover key techniques, and understand why SEO matters in marketing",
+    "kw": "SEO",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    362,
+    "https://jamilahmed.com/wp-content/uploads/2023/05/What-is-SEO.webp",
+    1625,
+    875,
+    true,
+    "What is SEO"
+   ],
+   "links": [
+    "https://jamilahmed.com/semrush-vs-ahrefs/",
+    "https://jamilahmed.com/diib-vs-semrush/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 402,
+   "type": "post",
+   "status": "publish",
+   "slug": "brightedge-vs-semrush",
+   "title": "BrightEdge vs SEMrush: Which One is Better for SEO?",
+   "url": "https://jamilahmed.com/brightedge-vs-semrush/",
+   "date": "2024-12-24 16:43:30",
+   "modified": "2024-12-28 05:13:20",
+   "words": 1906,
+   "bb": false,
+   "cats": [
+    "Comparison",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "BrightEdge vs SEMrush: Which One is Better? | Jamil Ahmed",
+    "desc": "BrightEdge vs SEMrush: Uncover the best SEO tool for your needs in our comprehensive comparison. Discover more now!",
+    "kw": "BrightEdge vs SEMrush",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    748,
+    "https://jamilahmed.com/wp-content/uploads/2024/12/brightedge-vs-semrush.webp",
+    780,
+    420,
+    true,
+    "BrightEdge vs SEMrush, SEMrush vs BrightEdge"
+   ],
+   "links": [
+    "https://jamilahmed.com/diib-vs-semrush/",
+    "https://jamilahmed.com/semrush-vs-ahrefs/",
+    "https://jamilahmed.com/semrush-vs-surfer-seo/",
+    "https://jamilahmed.com/semrush-vs-brightlocal/",
+    "https://jamilahmed.com/semrush-pricing/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 399,
+   "type": "post",
+   "status": "publish",
+   "slug": "best-local-seo-tools",
+   "title": "10 Best Local SEO Tools to Dominate Local Search",
+   "url": "https://jamilahmed.com/best-local-seo-tools/",
+   "date": "2024-12-24 14:26:49",
+   "modified": "2024-12-28 05:11:26",
+   "words": 2550,
+   "bb": true,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "10 Best Local SEO Tools 2025 | Jamil Ahmed",
+    "desc": "Best local SEO tools to Dominate Local Search. Improve your local search rankings and outsmart your local competition. Start Optimizing!",
+    "kw": "Best Local SEO Tools",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [
+    "https://jamilahmed.com/what-is-seo/",
+    "https://jamilahmed.com/semrush-vs-brightlocal/",
+    "https://jamilahmed.com/semrush-vs-surfer-seo/",
+    "https://jamilahmed.com/semrush-vs-ahrefs/",
+    "https://jamilahmed.com/diib-vs-semrush/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 569,
+   "type": "post",
+   "status": "publish",
+   "slug": "semrush-app-center",
+   "title": "11 Best SEMrush App Center Apps To Try in 2025",
+   "url": "https://jamilahmed.com/semrush-app-center/",
+   "date": "2024-12-23 21:21:08",
+   "modified": "2024-12-28 05:28:52",
+   "words": 2133,
+   "bb": false,
+   "cats": [
+    "Artificial Intelligence",
+    "Blogging",
+    "Comparison",
+    "List Posts",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "11 Best SEMrush App Center Apps To Try in 2025 | Jamil Ahmed",
+    "desc": "SEMrush App Center: Discover the best apps to try for SEO, content creation, brand monitoring, and more. Elevate digital marketing strategy !",
+    "kw": "SEMrush App Center",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    630,
+    "https://jamilahmed.com/wp-content/uploads/2024/08/Best-SEMrush-App-Center-Apps.jpg",
+    780,
+    420,
+    true,
+    "Best SEMrush App Center Apps, SEMrush App Center Apps"
+   ],
+   "links": [
+    "https://semrush.sjv.io/9g7Oje",
+    "https://semrush.sjv.io/rQmOqG",
+    "https://semrush.sjv.io/3evoav",
+    "https://semrush.sjv.io/6eYo1N",
+    "https://semrush.sjv.io/rQmOoB",
+    "https://semrush.sjv.io/jr9ZAa",
+    "https://semrush.sjv.io/rQmONG",
+    "https://semrush.sjv.io/PyM4d6",
+    "https://semrush.sjv.io/5gvYDn",
+    "https://semrush.sjv.io/AWv21R",
+    "https://semrush.sjv.io/eKLg5g",
+    "https://jamilahmed.com/wp-admin/post.php?post=573&amp;action=edit",
+    "https://jamilahmed.com/semrush-vs-ahrefs/",
+    "https://jamilahmed.com/brightedge-vs-semrush/",
+    "https://jamilahmed.com/semrush-vs-surfer-seo/",
+    "https://jamilahmed.com/semrush-agency-growth-kit-review/",
+    "https://jamilahmed.com/semrush-pricing/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 493,
+   "type": "post",
+   "status": "publish",
+   "slug": "best-ai-tools-for-product-managers",
+   "title": "10 Best AI Tools for Product Managers 2025",
+   "url": "https://jamilahmed.com/best-ai-tools-for-product-managers/",
+   "date": "2024-12-22 16:27:31",
+   "modified": "2024-12-28 05:19:15",
+   "words": 1821,
+   "bb": false,
+   "cats": [
+    "Artificial Intelligence",
+    "Blogging"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "10 Best AI Tools for Product Managers 2025 | Jamil Ahmed",
+    "desc": "Are you looking for the best AI tools for product managers? Get innovative solutions for market analysis, team efficiency & customer feedback",
+    "kw": "Best AI Tools for product Managers",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    495,
+    "https://jamilahmed.com/wp-content/uploads/2024/01/best-ai-tools-for-product-managers.webp",
+    780,
+    420,
+    true,
+    "best ai tools for product managers, ai tools for product managers, ai tool for product managers, free ai tools for product managers"
+   ],
+   "links": [
+    "https://semrush.sjv.io/1r3LDd",
+    "https://jamilahmed.com/jasper-ai-vs-copy-ai/",
+    "https://jamilahmed.com/decktopus-review/",
+    "https://jamilahmed.com/copy-ai-vs-chatgpt/",
+    "https://jamilahmed.com/ai-tool-to-convert-text-to-video/",
+    "https://jamilahmed.com/best-ai-gift-ideas-tools/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 344,
+   "type": "post",
+   "status": "publish",
+   "slug": "semrush-vs-brightlocal",
+   "title": "SEMrush vs BrightLocal:\u00a0Which One is Better for Local SEO?",
+   "url": "https://jamilahmed.com/semrush-vs-brightlocal/",
+   "date": "2024-12-22 04:14:16",
+   "modified": "2024-12-28 04:43:17",
+   "words": 2151,
+   "bb": false,
+   "cats": [
+    "Comparison",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEMrush vs BrightLocal:\u00a0Which One is Better for Local SEO? | Jamil Ahmed",
+    "desc": "Choosing between SEMrush vs KWfinder for SEO? Read more for this comprehensive SEMrush vs BrightLocal comparison.",
+    "kw": "SEMrush vs BrightLocal",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    358,
+    "https://jamilahmed.com/wp-content/uploads/2023/06/SEMrush-vs-Brightlocal.webp",
+    1625,
+    875,
+    true,
+    "SEMrush vs Brightlocal"
+   ],
+   "links": [
+    "https://semrush.sjv.io/R5OPyb",
+    "https://semrush.sjv.io/baqYvB",
+    "https://jamilahmed.com/brightedge-vs-semrush/",
+    "https://jamilahmed.com/semrush-vs-surfer-seo/",
+    "https://jamilahmed.com/diib-vs-semrush/",
+    "https://jamilahmed.com/semrush-pricing/",
+    "https://jamilahmed.com/best-local-seo-tools/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 415,
+   "type": "post",
+   "status": "publish",
+   "slug": "semrush-pricing",
+   "title": "SEMrush Pricing 2025: Is It Worth Buying the Tool?",
+   "url": "https://jamilahmed.com/semrush-pricing/",
+   "date": "2024-12-20 11:29:12",
+   "modified": "2024-12-28 05:05:21",
+   "words": 1806,
+   "bb": true,
+   "cats": [
+    "Review",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEMrush Pricing 2025: Is It Worth Buying the Tool? | Jamil Ahmed",
+    "desc": "SEMrush Pricing: Semrush offers three options for monthly subscriptions: Pro for $119.95, Guru for $229.95 and Business starting at $449.95.",
+    "kw": "SEMrush Pricing",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [
+    "https://jamilahmed.com/diib-vs-semrush/",
+    "https://jamilahmed.com/semrush-vs-surfer-seo/",
+    "https://jamilahmed.com/brightedge-vs-semrush/",
+    "https://jamilahmed.com/semrush-vs-ahrefs/",
+    "https://jamilahmed.com/semrush-vs-brightlocal/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 345,
+   "type": "post",
+   "status": "publish",
+   "slug": "decktopus-review",
+   "title": "Decktopus Review 2025: Details, Pricing, & Features",
+   "url": "https://jamilahmed.com/decktopus-review/",
+   "date": "2024-12-20 04:11:36",
+   "modified": "2024-12-28 04:49:45",
+   "words": 1928,
+   "bb": false,
+   "cats": [
+    "Artificial Intelligence",
+    "Review"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Decktopus Review 2025: Details, Pricing, & Features | Jamil Ahmed",
+    "desc": "Decktopus AI Review: Uncover all you need to know about this innovative presentation solution. Features, pricing, Pros & Cons.",
+    "kw": "Decktopus Review",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    363,
+    "https://jamilahmed.com/wp-content/uploads/2023/06/Decktopus.webp",
+    1625,
+    875,
+    true,
+    "Decktopus"
+   ],
+   "links": [
+    "https://jamilahmed.com/jasper-ai-vs-copy-ai/",
+    "https://jamilahmed.com/ai-tool-to-convert-text-to-video/",
+    "https://jamilahmed.com/best-ai-gift-ideas-tools/",
+    "https://jamilahmed.com/copy-ai-vs-writesonic/",
+    "https://jamilahmed.com/best-ai-tools-for-product-managers/",
+    "https://jamilahmed.com/copy-ai-reviews/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 579,
+   "type": "post",
+   "status": "publish",
+   "slug": "best-seo-tools-for-saas-companies",
+   "title": "6 Best SEO Tools for SAAS Companies 2025",
+   "url": "https://jamilahmed.com/best-seo-tools-for-saas-companies/",
+   "date": "2024-12-19 17:26:09",
+   "modified": "2024-12-28 06:08:41",
+   "words": 4714,
+   "bb": false,
+   "cats": [
+    "Comparison",
+    "List Posts",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "7 Best SEO Tools for SAAS Companies 2025 | Jamil Ahmed",
+    "desc": "Best SEO Tools for SaaS Companies: Enhance rankings, optimize content, and improve UX with SEMRush, Ahrefs, Moz Pro, and more.",
+    "kw": "SEO Tools for SAAS Companies",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    588,
+    "https://jamilahmed.com/wp-content/uploads/2024/06/Best-SEO-Tools-for-SAAS-Companies.webp",
+    780,
+    420,
+    true,
+    "Best SEO Tools for SAAS Companies, SEO Tools for SAAS Companies"
+   ],
+   "links": [
+    "https://semrush.sjv.io/9gOQMy",
+    "https://serpstat.com/solutions/serpstat-for-saas/",
+    "https://ahrefs.com/",
+    "https://moz.com/products/pro",
+    "https://www.screamingfrog.co.uk/seo-spider/",
+    "https://search.google.com/search-console/about",
+    "https://jamilahmed.com/best-seo-reporting-tools-for-agencies/",
+    "https://jamilahmed.com/what-is-seo/",
+    "https://jamilahmed.com/seo-glossary/",
+    "https://jamilahmed.com/best-seo-services/",
+    "https://jamilahmed.com/semrush-vs-ahrefs/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 458,
+   "type": "post",
+   "status": "publish",
+   "slug": "copy-ai-vs-chatgpt",
+   "title": "Copy.ai vs ChatGPT: A Comprehensive Comparison for Content Creators",
+   "url": "https://jamilahmed.com/copy-ai-vs-chatgpt/",
+   "date": "2024-12-18 22:38:11",
+   "modified": "2024-12-28 06:04:04",
+   "words": 2088,
+   "bb": false,
+   "cats": [
+    "Artificial Intelligence",
+    "Blogging",
+    "Comparison"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Copy.ai vs ChatGPT: Comparison for Content Creators",
+    "desc": "Explore an in-depth comparison between Copy.ai and ChatGPT to determine the best AI tool for your content creation needs.",
+    "kw": "Copy.ai vs ChatGPT",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    474,
+    "https://jamilahmed.com/wp-content/uploads/2023/12/Copy.ai-vs-ChatGPT.webp",
+    780,
+    420,
+    true,
+    "Copy.ai vs ChatGPT, ChatGPT vs Copy.ai, Copy ai vs ChatGPT, ChatGPT vs Copy ai"
+   ],
+   "links": [
+    "https://jamilahmed.com/how-to-make-money-with-chatgpt/",
+    "https://jamilahmed.com/copy-ai-reviews/",
+    "https://jamilahmed.com/jasper-ai-vs-copy-ai/",
+    "https://jamilahmed.com/copy-ai-vs-rytr/",
+    "https://jamilahmed.com/copy-ai-vs-writesonic/",
+    "https://jamilahmed.com/copy-ai-vs-chatgpt/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 535,
+   "type": "post",
+   "status": "publish",
+   "slug": "ai-tool-to-convert-text-to-video",
+   "title": "13 Best AI Tools To Convert Text To Video 2025",
+   "url": "https://jamilahmed.com/ai-tool-to-convert-text-to-video/",
+   "date": "2024-12-18 21:04:12",
+   "modified": "2024-12-28 06:35:21",
+   "words": 2296,
+   "bb": false,
+   "cats": [
+    "Artificial Intelligence",
+    "Make Money",
+    "Review"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "10 Best AI Tools To Convert Text To Video 2025 | Jamil Ahmed",
+    "desc": "Are you looking for the Best AI Tools To Convert Text To Video? Explore the best AI tools designed to convert text into captivating videos.",
+    "kw": "ai tools to convert text to video",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    541,
+    "https://jamilahmed.com/wp-content/uploads/2024/02/Best-AI-Tools-To-Convert-Text-To-Video-blog.webp",
+    1792,
+    1024,
+    true,
+    ""
+   ],
+   "links": [
+    "https://www.synthesia.io?via=jamil",
+    "https://simplified.com/ai-video-generator?fpr=jaaff1988",
+    "https://invideo.sjv.io/xkLqBv",
+    "https://pictory.ai?ref=jamil51",
+    "https://www.colossyan.com/?via=jaaff1988",
+    "https://lumen5.com/",
+    "https://designs.ai/",
+    "https://elai.io/?via=jaaff1988",
+    "https://www.deepbrain.io/aistudios?via=jaaff1988",
+    "https://jamilahmed.com/copy-ai-vs-chatgpt/",
+    "https://jamilahmed.com/jasper-ai-vs-copy-ai/",
+    "https://jamilahmed.com/copy-ai-reviews/",
+    "https://jamilahmed.com/moosend-review/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 491,
+   "type": "post",
+   "status": "publish",
+   "slug": "semrush-agency-growth-kit-review",
+   "title": "SEMrush Agency Growth Kit Review 2025",
+   "url": "https://jamilahmed.com/semrush-agency-growth-kit-review/",
+   "date": "2024-12-18 15:53:18",
+   "modified": "2024-12-28 05:30:13",
+   "words": 1133,
+   "bb": false,
+   "cats": [
+    "Blogging",
+    "Review",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEMrush Agency Growth Kit Review 2025 | Jamil Ahmed",
+    "desc": "Explore the SEMrush Agency Growth Kit Review to elevate your agency's performance. Learn how this tool can unlock growth for your business.",
+    "kw": "SEMrush Agency Growth Kit review",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    504,
+    "https://jamilahmed.com/wp-content/uploads/2024/02/semrush-agency-growth-kit-review.webp",
+    780,
+    420,
+    true,
+    "semrush agency growth kit review,semrush agency growth kit"
+   ],
+   "links": [
+    "https://semrush.sjv.io/1r3LDd",
+    "https://jamilahmed.com/semrush-pricing/",
+    "https://jamilahmed.com/diib-vs-semrush/",
+    "https://jamilahmed.com/brightedge-vs-semrush/",
+    "https://jamilahmed.com/semrush-vs-ahrefs/",
+    "https://jamilahmed.com/semrush-vs-surfer-seo/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 461,
+   "type": "post",
+   "status": "publish",
+   "slug": "copy-ai-vs-writesonic",
+   "title": "Copy.ai vs Writesonic: Choosing the Superior AI Writer for Your Content Needs",
+   "url": "https://jamilahmed.com/copy-ai-vs-writesonic/",
+   "date": "2024-12-16 08:44:42",
+   "modified": "2024-12-28 05:45:33",
+   "words": 2076,
+   "bb": true,
+   "cats": [
+    "Artificial Intelligence",
+    "Blogging",
+    "Comparison"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Copy.ai vs Writesonic: Which Is a Better AI Writer? | Jamil Ahmed",
+    "desc": "Copy.ai vs Writesonic a comparison to help you get the right AI writing tool for quality content creation, time efficiency, and user support.",
+    "kw": "Copy.ai vs Writesonic",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    473,
+    "https://jamilahmed.com/wp-content/uploads/2023/12/Copy.ai-vs-Writesonic.webp",
+    780,
+    420,
+    true,
+    "Copy.ai vs Writesonic, Writesonic vs Copy.ai Copy ai vs Writesonic, Writesonic vs Copy ai"
+   ],
+   "links": [
+    "https://jamilahmed.com/copy-ai-reviews/",
+    "https://jamilahmed.com/jasper-ai-vs-copy-ai/",
+    "https://jamilahmed.com/copy-ai-vs-rytr/",
+    "https://jamilahmed.com/copy-ai-vs-chatgpt/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 581,
+   "type": "post",
+   "status": "publish",
+   "slug": "best-software-for-hosting-webinars",
+   "title": "5 Best Software for Hosting Webinars 2025",
+   "url": "https://jamilahmed.com/best-software-for-hosting-webinars/",
+   "date": "2024-12-15 21:28:41",
+   "modified": "2024-12-28 05:24:42",
+   "words": 3345,
+   "bb": false,
+   "cats": [
+    "List Posts",
+    "Software"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "8 Best Software for Hosting Webinars 2025 | Jamil Ahmed",
+    "desc": "Best software for hosting webinars: Create engaging, seamless webinars. Boost your online events with these webinar software!",
+    "kw": "Best Software for Hosting Webinars",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    592,
+    "https://jamilahmed.com/wp-content/uploads/2024/06/Best-Software-for-Hosting-Webinars.webp",
+    780,
+    420,
+    true,
+    "Best Software for Hosting Webinars, Software for Hosting Webinars"
+   ],
+   "links": [
+    "https://www.synthesia.io?via=jamil",
+    "https://jamilahmed.com/semrush-pricing/",
+    "https://jamilahmed.com/semrush-vs-surfer-seo/",
+    "https://jamilahmed.com/how-to-start-a-blog/",
+    "https://jamilahmed.com/best-local-seo-tools/",
+    "https://jamilahmed.com/brightedge-vs-semrush/",
+    "https://jamilahmed.com/copy-ai-reviews/",
+    "https://jamilahmed.com/personal-branding-strategy/",
+    "https://jamilahmed.com/best-ai-tools-for-product-managers/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 553,
+   "type": "post",
+   "status": "publish",
+   "slug": "best-ai-gift-ideas-tools",
+   "title": "6 Best AI Gift Ideas Tools 2025",
+   "url": "https://jamilahmed.com/best-ai-gift-ideas-tools/",
+   "date": "2024-12-14 20:57:58",
+   "modified": "2024-12-28 05:16:33",
+   "words": 1800,
+   "bb": false,
+   "cats": [
+    "Artificial Intelligence",
+    "Blogging",
+    "List Posts"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "6 Best AI Gift Ideas Tools 2025 | Jamil Ahmed",
+    "desc": "Discover the Best AI Gift Ideas Tools to find the perfect, personalized gift effortlessly for any occasion. Explore this amazing AI tools",
+    "kw": "Best AI Gift Ideas Tools",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    555,
+    "https://jamilahmed.com/wp-content/uploads/2024/05/Best-AI-Gift-Ideas-Tools.webp",
+    780,
+    420,
+    true,
+    "Best AI Gift Ideas Tools, AI Gift Ideas Tools"
+   ],
+   "links": [
+    "https://app.leonardo.ai/?via=jaaff1988",
+    "https://www.synthesia.io?via=jamil",
+    "https://jamilahmed.com/jasper-ai-vs-copy-ai/",
+    "https://jamilahmed.com/decktopus-review/",
+    "https://jamilahmed.com/ai-tool-to-convert-text-to-video/",
+    "https://jamilahmed.com/best-ai-tools-for-product-managers/",
+    "https://jamilahmed.com/how-to-make-money-with-chatgpt/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 464,
+   "type": "post",
+   "status": "publish",
+   "slug": "copy-ai-reviews",
+   "title": "Copy.ai Reviews: Get insights into Features, Usability, Pricing 2025",
+   "url": "https://jamilahmed.com/copy-ai-reviews/",
+   "date": "2024-12-14 10:53:06",
+   "modified": "2024-12-28 06:29:44",
+   "words": 2631,
+   "bb": true,
+   "cats": [
+    "Artificial Intelligence",
+    "Review",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Copy.ai Reviews: Get insights into features, usability, pricing | Jamil",
+    "desc": "Copy.ai Reviews: Get insights into features, usability, pricing, and alternatives of the Copy.ai AI writing tool to enhance content creation.",
+    "kw": "Copy.ai Reviews",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    477,
+    "https://jamilahmed.com/wp-content/uploads/2023/12/Copy-ai-Review.webp",
+    780,
+    420,
+    true,
+    "Copy ai Review, Copy ai Reviews, Copy ai Review 2024"
+   ],
+   "links": [
+    "https://semrush.sjv.io/1r3LDd",
+    "http://www.copy.ai?via=jamil",
+    "https://jamilahmed.com/jasper-ai-vs-copy-ai/",
+    "https://jamilahmed.com/copy-ai-vs-rytr/",
+    "https://jamilahmed.com/copy-ai-vs-writesonic/",
+    "https://jamilahmed.com/copy-ai-vs-chatgpt/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 463,
+   "type": "post",
+   "status": "publish",
+   "slug": "copy-ai-vs-rytr",
+   "title": "Copy.ai vs Rytr: Which One is better for Creativity?",
+   "url": "https://jamilahmed.com/copy-ai-vs-rytr/",
+   "date": "2024-12-14 09:48:16",
+   "modified": "2024-12-28 06:39:03",
+   "words": 1801,
+   "bb": true,
+   "cats": [
+    "Artificial Intelligence",
+    "Comparison",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Copy.ai vs. Rytr: Which One is better for Creativity? | Jamil Ahmed",
+    "desc": "Copy.ai vs. Rytr: Compare their features and efficiency to find the best AI writing tool for your content needs.",
+    "kw": "Copy.ai vs. Rytr",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    472,
+    "https://jamilahmed.com/wp-content/uploads/2023/12/Copy.ai-vs-Rytr.webp",
+    780,
+    420,
+    true,
+    "Copy.ai vs. Rytr, Rytr vs Copy.ai, Rytr vs Copy ai, Copy ai vs Rytr"
+   ],
+   "links": [
+    "https://jamilahmed.com/copy-ai-reviews/",
+    "https://jamilahmed.com/jasper-ai-vs-copy-ai/",
+    "https://jamilahmed.com/copy-ai-vs-writesonic/",
+    "https://jamilahmed.com/copy-ai-vs-chatgpt/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 459,
+   "type": "post",
+   "status": "publish",
+   "slug": "jasper-ai-vs-copy-ai",
+   "title": "Jasper AI vs Copy AI: Navigating the Best AI Writing Tool for You",
+   "url": "https://jamilahmed.com/jasper-ai-vs-copy-ai/",
+   "date": "2024-12-14 07:08:48",
+   "modified": "2024-12-28 05:50:04",
+   "words": 2087,
+   "bb": false,
+   "cats": [
+    "Artificial Intelligence",
+    "Comparison",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Jasper AI vs Copy AI: Which is Best AI Writing Tool? | Jamil Ahmed",
+    "desc": "Jasper AI vs Copy AI: Get the key differences between leading AI writing tools to enhance your content creation strategy. Get insights now!",
+    "kw": "Jasper AI vs Copy AI",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    475,
+    "https://jamilahmed.com/wp-content/uploads/2023/12/Jasper-AI-vs-Copy-AI.webp",
+    780,
+    420,
+    true,
+    "Jasper AI vs Copy AI, Copy AI vs Jasper AI, Copy AI vs Jasper, Jasper vs Copy AI"
+   ],
+   "links": [
+    "https://jamilahmed.com/copy-ai-reviews/",
+    "https://jamilahmed.com/copy-ai-vs-rytr/",
+    "https://jamilahmed.com/copy-ai-vs-writesonic/",
+    "https://jamilahmed.com/copy-ai-vs-chatgpt/",
+    "https://jamilahmed.com/ai-tool-to-convert-text-to-video/",
+    "https://jamilahmed.com/decktopus-review/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 325,
+   "type": "post",
+   "status": "publish",
+   "slug": "semrush-vs-surfer-seo",
+   "title": "SEMrush vs Surfer SEO: Which is Better for SEO?",
+   "url": "https://jamilahmed.com/semrush-vs-surfer-seo/",
+   "date": "2024-11-23 18:33:52",
+   "modified": "2024-11-26 19:32:27",
+   "words": 1660,
+   "bb": false,
+   "cats": [
+    "Comparison",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEMrush vs Surfer SEO: Which is Better for SEO? | Jamil Ahmed",
+    "desc": "SEMrush vs Surfer SEO - nderstand their features, benefits, and pricing to decide which SEO tool aligns with your digital marketing goals.",
+    "kw": "SEMrush vs Surfer SEO",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    359,
+    "https://jamilahmed.com/wp-content/uploads/2023/05/SEMrush-vs-Serfer.webp",
+    1625,
+    875,
+    true,
+    "SEMrush vs Serfer"
+   ],
+   "links": [
+    "https://jamilahmed.com/what-is-seo/",
+    "https://jamilahmed.com/semrush-vs-ahrefs/",
+    "https://jamilahmed.com/brightedge-vs-semrush/",
+    "https://jamilahmed.com/diib-vs-semrush/",
+    "https://jamilahmed.com/semrush-pricing/",
+    "https://jamilahmed.com/semrush-vs-brightlocal/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 547,
+   "type": "post",
+   "status": "publish",
+   "slug": "moosend-review",
+   "title": "Moosend Review 2024: Is This The Email Tool For You?",
+   "url": "https://jamilahmed.com/moosend-review/",
+   "date": "2024-11-22 22:53:04",
+   "modified": "2024-11-26 19:38:17",
+   "words": 4098,
+   "bb": false,
+   "cats": [
+    "Blogging",
+    "Comparison",
+    "Email Marketing",
+    "List Posts",
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Moosend Review 2024: Is this The email tool for you? | Jamil",
+    "desc": "Moosend Review: Powerful email marketing tool: intuitive, affordable, and feature-rich for effective campaigns!",
+    "kw": "Moosend Review",
+    "noindex": "2",
+    "canonical": ""
+   },
+   "featured": [
+    557,
+    "https://jamilahmed.com/wp-content/uploads/2024/05/Moosend-Review.webp",
+    780,
+    420,
+    true,
+    "Moosend Review, Moosend Reviews, Review of Moosend"
+   ],
+   "links": [
+    "https://trymoo.moosend.com/z2j16j8bjojk",
+    "https://jamilahmed.com/semrush-vs-ahrefs/",
+    "https://jamilahmed.com/semrush-pricing/",
+    "https://jamilahmed.com/best-seo-reporting-tools-for-agencies/",
+    "https://jamilahmed.com/how-to-make-money-with-chatgpt/"
+   ],
+   "imgs": [
+    [
+     "https://jamilahmed.com/wp-content/uploads/2024/05/Moosend-Review-image-1-jadirectives-1024x441.png",
+     "",
+     true
+    ]
+   ],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 326,
+   "type": "post",
+   "status": "publish",
+   "slug": "diib-vs-semrush",
+   "title": "Diib vs SEMrush: Which One is Better for SEO?",
+   "url": "https://jamilahmed.com/diib-vs-semrush/",
+   "date": "2024-11-22 18:24:27",
+   "modified": "2024-11-25 10:14:42",
+   "words": 1415,
+   "bb": false,
+   "cats": [
+    "Comparison",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Diib vs SEMrush: Which is better for SEO? | Jamil Ahmed",
+    "desc": "SEMrush vs Diib, exploring their SEO tools, features, and pricing. Find out which platform best suits your digital marketing strategy.",
+    "kw": "Diib vs SEMrush",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    361,
+    "https://jamilahmed.com/wp-content/uploads/2023/05/SEMrush-vs-Diib.webp",
+    1625,
+    875,
+    true,
+    "SEMrush vs Diib"
+   ],
+   "links": [
+    "https://jamilahmed.com/what-is-seo/",
+    "https://www.diib.com?ref=jamilahmed1",
+    "https://semrush.sjv.io/9gOQMy",
+    "https://jamilahmed.com/semrush-pricing/",
+    "https://jamilahmed.com/semrush-agency-growth-kit-review/",
+    "https://jamilahmed.com/semrush-vs-ahrefs/",
+    "https://jamilahmed.com/semrush-vs-surfer-seo/",
+    "https://jamilahmed.com/semrush-vs-brightlocal/",
+    "https://jamilahmed.com/brightedge-vs-semrush/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 241,
+   "type": "post",
+   "status": "publish",
+   "slug": "seo-for-ceos",
+   "title": "SEO for CEOs: Boost Your Company's Online Visibility",
+   "url": "https://jamilahmed.com/seo-for-ceos/",
+   "date": "2024-11-11 07:31:19",
+   "modified": "2024-11-12 08:17:23",
+   "words": 1929,
+   "bb": false,
+   "cats": [
+    "Personal Branding",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEO for CEOs: Boost Company's Online Visibility | Jamil Ahmed",
+    "desc": "SEO for CEOs: Search Engine Optimization (SEO) for small- and midsize businesses.. Boost your growth, attract leads, and stay ahead.",
+    "kw": "SEO for CEOs",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    366,
+    "https://jamilahmed.com/wp-content/uploads/2023/03/SEO-for-CEO.webp",
+    1625,
+    875,
+    true,
+    "SEO for CEO"
+   ],
+   "links": [
+    "https://gs.statcounter.com/search-engine-market-share",
+    "https://jamilahmed.com/what-is-seo/",
+    "https://semrush.sjv.io/9gOQMy",
+    "https://jamilahmed.com/seo-glossary/",
+    "https://jamilahmed.com/semrush-vs-surfer-seo/",
+    "https://jamilahmed.com/best-seo-tools-for-saas-companies/",
+    "https://jamilahmed.com/best-seo-services/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 246,
+   "type": "post",
+   "status": "publish",
+   "slug": "personal-branding-strategy",
+   "title": "How To Create a Personal Branding Strategy",
+   "url": "https://jamilahmed.com/personal-branding-strategy/",
+   "date": "2024-11-10 17:54:21",
+   "modified": "2024-11-12 09:37:13",
+   "words": 2392,
+   "bb": false,
+   "cats": [
+    "Personal Branding"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How To Create a Personal Branding Strategy | Jamil Ahmed",
+    "desc": "Do you know how to create a powerful Personal Branding Strategy? Stand out, establish yourself as a thought leader in your industry.",
+    "kw": "Personal Branding Strategy",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    364,
+    "https://jamilahmed.com/wp-content/uploads/2023/04/Brand-Strategy.webp",
+    780,
+    420,
+    true,
+    "How To Create a Personal Branding Strategy, personal branding strategies, personal branding strategy"
+   ],
+   "links": [
+    "https://www.prweb.com/releases/these_are_the_top_brand_naming_agencies_according_to_new_report/prweb16834127.htm",
+    "https://jamilahmed.com/what-is-personal-branding/",
+    "https://jamilahmed.com/how-to-build-a-personal-brand/",
+    "https://jamilahmed.com/personal-branding-seo/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 223,
+   "type": "post",
+   "status": "publish",
+   "slug": "personal-branding-seo",
+   "title": "Master Personal Branding SEO: Boost Your Online Presence",
+   "url": "https://jamilahmed.com/personal-branding-seo/",
+   "date": "2024-11-10 10:26:18",
+   "modified": "2024-11-12 08:54:45",
+   "words": 1103,
+   "bb": false,
+   "cats": [
+    "Personal Branding"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Mastering Personal Branding SEO | Jamil Ahmed",
+    "desc": "Personal branding SEO is essential to stand out. An authentic personal brand can enhance your online presence and new career opportunities.",
+    "kw": "Personal Branding SEO",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    396,
+    "https://jamilahmed.com/wp-content/uploads/2023/03/personal-branding-seo.webp",
+    1500,
+    808,
+    true,
+    "Personal Branding SEO, seo for personal branding"
+   ],
+   "links": [
+    "https://jamilahmed.com/what-is-personal-branding/",
+    "https://jamilahmed.com/",
+    "https://jamilahmed.com",
+    "https://jamilahmed.com/how-to-build-a-personal-brand/",
+    "https://jamilahmed.com/personal-branding-strategy/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 242,
+   "type": "post",
+   "status": "publish",
+   "slug": "how-to-build-a-personal-brand",
+   "title": "How to Build a Personal Brand",
+   "url": "https://jamilahmed.com/how-to-build-a-personal-brand/",
+   "date": "2024-11-08 19:10:00",
+   "modified": "2024-11-12 10:17:54",
+   "words": 3982,
+   "bb": false,
+   "cats": [
+    "Personal Branding"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How to Build a Personal Brand | Jamil Ahmed",
+    "desc": "How to Build a Personal Brand? Personal branding is a powerful tool that assist you stand out from the crowd & create new opportunities.",
+    "kw": "How to Build a Personal Brand",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    398,
+    "https://jamilahmed.com/wp-content/uploads/2023/03/how-to-build-a-personal-brand.webp",
+    1500,
+    808,
+    true,
+    ""
+   ],
+   "links": [
+    "https://jamilahmed.com/how-to-build-a-personal-brand/",
+    "https://jamilahmed.com/how-to-start-a-blog/",
+    "https://jamilahmed.com/what-is-personal-branding/",
+    "https://jamilahmed.com/personal-branding-seo/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 323,
+   "type": "post",
+   "status": "publish",
+   "slug": "semrush-vs-ahrefs",
+   "title": "SEMrush vs Ahrefs: Which One is Better for SEO?",
+   "url": "https://jamilahmed.com/semrush-vs-ahrefs/",
+   "date": "2024-10-31 15:52:30",
+   "modified": "2024-11-12 11:03:14",
+   "words": 1971,
+   "bb": false,
+   "cats": [
+    "Comparison",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEMrush vs Ahrefs: Which One is Better? | Jamil Ahmed",
+    "desc": "SEMrush vs Ahrefs: Comparison of features, pricing, and effectiveness to determine the superior SEO tool for online marketing.",
+    "kw": "SEMrush vs Ahrefs",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    360,
+    "https://jamilahmed.com/wp-content/uploads/2023/05/SEMrush-vs-Ahrefs.webp",
+    1625,
+    875,
+    true,
+    "SEMrush vs Ahrefs"
+   ],
+   "links": [
+    "https://jamilahmed.com/what-is-seo/",
+    "https://jamilahmed.com/semrush-pricing/",
+    "https://jamilahmed.com/semrush-vs-surfer-seo/",
+    "https://jamilahmed.com/diib-vs-semrush/",
+    "https://jamilahmed.com/brightedge-vs-semrush/",
+    "https://jamilahmed.com/best-seo-tools-for-saas-companies/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 712,
+   "type": "post",
+   "status": "draft",
+   "slug": "how-to-build-a-website",
+   "title": "How to Build a Website from Scratch",
+   "url": null,
+   "date": "2024-10-02 15:35:34",
+   "modified": "2024-10-02 15:35:34",
+   "words": 2398,
+   "bb": false,
+   "cats": [
+    "Blogging"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How to Build a Website from Scratch | Jamil Ahmed",
+    "desc": "Do you know, How to Build a Website from Scratch? Here is the step by step process from start to finish a website from beginners or startups.",
+    "kw": "How to Build a Website from Scratch",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    713,
+    "https://jamilahmed.com/wp-content/uploads/2024/10/How-to-Build-a-Website-from-Scratch.jpg",
+    1366,
+    768,
+    true,
+    "How to Build a Website from Scratch, How to Build a Website"
+   ],
+   "links": [
+    "styles.css",
+    "https://jamilahmed.com/seo-glossary/",
+    "https://jamilahmed.com/how-to-build-a-personal-brand/",
+    "https://jamilahmed.com/personal-branding-strategy/",
+    "https://jamilahmed.com/what-is-seo/"
+   ],
+   "imgs": [],
+   "h1_in_content": 1,
+   "tpl": ""
+  },
+  {
+   "id": 709,
+   "type": "post",
+   "status": "draft",
+   "slug": "",
+   "title": "How To Get SEMrush For Digital Agencies Certifications",
+   "url": null,
+   "date": "2024-09-29 10:36:36",
+   "modified": "2024-09-29 10:36:36",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How To Get SEMrush For Digital Agencies Certifications",
+    "desc": "",
+    "kw": "How To Get Semrush For Digital Agencies Certifications",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 708,
+   "type": "post",
+   "status": "draft",
+   "slug": "best-semrush-reports",
+   "title": "Best SEMrush Reports To Use For Online Success",
+   "url": null,
+   "date": "2024-09-26 15:02:38",
+   "modified": "2024-09-26 15:02:38",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Best Semrush Reports To Use For Online Success",
+    "desc": "",
+    "kw": "Best Semrush Reports",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 707,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-affiliate-program-review",
+   "title": "Semrush Affiliate Program Review: A 2024 Recap Of Our Experience",
+   "url": null,
+   "date": "2024-09-26 14:59:54",
+   "modified": "2024-09-26 14:59:54",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Semrush Affiliate Program Review | Jamil Ahmed",
+    "desc": "",
+    "kw": "",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 706,
+   "type": "post",
+   "status": "draft",
+   "slug": "how-to-find-broken-links-with-semrush",
+   "title": "How to Find Broken Links with SEMrush (and Fix Them)",
+   "url": null,
+   "date": "2024-09-26 14:58:19",
+   "modified": "2024-09-26 14:58:19",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How to Find Broken Links with SEMrush | Jamil Ahmed",
+    "desc": "",
+    "kw": "How to Find Broken Links with SEMrush",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 705,
+   "type": "post",
+   "status": "draft",
+   "slug": "how-to-do-keyword-research-with-semrush",
+   "title": "How to Do Keyword Research with SEMrush for Outstanding Growth",
+   "url": null,
+   "date": "2024-09-26 14:42:34",
+   "modified": "2024-09-26 14:42:34",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How to Do Keyword Research with SEMrush | Jamil Ahmed",
+    "desc": "",
+    "kw": "How to Do Keyword Research with SEMrush",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 704,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-keyword-gap-analysis",
+   "title": "How To Do SEMrush Keyword Gap Analysis",
+   "url": null,
+   "date": "2024-09-26 14:40:31",
+   "modified": "2024-09-26 14:40:31",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How To Do SEMrush Keyword Gap Analysis? | Jamil Ahmed",
+    "desc": "",
+    "kw": "How To Do Semrush Keyword Gap Analysis",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 703,
+   "type": "post",
+   "status": "draft",
+   "slug": "lsi-keywords",
+   "title": "LSI Keywords In SEMrush: How Can They Help With SEO?",
+   "url": null,
+   "date": "2024-09-25 16:44:56",
+   "modified": "2024-09-25 16:44:56",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "LSI Keywords In SEMrush: How Can They Help With SEO? | Jamil",
+    "desc": "",
+    "kw": "",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 702,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-estimated-traffic",
+   "title": "How SEMrush Estimated Traffic Can Shape Your SEO Strategy",
+   "url": null,
+   "date": "2024-09-25 16:43:38",
+   "modified": "2024-09-25 16:43:38",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How SEMrush Estimated Traffic Can Shape Your SEO Strategy | Jamil",
+    "desc": "",
+    "kw": "SEMrush estimated traffic",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 701,
+   "type": "post",
+   "status": "draft",
+   "slug": "best-semrush-competitors",
+   "title": "5 Best SEMrush Competitors 2024",
+   "url": null,
+   "date": "2024-09-25 15:56:35",
+   "modified": "2024-09-25 15:56:35",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "5 Best SEMrush Competitors 2024 | Jamil Ahmed",
+    "desc": "",
+    "kw": "Best SEMrush Competitors",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 700,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-historical-data",
+   "title": "How To Use SEMrush Historical Data To Crush Your Competition",
+   "url": null,
+   "date": "2024-09-25 14:22:27",
+   "modified": "2024-09-25 14:22:27",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How To Use SEMrush Historical Data? | Jamil Ahmed",
+    "desc": "",
+    "kw": "SEMrush Historical Data",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 699,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-serp-volatility-index",
+   "title": "How to Use SEMrush SERP Volatility Index: Make Your SEO Effective",
+   "url": null,
+   "date": "2024-09-25 14:20:55",
+   "modified": "2024-09-25 14:20:55",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How to Use SEMrush SERP Volatility Index | Jamil Ahmed",
+    "desc": "",
+    "kw": "SEMrush SERP Volatility",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 698,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-topic-research",
+   "title": "How to Use Semrush Topic Research To Find Content Ideas",
+   "url": null,
+   "date": "2024-09-25 14:02:28",
+   "modified": "2024-09-25 14:02:28",
+   "words": 10,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How to Use SEMrush Topic Research To Find Content Ideas | Jamil",
+    "desc": "",
+    "kw": "Semrush Topic Research",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 1,
+   "tpl": ""
+  },
+  {
+   "id": 697,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-sensor",
+   "title": "How to Use SEMrush Sensor To Rank Higher In Google Searches",
+   "url": null,
+   "date": "2024-09-25 13:53:11",
+   "modified": "2024-09-25 13:53:11",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How to Use SEMrush Sensor To Rank Higher? | Jamil Ahmed",
+    "desc": "",
+    "kw": "How to Use Semrush Sensor To Rank Higher In Google Searches",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 696,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-brand-monitoring-tool",
+   "title": "How To Use SEMrush Brand Monitoring Tool The Right Way",
+   "url": null,
+   "date": "2024-09-25 13:51:41",
+   "modified": "2024-09-25 13:51:41",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How To Use SEMrush Brand Monitoring Tool | Jamil Ahmed",
+    "desc": "",
+    "kw": "SEMrush Brand Monitoring Tool",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 695,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-domain-authority",
+   "title": "What is SEMrush Domain Authority?",
+   "url": null,
+   "date": "2024-09-25 11:02:43",
+   "modified": "2024-09-25 11:02:43",
+   "words": 15,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "What is SEMrush Domain Authority? | Jamil Ahmed",
+    "desc": "",
+    "kw": "semrush domain authority",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 694,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-ranking",
+   "title": "SEMrush Ranking: How To Use It For Competitive Analysis",
+   "url": null,
+   "date": "2024-09-25 10:48:23",
+   "modified": "2024-09-25 10:48:23",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Semrush Ranking: How To Use It For Competitive Analysis | Jamil",
+    "desc": "",
+    "kw": "semrush ranking",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 693,
+   "type": "post",
+   "status": "draft",
+   "slug": "how-accurate-is-semrush",
+   "title": "How Accurate is SEMrush For SEO?",
+   "url": null,
+   "date": "2024-09-25 10:47:08",
+   "modified": "2024-09-25 10:47:08",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How Accurate is SEMrush For SEO? | Jamil Ahmed",
+    "desc": "",
+    "kw": "how accurate is semrush",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 692,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-data-source",
+   "title": "SEMrush Data Source: Learn Where the Data Comes From",
+   "url": null,
+   "date": "2024-09-25 07:48:02",
+   "modified": "2024-09-25 07:48:02",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEMrush Data Source: Where It Comes From | Jamil Ahmed",
+    "desc": "",
+    "kw": "semrush data source",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 691,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-data",
+   "title": "Semrush Data 101: What\u2019s On Offer And How To Use It For SEO Success",
+   "url": null,
+   "date": "2024-09-25 07:46:18",
+   "modified": "2024-09-25 07:46:18",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Semrush Data 101: How To Use It For SEO Success | Jamil Ahmed",
+    "desc": "",
+    "kw": "semrush data",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 690,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-traffic-cost",
+   "title": "SEMrush Traffic Cost: What It Is and How To Use It",
+   "url": null,
+   "date": "2024-09-25 07:43:17",
+   "modified": "2024-09-25 07:43:17",
+   "words": 13,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEMrush Traffic Cost: What It Is and How To Use It | Jamil Ahmed",
+    "desc": "",
+    "kw": "Semrush traffic cost",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 689,
+   "type": "post",
+   "status": "draft",
+   "slug": "how-often-does-semrush-update-their-competitor-lists",
+   "title": "Learn How Often Does Semrush Update Their Competitor Lists",
+   "url": null,
+   "date": "2024-09-25 07:40:49",
+   "modified": "2024-09-25 07:40:49",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How Often Does SEMrush Update Their Competitor Lists | Jamil",
+    "desc": "",
+    "kw": "",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 688,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-domain-analytics",
+   "title": "SEMrush Domain Analytics: How To Use It To Improve Your SEO",
+   "url": null,
+   "date": "2024-09-25 07:26:54",
+   "modified": "2024-09-25 07:26:54",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEMrush Domain Analytics: Use It To Improve SEO | Jamil Ahmed",
+    "desc": "",
+    "kw": "Semrush Domain Analytics",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 687,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-content-optimization-tools",
+   "title": "How to Use SEMrush Content Optimization Tools",
+   "url": null,
+   "date": "2024-09-25 07:25:34",
+   "modified": "2024-09-25 07:25:34",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How to Use SEMrush Content Optimization Tools | Jamil Ahmed",
+    "desc": "",
+    "kw": "SEMrush Content Optimization",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 686,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-technical-seo",
+   "title": "Unlock The Secrets of SEMrush Technical SEO",
+   "url": null,
+   "date": "2024-09-25 07:20:04",
+   "modified": "2024-09-25 07:20:04",
+   "words": 8,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Unlock The Secrets of SEMrush Technical SEO | Jamil Ahmed",
+    "desc": "",
+    "kw": "Semrush Technical SEO",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 685,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-lead-generation-tools",
+   "title": "How To Use SEMrush Lead Generation Tools",
+   "url": null,
+   "date": "2024-09-25 07:07:27",
+   "modified": "2024-09-25 07:07:27",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How To Use SEMrush Lead Generation Tool | Jamil Ahmed",
+    "desc": "",
+    "kw": "Semrush Lead Generation Tool",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 684,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-keyword-manager",
+   "title": "How To Use SEMrush Keyword Manager Effectively",
+   "url": null,
+   "date": "2024-09-24 19:54:29",
+   "modified": "2024-09-24 19:54:29",
+   "words": 9,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How To Use SEMrush Keyword Manager Effectively | Jamil Ahmed",
+    "desc": "",
+    "kw": "SEMrush Keyword Manager",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 683,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-seo-writing-assistant",
+   "title": "How To Use SEMrush SEO Writing Assistant To Create Content 10X Faster",
+   "url": null,
+   "date": "2024-09-24 19:52:21",
+   "modified": "2024-09-24 19:52:21",
+   "words": 14,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How To Use SEMrush SEO Writing Assistant | Jamil Ahmed",
+    "desc": "",
+    "kw": "",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 674,
+   "type": "post",
+   "status": "draft",
+   "slug": "free-alternative-to-semrush",
+   "title": "7 Free Alternative to SEMrush 2025",
+   "url": null,
+   "date": "2024-09-24 19:49:49",
+   "modified": "2024-09-24 19:49:49",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "10 Best Free Alternative to SEMrush 2025 | Jamil Ahmed",
+    "desc": "",
+    "kw": "Free alternative to SEMrush",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 682,
+   "type": "post",
+   "status": "draft",
+   "slug": "",
+   "title": "How To Use SEMrush Position Tracking Tool The Right Way",
+   "url": null,
+   "date": "2024-09-24 19:47:30",
+   "modified": "2024-09-24 19:47:30",
+   "words": 12,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How To Use SEMrush Position Tracking Tool | Jamil Ahmed",
+    "desc": "",
+    "kw": "Semrush Position Tracking Tool",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 681,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-listing-management-tool",
+   "title": "How SEMrush Listing Management Tool Can Help Your Local SEO",
+   "url": null,
+   "date": "2024-09-24 19:33:23",
+   "modified": "2024-09-24 19:33:23",
+   "words": 11,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEMrush Listing Management Tool: Grow Local SEO | Jamil Ahmed",
+    "desc": "",
+    "kw": "semrush listing management tool",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 679,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-ppc-keyword-tool",
+   "title": "How To Use The SEMrush PPC Keyword Tool To Optimize Ad Campaigns",
+   "url": null,
+   "date": "2024-09-24 19:29:17",
+   "modified": "2024-09-24 19:29:17",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How To Use The SEMrush PPC Keyword Tool | Jamil Ahmed",
+    "desc": "",
+    "kw": "Semrush PPC Keyword Tool",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 678,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-link-building-tool",
+   "title": "Master SEMrush Link Building Tool for Higher Domain Authority",
+   "url": null,
+   "date": "2024-09-24 19:22:01",
+   "modified": "2024-09-24 19:22:01",
+   "words": 10,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Master SEMrush Link Building Tool | Jamil Ahmed",
+    "desc": "",
+    "kw": "Semrush Link Building Tool",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 677,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-content-marketing-toolkit",
+   "title": "How to Use SEMrush Content Marketing Toolkit Effectively",
+   "url": null,
+   "date": "2024-09-24 19:17:51",
+   "modified": "2024-09-24 19:17:51",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How to Use SEMrush Content Marketing Toolkit | Jamil Ahmed",
+    "desc": "",
+    "kw": "Semrush Content Marketing Toolkit",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 676,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-traffic-analytics",
+   "title": "How To Use SEMrush Traffic Analytics to Optimize Your Site",
+   "url": null,
+   "date": "2024-09-24 19:16:10",
+   "modified": "2024-09-24 19:16:10",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How To Use SEMrush Traffic Analytics? | Jamil Ahmed",
+    "desc": "",
+    "kw": "Semrush Traffic Analytics",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 675,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-visibility-score",
+   "title": "How To Use Semrush Visibility Score To Boost Your Site SEO",
+   "url": null,
+   "date": "2024-09-24 19:13:51",
+   "modified": "2024-09-24 19:13:51",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How To Use SEMrush Visibility Score To Boost SEO | Jamil Ahmed",
+    "desc": "",
+    "kw": "Semrush Visibility Score",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 673,
+   "type": "post",
+   "status": "draft",
+   "slug": "seo-powersuite-vs-semrush",
+   "title": "SEO Powersuite vs SEMrush: A Simplified Review for Beginners",
+   "url": null,
+   "date": "2024-09-24 19:04:12",
+   "modified": "2024-09-24 19:04:12",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEO Powersuite vs Semrush: Simplified Comparison | Jamil Ahmed",
+    "desc": "",
+    "kw": "",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 672,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-vs-seoquake",
+   "title": "Semrush vs SEOquake: Which SEO Tools is Better?",
+   "url": null,
+   "date": "2024-09-24 19:02:08",
+   "modified": "2024-09-24 19:02:08",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEMrush vs SEOquake: Which SEO Tools is Better? | Jamil Ahmed",
+    "desc": "",
+    "kw": "Semrush vs SEOquake",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 671,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-vs-hubspot",
+   "title": "SEMrush vs HubSpot: Which is the better SEO tool?",
+   "url": null,
+   "date": "2024-09-24 18:59:10",
+   "modified": "2024-09-24 18:59:10",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEMrush vs HubSpot: Which is the better SEO tool? | Jamil Ahmed",
+    "desc": "",
+    "kw": "Semrush vs HubSpot",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 670,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-vs-google",
+   "title": "SEMrush vs Google Analytics: A Beginners Comparison Guide",
+   "url": null,
+   "date": "2024-09-24 18:55:11",
+   "modified": "2024-09-24 18:55:11",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEMrush vs Google Analytics: Which One is Better? | Jamil Ahmed",
+    "desc": "",
+    "kw": "SEMrush vs Google Analytics",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 669,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-vs-serpstat",
+   "title": "SEMrush vs. Serpstat: Which One Is The Better SEO Tool?",
+   "url": null,
+   "date": "2024-09-24 18:54:11",
+   "modified": "2024-09-24 18:54:11",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEMrush vs. Serpstat: Which One Is Better? | Jamil Ahmed",
+    "desc": "",
+    "kw": "Semrush vs. Serpstat",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 668,
+   "type": "post",
+   "status": "draft",
+   "slug": "how-to-use-semrush",
+   "title": "How To Use SEMrush To Stay Ahead Of Competition In 2024",
+   "url": null,
+   "date": "2024-09-24 18:16:32",
+   "modified": "2024-09-24 18:16:32",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How To Use SEMrush To Stay Ahead Of Competition | Jamil Ahmed",
+    "desc": "",
+    "kw": "How To Use SEMrush",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 666,
+   "type": "post",
+   "status": "draft",
+   "slug": "what-is-semrush",
+   "title": "What Is SEMrush? Learn How It Can Elevate Your Digital Marketing Game In 2024",
+   "url": null,
+   "date": "2024-09-24 18:13:23",
+   "modified": "2024-09-24 18:13:23",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "What Is SEMrush? Elevate Digital Planning Game | Jamil Ahmed",
+    "desc": "",
+    "kw": "What is SEMrush",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 667,
+   "type": "post",
+   "status": "draft",
+   "slug": "semrush-benefits",
+   "title": "10 SEMrush Benefits To Your SEO Strategy In 2024",
+   "url": null,
+   "date": "2024-09-24 18:10:37",
+   "modified": "2024-09-24 18:10:37",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "10 SEMrush Benefits To Your SEO Strategy In 2024 | Jamil Ahmed",
+    "desc": "",
+    "kw": "SEMrush Benefits",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 450,
+   "type": "post",
+   "status": "publish",
+   "slug": "best-black-friday-deals",
+   "title": "200+ Best Black Friday Deals",
+   "url": "https://jamilahmed.com/best-black-friday-deals/",
+   "date": "2024-09-12 18:24:52",
+   "modified": "2024-11-12 18:40:36",
+   "words": 18,
+   "bb": true,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "200+ Best Black Friday Deals 2024 | Jamil Ahmed",
+    "desc": "",
+    "kw": "Best Black Friday Deals",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [
+    [
+     "https://jamilahmed.com/wp-content/uploads/2023/01/Salehoo.png",
+     "Salehoo",
+     false
+    ]
+   ],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 654,
+   "type": "post",
+   "status": "publish",
+   "slug": "how-to-make-money-blogging",
+   "title": "How to Make Money Blogging 2024",
+   "url": "https://jamilahmed.com/how-to-make-money-blogging/",
+   "date": "2024-08-31 18:11:36",
+   "modified": "2024-08-31 18:15:57",
+   "words": 20,
+   "bb": false,
+   "cats": [
+    "Blogging",
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How to Make Money Blogging | Jamil Ahmed",
+    "desc": "Do you know,\u00a0how to make money blogging in 2024? A day in my life blog how to make money online",
+    "kw": "How to Make Money Blogging",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 645,
+   "type": "post",
+   "status": "draft",
+   "slug": "best-evergreen-webinar-platforms",
+   "title": "5 Best Evergreen Webinar Platforms 2024",
+   "url": null,
+   "date": "2024-08-31 17:27:21",
+   "modified": "2024-08-31 17:27:21",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "5 Best Evergreen Webinar Platforms 2024 | Jamil Ahmed",
+    "desc": "",
+    "kw": "best evergreen webinar platforms",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 641,
+   "type": "post",
+   "status": "publish",
+   "slug": "what-is-content-marketing",
+   "title": "What is Content Marketing, and Why is it Important?",
+   "url": "https://jamilahmed.com/what-is-content-marketing/",
+   "date": "2024-08-31 17:25:27",
+   "modified": "2024-08-31 17:25:27",
+   "words": 19,
+   "bb": false,
+   "cats": [
+    "Blogging"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "What is Content Marketing, and Why is it Important? | Jamil Ahmed",
+    "desc": "",
+    "kw": "What is Content Marketing",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 638,
+   "type": "post",
+   "status": "publish",
+   "slug": "affiliate-marketing",
+   "title": "What is Affiliate Marketing: A Beginners Guide to Leave 9 to 5",
+   "url": "https://jamilahmed.com/affiliate-marketing/",
+   "date": "2024-08-31 15:47:31",
+   "modified": "2024-09-04 18:37:12",
+   "words": 14,
+   "bb": false,
+   "cats": [
+    "Blogging",
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "What is Affiliate Marketing | Jamil Ahmed",
+    "desc": "",
+    "kw": "What is Affiliate Marketing",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 640,
+   "type": "post",
+   "status": "draft",
+   "slug": "best-web-hosting-for-small-business",
+   "title": "5 Best Web Hosting for Small Business 2024",
+   "url": null,
+   "date": "2024-08-29 15:53:19",
+   "modified": "2024-08-29 15:53:19",
+   "words": 1424,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "5 Best Web Hosting for Small Business 2024 | Jamil Ahmed",
+    "desc": "Read 5 Best Web Hosting for Small Business 2024 to represent your website online. Learn about different hosting features, pricing and pros.",
+    "kw": "Best Web Hosting for Small Business",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [
+    "https://jamilahmed.com/seo-basics/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 454,
+   "type": "post",
+   "status": "draft",
+   "slug": "seo-for-health-and-wellness-business",
+   "title": "Why SEO for Health and Wellness Business is Essential",
+   "url": null,
+   "date": "2024-08-27 18:45:42",
+   "modified": "2024-08-27 18:45:42",
+   "words": 3743,
+   "bb": false,
+   "cats": [
+    "Blogging",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Why is SEO for Health and Wellness Business Essential | Jamil",
+    "desc": "Why is SEO for health and wellness businesses essential? Learn the importance doing SEO to get ahead of the competition and grow brand.",
+    "kw": "SEO for Health and Wellness Business",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 633,
+   "type": "post",
+   "status": "draft",
+   "slug": "diib-reviews",
+   "title": "Diib Reviews 2024: Is It Worth the Price?",
+   "url": null,
+   "date": "2024-08-26 18:23:27",
+   "modified": "2024-08-26 18:23:27",
+   "words": 4814,
+   "bb": false,
+   "cats": [
+    "Make Money",
+    "Review",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Diib Reviews 2024: Is It Worth the Price?",
+    "desc": "Diib Reviews: Find out if Diib's SEO tool, with Diib Answer Engine, is worth the price for improving your website\u2019s SEO and traffic.",
+    "kw": "Diib Reviews",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 1,
+   "tpl": ""
+  },
+  {
+   "id": 632,
+   "type": "post",
+   "status": "draft",
+   "slug": "",
+   "title": "Cloudways Reviews: Is It No #1 for Managed Cloud Hosting?",
+   "url": null,
+   "date": "2024-08-25 23:50:41",
+   "modified": "2024-08-25 23:50:41",
+   "words": 9503,
+   "bb": false,
+   "cats": [
+    "Review"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Cloudways Reviews | Jamil Ahmed",
+    "desc": "Cloudways Reviews: Learn why Cloudways is a top choice for managed cloud hosting with 1-click installs, built-in caching, and 24/7 support.",
+    "kw": "cloudways reviews",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 631,
+   "type": "post",
+   "status": "draft",
+   "slug": "best-ai-tools",
+   "title": "50 Best AI Tools 2024",
+   "url": null,
+   "date": "2024-08-25 22:50:56",
+   "modified": "2024-08-25 22:50:56",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "50 Best AI Tools 2024 | Jamil Ahmed",
+    "desc": "",
+    "kw": "",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 625,
+   "type": "post",
+   "status": "publish",
+   "slug": "seo-basics",
+   "title": "SEO Basics - Beginner's Guide to SEO Success",
+   "url": "https://jamilahmed.com/seo-basics/",
+   "date": "2024-08-20 18:16:32",
+   "modified": "2024-08-25 20:54:11",
+   "words": 4394,
+   "bb": false,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEO Basics - Beginner's Guide to SEO Success | Jamil Ahmed",
+    "desc": "SEO Basics: Essential strategies to boost your website's visibility, optimize content, and drive organic traffic with these SEO tips.",
+    "kw": "SEO Basics",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    627,
+    "https://jamilahmed.com/wp-content/uploads/2024/08/SEO-Basics.jpg",
+    780,
+    420,
+    true,
+    "SEO Basics, SEO Basics for Beginners"
+   ],
+   "links": [
+    "https://jamilahmed.com/what-is-seo/",
+    "https://semrush.sjv.io/9gOQMy",
+    "https://jamilahmed.com/seo-glossary/",
+    "https://jamilahmed.com/small-business-seo/",
+    "https://jamilahmed.com/best-seo-tools-for-saas-companies/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 612,
+   "type": "post",
+   "status": "publish",
+   "slug": "seo-faqs",
+   "title": "SEO FAQs",
+   "url": "https://jamilahmed.com/seo-faqs/",
+   "date": "2024-08-19 04:07:50",
+   "modified": "2024-12-28 07:02:21",
+   "words": 513,
+   "bb": true,
+   "cats": [
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Search Engine Optimization (SEO) FAQs | Jamil Ahmed",
+    "desc": "Looking for the Search Engine Optimization (SEO) FAQs? We have covered them all. Check it out now!",
+    "kw": "seo faqs",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    636,
+    "https://jamilahmed.com/wp-content/uploads/2024/08/seo-faqs.jpg",
+    780,
+    420,
+    true,
+    "seo faqs, seo frequently asked questions, frequently asked questions on seo"
+   ],
+   "links": [],
+   "imgs": [
+    [
+     "https://jamilahmed.com/wp-content/uploads/2024/08/Google-Search-Console.svg",
+     "Google Search Console",
+     false
+    ],
+    [
+     "https://jamilahmed.com/wp-content/uploads/2024/08/SEO-Fundamentals.svg",
+     "SEO Fundamentals",
+     false
+    ],
+    [
+     "https://jamilahmed.com/wp-content/uploads/2024/08/Technical-SEO.svg",
+     "Technical SEO",
+     false
+    ],
+    [
+     "https://jamilahmed.com/wp-content/uploads/2024/08/eCommerce-SEO.svg",
+     "eCommerce SEO",
+     false
+    ],
+    [
+     "https://jamilahmed.com/wp-content/uploads/2024/08/Technical-SEO.svg",
+     "Technical SEO",
+     false
+    ],
+    [
+     "https://jamilahmed.com/wp-content/uploads/2024/08/eCommerce-SEO.svg",
+     "eCommerce SEO",
+     false
+    ],
+    [
+     "https://jamilahmed.com/wp-content/uploads/2024/08/Technical-SEO.svg",
+     "Technical SEO",
+     false
+    ],
+    [
+     "https://jamilahmed.com/wp-content/uploads/2024/08/eCommerce-SEO.svg",
+     "eCommerce SEO",
+     false
+    ],
+    [
+     "https://jamilahmed.com/wp-content/uploads/2024/08/Processes.svg",
+     "Processes",
+     false
+    ]
+   ],
+   "h1_in_content": 1,
+   "tpl": "tpl-full-width.php"
+  },
+  {
+   "id": 608,
+   "type": "post",
+   "status": "draft",
+   "slug": "",
+   "title": "SEmrush Listing Management Tool",
+   "url": null,
+   "date": "2024-08-19 03:54:27",
+   "modified": "2024-08-19 03:54:27",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "",
+    "desc": "Find everything you need in one place with SEMrush listing management tool \u2013 listings, data, and AI-driven reviews. Drive Results.",
+    "kw": "",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 573,
+   "type": "post",
+   "status": "publish",
+   "slug": "seo-glossary",
+   "title": "SEO Glossary: 200+ SEO Terms Glossary\u00a0& Definitions to Know",
+   "url": "https://jamilahmed.com/seo-glossary/",
+   "date": "2024-08-15 20:04:59",
+   "modified": "2024-08-15 20:05:44",
+   "words": 4592,
+   "bb": false,
+   "cats": [
+    "Blogging",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "SEO Glossary: 200+ SEO Terms Glossary\u00a0& Definitions | Jamil",
+    "desc": "SEO Glossary: Learn 200+ essential SEO Glossary terms and definitions. Enhance your knowledge and improve your site's search performance.",
+    "kw": "SEO Glossary",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    605,
+    "https://jamilahmed.com/wp-content/uploads/2024/05/SEO-Glossary-Jamil-Ahmed.webp",
+    780,
+    420,
+    true,
+    "SEO Glossary, Glossary of SEO"
+   ],
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 455,
+   "type": "post",
+   "status": "draft",
+   "slug": "best-seo-tools-for-small-businesses",
+   "title": "Best SEO Tools for Small Businesses 2024",
+   "url": null,
+   "date": "2024-05-28 16:35:33",
+   "modified": "2024-05-28 16:35:33",
+   "words": 124,
+   "bb": false,
+   "cats": [
+    "Make Money",
+    "Search Engine Optimization"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "29 Best SEO Tools for Small Businesses | Jamil Ahmed",
+    "desc": "Are you looking for the Best SEO Tools for Small Businesses to grow company organically? Investment in SEO gives higher ROI in the long run.",
+    "kw": "Best SEO Tools for Small Businesses",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 567,
+   "type": "post",
+   "status": "draft",
+   "slug": "nexcess-magento-hosting-review",
+   "title": "Nexcess Magento Hosting Review 2024",
+   "url": null,
+   "date": "2024-05-18 11:15:46",
+   "modified": "2024-05-18 11:15:46",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Blogging",
+    "Make Money",
+    "Review"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Nexcess Magento Hosting Review 2024 | Jamil Ahmed",
+    "desc": "Nexcess Magento Hosting Review: Discover best features, performance, and pricing. Learn why Nexcess is the top choice for Magento hosting.",
+    "kw": "nexcess magento hosting review",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 565,
+   "type": "post",
+   "status": "draft",
+   "slug": "nexcess-wordpress-hosting-review",
+   "title": "Nexcess WordPress Hosting Review 2024",
+   "url": null,
+   "date": "2024-05-18 11:15:32",
+   "modified": "2024-05-18 11:15:32",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Nexcess WordPress Hosting Review 2024 | Jamil Ahmed",
+    "desc": "Nexcess WordPress Hosting Review: Discover best features, performance, and pricing. Find out why Nexcess is ideal for WordPress hosting.",
+    "kw": "nexcess wordpress hosting",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 562,
+   "type": "post",
+   "status": "draft",
+   "slug": "nexcess-hosting-review",
+   "title": "Nexcess Hosting Review 2024: Details, Pricing, & Features",
+   "url": null,
+   "date": "2024-05-18 09:22:09",
+   "modified": "2024-05-18 09:22:09",
+   "words": 33,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Nexcess Hosting Review 2024: Details, Pricing, & Features | Jamil",
+    "desc": "Nexcess Hosting Review: Discover features, pricing, and details. Find out if Nexcess is the right hosting solution for your website. Explore.",
+    "kw": "nexcess hosting review",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    564,
+    "https://jamilahmed.com/wp-content/uploads/2024/05/nexcess-hosting-review.webp",
+    780,
+    420,
+    true,
+    "nexcess hosting review, nexcess review, nexcess web hosting review"
+   ],
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 549,
+   "type": "post",
+   "status": "draft",
+   "slug": "",
+   "title": "Moosend Pricing: Affordable Email Marketing Solution",
+   "url": null,
+   "date": "2024-05-08 18:03:14",
+   "modified": "2024-05-08 18:03:14",
+   "words": 2056,
+   "bb": false,
+   "cats": [
+    "Email Marketing",
+    "Review"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Moosend Pricing: Affordable Email Marketing Solution | Jamil",
+    "desc": "",
+    "kw": "Moosend Pricing",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 2,
+   "tpl": ""
+  },
+  {
+   "id": 577,
+   "type": "post",
+   "status": "publish",
+   "slug": "best-seo-reporting-tools-for-agencies",
+   "title": "5 Best SEO Reporting Tools for Agencies 2025",
+   "url": "https://jamilahmed.com/best-seo-reporting-tools-for-agencies/",
+   "date": "2024-04-26 09:51:05",
+   "modified": "2025-08-21 13:41:25",
+   "words": 3161,
+   "bb": true,
+   "cats": [
+    "Comparison",
+    "List Posts",
+    "Search Engine Optimization",
+    "Software"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "5 Best SEO Reporting Tools for Agencies 2025 | Jamil Ahmed",
+    "desc": "Best SEO Reporting Tools for Agencies: Top tools to enhance your SEO efforts, streamline site audits, to track SEO performance and results.",
+    "kw": "Best SEO Reporting Tools for Agencies",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": [
+    586,
+    "https://jamilahmed.com/wp-content/uploads/2024/06/Best-SEO-Reporting-Tools-for-Agencies.webp",
+    780,
+    420,
+    true,
+    "Best SEO Reporting Tools for Agencies, SEO Reporting Tools for Agencies"
+   ],
+   "links": [
+    "https://www.semrush.com/swa/checker/smr-5efc4c0c-8d60-47e5-aa8b-39b95ddccd3f",
+    "https://jamilahmed.com/what-is-seo/",
+    "https://jamilahmed.com/best-seo-services/",
+    "https://jamilahmed.com/best-seo-tools-for-saas-companies/",
+    "https://jamilahmed.com/best-local-seo-tools/",
+    "https://jamilahmed.com/semrush-agency-growth-kit-review/"
+   ],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 533,
+   "type": "post",
+   "status": "draft",
+   "slug": "",
+   "title": "Best Real Estate AI Tools 2024",
+   "url": null,
+   "date": "2024-02-17 16:07:12",
+   "modified": "2024-02-17 16:07:12",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Best Real Estate AI Tools 2024 | Jamil Ahmed",
+    "desc": "",
+    "kw": "",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 531,
+   "type": "post",
+   "status": "draft",
+   "slug": "",
+   "title": "Best AI Coding Tools 2024",
+   "url": null,
+   "date": "2024-02-16 18:40:34",
+   "modified": "2024-02-16 18:40:34",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "",
+    "desc": "",
+    "kw": "best ai coding tools",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 529,
+   "type": "post",
+   "status": "draft",
+   "slug": "best-ai-tools-for-hr",
+   "title": "Best AI Tools for HR 2024",
+   "url": null,
+   "date": "2024-02-16 18:38:51",
+   "modified": "2024-02-16 18:38:51",
+   "words": 8,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Best AI Tools for HR 2024 | Jamil Ahmed",
+    "desc": "",
+    "kw": "Best AI Tools for HR",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 527,
+   "type": "post",
+   "status": "draft",
+   "slug": "",
+   "title": "Best Self Improvement AI Tools",
+   "url": null,
+   "date": "2024-02-16 18:19:51",
+   "modified": "2024-02-16 18:19:51",
+   "words": 6,
+   "bb": false,
+   "cats": [
+    "Artificial Intelligence",
+    "Blogging"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Best Self Improvement AI Tools | Jamil Ahmed",
+    "desc": "",
+    "kw": "Best Self Improvement AI Tools",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 525,
+   "type": "post",
+   "status": "draft",
+   "slug": "best-ai-tools-for-startups",
+   "title": "Best AI Tools for Startups 2024",
+   "url": null,
+   "date": "2024-02-16 18:16:45",
+   "modified": "2024-02-16 18:16:45",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Artificial Intelligence",
+    "Blogging"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Best AI Tools for Startups 2024 | Jamil Ahmed",
+    "desc": "",
+    "kw": "Best AI Tools for Startups",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 523,
+   "type": "post",
+   "status": "draft",
+   "slug": "best-ai-tools-for-text-to-speech",
+   "title": "Best AI Tools for Text to Speech 2024",
+   "url": null,
+   "date": "2024-02-16 18:12:50",
+   "modified": "2024-02-16 18:12:50",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Best AI Tools for Text to Speech 2024 | Jamil Ahmed",
+    "desc": "",
+    "kw": "Best AI Tools for Text to Speech",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 521,
+   "type": "post",
+   "status": "draft",
+   "slug": "best-ai-tools-for-translation",
+   "title": "Best AI Tools for Translation 2024",
+   "url": null,
+   "date": "2024-02-16 18:09:44",
+   "modified": "2024-02-16 18:09:44",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Best AI Tools for Translation | Jamil Ahemd",
+    "desc": "",
+    "kw": "Best AI Tools for Translation",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 519,
+   "type": "post",
+   "status": "draft",
+   "slug": "",
+   "title": "Best AI Tools for Video Editing 2024",
+   "url": null,
+   "date": "2024-02-16 18:06:53",
+   "modified": "2024-02-16 18:06:53",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Artificial Intelligence",
+    "Blogging",
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Best AI Tools for Video Editing 2024 | Jamil Ahemd",
+    "desc": "",
+    "kw": "Best AI Tools for Video Editing",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 518,
+   "type": "post",
+   "status": "draft",
+   "slug": "best-ai-writing-tools",
+   "title": "Best AI Writing Tools 2024",
+   "url": null,
+   "date": "2024-02-16 17:25:13",
+   "modified": "2024-02-16 17:25:13",
+   "words": 0,
+   "bb": false,
+   "cats": [
+    "Artificial Intelligence",
+    "Blogging"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "Best AI Writing Tools 2024 | Jamil Ahmed",
+    "desc": "",
+    "kw": "Best AI Writing Tools",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [],
+   "h1_in_content": 0,
+   "tpl": ""
+  },
+  {
+   "id": 484,
+   "type": "post",
+   "status": "draft",
+   "slug": "",
+   "title": "How to Start a Blog that Actually Makes Money 2024",
+   "url": null,
+   "date": "2024-01-06 09:30:49",
+   "modified": "2024-01-06 09:30:49",
+   "words": 4588,
+   "bb": false,
+   "cats": [
+    "Blogging",
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "How to Start a Blog that Actually Makes Money | Jamil Ahmed",
+    "desc": "How to start a blog that actually makes money: Unlocking the Potential of Profitable Blogging. Take 90-days challenge to earn $0 - $1000.",
+    "kw": "How to start a blog that actually makes money",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [
+    "https://www.forbes.com/advisor/business/start-a-blog/"
+   ],
+   "imgs": [],
+   "h1_in_content": 1,
+   "tpl": ""
+  },
+  {
+   "id": 419,
+   "type": "post",
+   "status": "draft",
+   "slug": "",
+   "title": "Post #419",
+   "url": null,
+   "date": "2023-08-02 08:32:58",
+   "modified": "2023-08-02 08:36:23",
+   "words": 2,
+   "bb": true,
+   "cats": [
+    "Make Money"
+   ],
+   "tags": 0,
+   "yoast": {
+    "title": "",
+    "desc": "",
+    "kw": "",
+    "noindex": "",
+    "canonical": ""
+   },
+   "featured": null,
+   "links": [],
+   "imgs": [
+    [
+     "https://jamilahmed.com/wp-content/plugins/bb-plugin/img/pixel.png",
+     "",
+     false
+    ]
+   ],
+   "h1_in_content": 0,
+   "tpl": ""
+  }
+ ],
+ "menus": [
+  {
+   "id": 5,
+   "name": "Footer Menu 01",
+   "items": []
+  },
+  {
+   "id": 2,
+   "name": "Header Menu",
+   "items": []
+  },
+  {
+   "id": 23,
+   "name": "JA 2026 Main",
+   "items": [
+    [
+     "About",
+     "https://jamilahmed.com/about-me/"
+    ],
+    [
+     "Consulting",
+     "https://jamilahmed.com/consulting/"
+    ],
+    [
+     "Writing",
+     "https://jamilahmed.com/blog/"
+    ],
+    [
+     "Newsletter",
+     "https://jamilahmed.com/newsletter/"
+    ],
+    [
+     "Show",
+     "https://jamilahmed.com/podcast/"
+    ]
+   ]
+  }
+ ],
+ "menu_locations": {
+  "header": 2
+ },
+ "registered_locations": {
+  "bar": "Top Bar Menu",
+  "header": "Header Menu",
+  "footer": "Footer Menu"
+ },
+ "themer": [
+  {
+   "id": 865,
+   "title": "JA 2026 Header",
+   "status": "publish",
+   "type": "header",
+   "loc": [
+    "post:page:853",
+    "post:page:854",
+    "post:page:855",
+    "post:page:856",
+    "post:page:857",
+    "post:page:858"
+   ]
+  },
+  {
+   "id": 866,
+   "title": "JA 2026 Footer",
+   "status": "publish",
+   "type": "footer",
+   "loc": [
+    "post:page:853",
+    "post:page:854",
+    "post:page:855",
+    "post:page:856",
+    "post:page:857",
+    "post:page:858"
+   ]
+  },
+  {
+   "id": 393,
+   "title": "Blog",
+   "status": "publish",
+   "type": "archive",
+   "loc": [
+    "general:archive"
+   ]
+  },
+  {
+   "id": 327,
+   "title": "Breadcrumbs",
+   "status": "publish",
+   "type": "part",
+   "loc": [
+    "general:site"
+   ]
+  },
+  {
+   "id": 232,
+   "title": "Single Blog Post",
+   "status": "publish",
+   "type": "singular",
+   "loc": [
+    "post:post"
+   ]
+  },
+  {
+   "id": 277,
+   "title": "Footer",
+   "status": "publish",
+   "type": "footer",
+   "loc": [
+    "general:site"
+   ]
+  }
+ ],
+ "wpseo_titles": {
+  "separator": "sc-pipe",
+  "title-home-wpseo": "%%sitename%% %%page%% %%sep%% %%sitedesc%%",
+  "metadesc-home-wpseo": "",
+  "noindex-author-wpseo": false,
+  "disable-author": false,
+  "disable-date": true,
+  "disable-attachment": true,
+  "breadcrumbs-enable": true,
+  "website_name": "Jamil Ahmed",
+  "person_name": "",
+  "company_or_person": "person",
+  "company_or_person_user_id": 3,
+  "stripcategorybase": false,
+  "title-post": "%%title%% %%page%% %%sep%% %%sitename%%",
+  "metadesc-post": "",
+  "title-page": "%%title%% %%page%% %%sep%% %%sitename%%",
+  "noindex-tax-category": false,
+  "noindex-tax-post_tag": true,
+  "noindex-tax-post_format": true
+ },
+ "wpseo": {
+  "site_type": "",
+  "enable_xml_sitemap": true,
+  "enable_ai_generator": true,
+  "enable_enhanced_slack_sharing": true,
+  "enable_llms_txt": true,
+  "enable_schema": true
+ },
+ "wpseo_social": {
+  "facebook_site": "",
+  "instagram_url": "",
+  "linkedin_url": "",
+  "myspace_url": "",
+  "og_default_image": "https://jamilahmed.com/wp-content/uploads/2023/03/Jamil-Ahmed-Hero-Image.png",
+  "og_default_image_id": 200,
+  "og_frontpage_title": "",
+  "og_frontpage_desc": "",
+  "og_frontpage_image": "",
+  "og_frontpage_image_id": "",
+  "opengraph": true,
+  "pinterest_url": "",
+  "pinterestverify": "",
+  "twitter": true,
+  "twitter_site": "",
+  "twitter_card_type": "summary_large_image",
+  "youtube_url": "",
+  "wikipedia_url": "",
+  "other_social_urls": [],
+  "mastodon_url": ""
+ },
+ "redirects_yoast": 3,
+ "schema_pro": [],
+ "permalink": "/%postname%/",
+ "blog_public": "1",
+ "counts": {
+  "attachments": "90",
+  "cats": "10",
+  "tags": "0",
+  "users": 3,
+  "comments": 0,
+  "spam": 0
+ },
+ "authors": [
+  [
+   3,
+   "jamilahmed",
+   "Jamil Ahmed",
+   "38",
+   1062
+  ],
+  [
+   1,
+   "jamilahmedstg",
+   "jamilahmedstg",
+   "0",
+   0
+  ],
+  [
+   5,
+   "wpengine",
+   "wpengine",
+   "0",
+   0
+  ]
+ ],
+ "cats": [
+  [
+   "Artificial Intelligence",
+   "artificial-intelligence",
+   10
+  ],
+  [
+   "Blogging",
+   "blogging",
+   13
+  ],
+  [
+   "Comparison",
+   "comparison",
+   13
+  ],
+  [
+   "Email Marketing",
+   "email-marketing",
+   1
+  ],
+  [
+   "List Posts",
+   "list-posts",
+   6
+  ],
+  [
+   "Make Money",
+   "make-money",
+   6
+  ],
+  [
+   "Personal Branding",
+   "personal-branding",
+   5
+  ],
+  [
+   "Review",
+   "review",
+   5
+  ],
+  [
+   "Search Engine Optimization",
+   "search-engine-optimization",
+   20
+  ],
+  [
+   "Software",
+   "software",
+   2
+  ]
+ ]
+}
