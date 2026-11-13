@@ -583,3 +583,18 @@ body:has(.ja26-root) .ja-social p { gap: 6px; flex-wrap: nowrap; }
 body:has(.ja26-root) .ja-social svg { width: 16px; height: 16px; }
 @media (max-width: 768px) { body:has(.ja26-root) .ja-social p { flex-wrap: wrap; } }
 body:has(.ja26-root) .ja-footer h4.fl-heading { white-space: nowrap; }
+
+/* Footer latest posts: lighter and smaller, same colour as the other footer links */
+body:has(.ja26-root) .ja-footer-latest a,
+body:has(.ja26-root) .ja-footer-latest .fl-post-feed-title,
+body:has(.ja26-root) .ja-footer-latest .fl-post-grid-title,
+body:has(.ja26-root) .ja-footer-latest :where(h2, h3, h4) {
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	line-height: 1.4 !important;
+	letter-spacing: 0.02em !important;
+}
+body:has(.ja26-root) .ja-footer-latest :where(h2, h3, h4) a { color: var(--ja-on-dark-muted) !important; }
+body:has(.ja26-root) .ja-footer-latest :where(h2, h3, h4) a:hover { color: var(--ja-brass-light) !important; }
+body:has(.ja26-root) .ja-footer-latest .fl-post-feed-post, body:has(.ja26-root) .ja-footer-latest .fl-post-grid-post { padding: 9px 0 !important; }
+body:has(.ja26-root) .ja-footer-latest .fl-post-feed-header, body:has(.ja26-root) .ja-footer-latest .fl-post-feed-text { margin: 0 !important; padding: 0 !important; }
