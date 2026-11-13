@@ -45,7 +45,7 @@ def css():
     print("css:", php(code))
 
 
-PAGES = {"home": 853, "about": 854, "consulting": 855, "newsletter": 856, "podcast": 857, "contact": 858, "header": 865, "footer": 866}
+PAGES = {"home": 853, "about": 854, "consulting": 855, "newsletter": 856, "podcast": 857, "contact": 858, "header": 865, "footer": 866, "privacy": 867, "terms": 868, "disclosure": 869}
 
 
 def page(script):
