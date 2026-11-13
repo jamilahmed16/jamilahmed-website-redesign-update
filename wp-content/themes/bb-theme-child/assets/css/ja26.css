@@ -636,3 +636,17 @@ body:has(.ja26-root) .ja-marquee-set i { font-style: normal; color: var(--ja-bra
 	body:has(.ja26-root) .ja-marquee-set[aria-hidden="true"] { display: none; }
 	body:has(.ja26-root) .ja-marquee { width: auto; margin-left: 0; -webkit-mask-image: none; mask-image: none; }
 }
+
+/* ---------- Sponsored widget (Impact / Semrush) ---------- */
+body:has(.ja26-root) .ja-prose .ja-sponsor { margin: 2.2em 0; }
+body:has(.ja26-root) .ja-prose .ja-sponsor-label { font-family: var(--ja-mono); font-size: 11px !important; letter-spacing: .12em; text-transform: uppercase; color: var(--ja-muted); margin: 0 0 8px; }
+body:has(.ja26-root) .ja-prose .ja-sponsor-frame { display: block; width: 100%; height: 190px; border: 0; }
+body:has(.ja26-root) .ja-prose .ja-sponsor-mobile { display: none; }
+@media (max-width: 760px) {
+	body:has(.ja26-root) .ja-prose .ja-sponsor-frame { display: none; }
+	body:has(.ja26-root) .ja-prose .ja-sponsor-mobile {
+		display: flex; flex-direction: column; gap: 14px; padding: 22px; background: var(--ja-ink); text-decoration: none !important; border-top: 3px solid var(--ja-brass);
+	}
+	body:has(.ja26-root) .ja-prose .ja-sponsor-mobile strong { font-family: var(--ja-head); font-weight: 500; font-size: 24px; line-height: 1.15; text-transform: uppercase; color: var(--ja-on-dark); }
+	body:has(.ja26-root) .ja-prose .ja-sponsor-mobile span { align-self: flex-start; font-family: var(--ja-mono); font-size: 13px; letter-spacing: .08em; text-transform: uppercase; background: var(--ja-brass); color: var(--ja-ink); padding: 14px 20px; }
+}
