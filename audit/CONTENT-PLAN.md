@@ -21,6 +21,60 @@ Source: the SEMrush Organic Positions export (US, 12 Nov 2026), in `data/`, plus
 
 US data only. Search Console (worldwide clicks and impressions) can still change individual calls, marked ⚑ below.
 
+## Search Console (16 months to 14 Nov 2026, worldwide)
+
+**103 clicks, 406K impressions, CTR 0.03%, average position 68.5.** 28 indexed pages, 35 not indexed.
+
+- **Who clicks vs who sees:** 57 of 103 clicks come from Bangladesh, Pakistan and India. 56% of impressions are from the US,
+  at position 69 with 10 clicks. The US is the opportunity; South Asia is the current audience.
+- **Generative AI features:** 59 impressions in 16 months, from brightedge-vs-semrush (11), semrush-app-center (10),
+  diib-vs-semrush (8) and semrush-vs-brightlocal (7). The Semrush comparison pages are the ones AI features already pick up.
+- **Index coverage:**
+  - 13 URLs return 404, the old footer links among them.
+  - 14 are "crawled, currently not indexed": a thin-content signal.
+  - 5 are alternate pages with a canonical tag; 3 are redirects.
+  - Old `/paged-2/N/` pagination URLs still collect impressions.
+
+### Quick wins: already on page 1 or 2, but nobody clicks (fix titles and descriptions first)
+
+| Query | Page | Position | Impressions | Clicks |
+|---|---|---|---|---|
+| brightlocal vs semrush vs maphigher | semrush-vs-brightlocal | **2.8** | 4,284 | 0 |
+| semrush app center | semrush-app-center | **9.8** | 4,984 | 0 |
+| semrush agency growth kit / agency growth kit semrush / review / price | semrush-agency-growth-kit-review | **7 to 13** | ~4,500 | 1 |
+| diib vs semrush / semrush vs diib | diib-vs-semrush | **9 to 10** | 947 | 6 |
+| brightlocal vs semrush | semrush-vs-brightlocal | 16.7 | 1,482 | 1 |
+| semrush (head term) | semrush-agency-growth-kit-review | 7.9 | 682 | 0 |
+
+The titles still say "2025" and don't match the query wording. Rewriting the title, description and opening answer of
+these 4 pages comes **before** anything else.
+
+### Biggest pages by impressions (rewrite targets)
+
+| Page | Impressions | Position | Clicks |
+|---|---|---|---|
+| best-seo-reporting-tools-for-agencies | **164,468** | 79 | 1 |
+| small-business-seo | **50,657** | 81 | 1 |
+| semrush-pricing | 39,250 | 70 | 0 |
+| brightedge-vs-semrush | 34,825 | 62 | 0 |
+| semrush-vs-ahrefs | 30,985 | 65 | 0 |
+| semrush-vs-brightlocal | 17,152 | 37 | 4 |
+| best-ai-tools-for-writing-seo-rich-blog-content | 14,635 | 75 | 7 |
+| semrush-app-center | 11,504 | 19 | 2 |
+
+### Changes to the decisions below, based on Search Console
+
+- **best-ai-gift-ideas-tools: KEEP, don't retire.** It's the #2 page for clicks (14, 8K impressions), it's seasonal, and it has
+  affiliate potential. Refresh it before the holidays and link it from the Black Friday deals page.
+- **semrush-agency-growth-kit-review, semrush-app-center, diib-vs-semrush, semrush-vs-brightlocal: priority 1** (the quick wins above).
+- **decktopus-review** (1 click, position 18) and **ai-tool-to-convert-text-to-video** (1 click): still retire. One click in 16 months isn't worth an off-brand page.
+- **Old URLs that still get impressions and now 404** need redirects:
+  - `/personal-branding-consulting-services/` (115 impressions) → `/consulting/`
+  - `/best-personal-branding-course/` (33 impressions) → how-to-build-a-personal-brand
+  - `/paged-2/*` → `/blog/`
+
+  Yoast Premium redirects don't fire until it's licensed. Until then, use WP Engine's redirect rules (User Portal → Redirect rules).
+
 ## Backlinks (SEMrush export, 2,200 links, 13 Nov 2026)
 
 - **2,194 of 2,200 links point to the homepage. 2,091 (95%) are spam**, from 2,032 domains:
@@ -82,7 +136,6 @@ US data only. Search Console (worldwide clicks and impressions) can still change
 
 | Post | Note |
 |---|---|
-| best-ai-gift-ideas-tools | 9 keywords, all position 54 or lower, consumer gifts: off-brand |
 | best-software-for-hosting-webinars | 2 keywords at #89 and #97 |
 | ai-tool-to-convert-text-to-video | no ranking |
 | decktopus-review | no ranking |
