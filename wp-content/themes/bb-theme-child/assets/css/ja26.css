@@ -609,3 +609,30 @@ body:has(.ja26-root) .ja-prose .ja-takeaways > p:first-child { font-family: var(
 body:has(.ja26-root) .ja-prose .ja-takeaways li { font-size: 17px; }
 body:has(.ja26-root) .ja-prose .ja-cta-inline { margin-top: 2em; padding: 20px 24px; border: 1px solid var(--ja-ink); font-weight: 500; }
 @media (max-width: 768px) { body:has(.ja26-root) .ja-prose .ja-answer p { font-size: 17px; } body:has(.ja26-root) .ja-prose .ja-answer { padding: 20px; } }
+
+/* ---------- Industries: single-line marquee, moving left to right ---------- */
+body:has(.ja26-root) .ja-industries { overflow: hidden; }
+body:has(.ja26-root) .ja-industries-label.fl-heading {
+	font-family: var(--ja-mono) !important; font-size: 12px !important; font-weight: 500; letter-spacing: 0.12em;
+	text-transform: uppercase; color: var(--ja-on-dark-muted) !important; line-height: 1.4;
+}
+body:has(.ja26-root) .ja-marquee {
+	width: 100vw; margin-left: calc(50% - 50vw); overflow: hidden;
+	-webkit-mask-image: linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%);
+	mask-image: linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%);
+}
+body:has(.ja26-root) .ja-marquee-track { display: flex; width: max-content; animation: ja-marquee-ltr 48s linear infinite; will-change: transform; }
+body:has(.ja26-root) .ja-marquee:hover .ja-marquee-track { animation-play-state: paused; }
+body:has(.ja26-root) .ja-marquee-wrap .ja-marquee-set {
+	margin: 0; max-width: none; white-space: nowrap; flex: none;
+	font-family: var(--ja-head); font-weight: 500; text-transform: uppercase; letter-spacing: 0.01em;
+	font-size: clamp(34px, 4.2vw, 64px) !important; line-height: 1.1 !important; color: var(--ja-on-dark) !important;
+}
+body:has(.ja26-root) .ja-marquee-set i { font-style: normal; color: var(--ja-brass); padding: 0 0.45em; }
+@keyframes ja-marquee-ltr { from { transform: translateX(-50%); } to { transform: translateX(0); } }
+@media (prefers-reduced-motion: reduce) {
+	body:has(.ja26-root) .ja-marquee-track { animation: none; width: auto; flex-wrap: wrap; }
+	body:has(.ja26-root) .ja-marquee-wrap .ja-marquee-set { white-space: normal; }
+	body:has(.ja26-root) .ja-marquee-set[aria-hidden="true"] { display: none; }
+	body:has(.ja26-root) .ja-marquee { width: auto; margin-left: 0; -webkit-mask-image: none; mask-image: none; }
+}

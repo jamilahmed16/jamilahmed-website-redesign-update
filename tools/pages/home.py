@@ -100,15 +100,16 @@ story.text(
 )
 story.button("Read my story", "/about-me/", ghost=True)
 
-# 6. Industries: a typographic band.
-ind = p.row(bg="ink", cls="ja-dark ja-industries", pad=(96, 96), pad_mobile=(64, 64))
+# 6. Industries: one line scrolling left to right (pauses on hover, static for reduced motion).
+IND = ["Pharmaceutical &amp; Life Sciences", "Healthcare", "B2B SaaS", "Manufacturing", "Technology",
+       "Professional Services", "E-commerce"]
+strip = "".join(f"<span>{x}</span><i aria-hidden=\"true\">/</i>" for x in IND)
+ind = p.row(bg="ink", cls="ja-dark ja-industries", pad=(88, 88), pad_mobile=(56, 56))
 (ic,) = ind.cols(100)
-ic.text("<p>Industries I work with</p>", cls="ja-caption", mb=20)
-ic.heading(
-    "Pharmaceutical &amp; Life Sciences <span>/</span> Healthcare <span>/</span> B2B SaaS <span>/</span> "
-    "Manufacturing <span>/</span> Technology <span>/</span> Professional Services <span>/</span> E-commerce",
-    tag="h2", cls="ja-industry-list", mb=0,
-)
+ic.heading("Industries I work with", tag="h2", cls="ja-industries-label", mb=28)
+ic.text(f'<div class="ja-marquee"><div class="ja-marquee-track">'
+        f'<p class="ja-marquee-set">{strip}</p><p class="ja-marquee-set" aria-hidden="true">{strip}</p>'
+        f'</div></div>', cls="ja-marquee-wrap")
 
 # 7. Writing: latest articles from the blog.
 wr = p.row(bg="stone", cls="ja-writing", pad=(112, 96), pad_mobile=(64, 56))
