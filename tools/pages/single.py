@@ -26,7 +26,7 @@ c.text("<p>__THEMER__fl-post-content</p>", cls="ja-prose")
 # Author box and navigation.
 au = p.row(bg="stone", cls="ja-after", pad=(0, 64), pad_mobile=(0, 40), width=1200)
 pic, a = au.cols(20, 80, gap=32, cls=["ja-author-wrap", "ja-author-wrap"], mobile=[30, 70])
-pic.photo(791, "https://jamilahmed.com/wp-content/uploads/2025/09/Jamil-Ahmed-Personal-Avatar.jpg", alt="Jamil Ahmed", cls="ja-author-pic")
+pic.photo(871, "https://jamilahmed.com/wp-content/uploads/2026/11/jamil-ahmed-author.jpg", alt="Jamil Ahmed, SEO and AI Search Consultant", cls="ja-author-pic")
 a.heading("<a href=\"/about-me/\">Jamil Ahmed</a>", tag="h3", mb=10)
 a.text("<p>SEO &amp; AI Search Consultant, Semrush Ambassador and Founder &amp; CEO of Reinforce Lab Ltd. A pharmacist by "
        "training with 13+ years across SEO, digital strategy and international pharmaceutical business. Named a Top 3 Business "
