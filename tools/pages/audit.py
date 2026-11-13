@@ -143,8 +143,8 @@ schema = {"@context": "https://schema.org", "@graph": [
 ]}
 qc.text('<script type="application/ld+json">' + json.dumps(schema) + '</script>', mb=0)
 
-# 9. Closing CTA: light band (contrasts with the dark footer), headline left, next steps right
-cta = p.row(bg="stone_deep", cls="ja-closing", pad=(112, 112), pad_mobile=(64, 64))
+# 9. Closing CTA: graphite band with brass rule (separates it from the ink footer), headline left, next steps right
+cta = p.row(bg="graphite", cls="ja-dark ja-closing", pad=(112, 112), pad_mobile=(64, 64))
 cl, cr = cta.cols(55, 45, align="center", gap=80)
 cl.heading("Find out what's holding you back on Google <em>and</em> in AI answers", tag="h2", mb=24)
 cl.text("<p>Tell me about your company. You'll get a fixed quote and a delivery date, and if an audit isn't the right "

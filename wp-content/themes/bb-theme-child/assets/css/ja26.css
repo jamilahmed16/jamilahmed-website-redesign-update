@@ -757,3 +757,9 @@ body:has(.ja26-root) .ja-next span { color: var(--ja-muted); font-size: 15.5px; 
 @media (max-width: 768px) {
 	body:has(.ja26-root) .ja-price-card > .fl-col-content { padding: 24px 4px 28px; margin: 40px 20px 0; }
 }
+/* Closing CTA, dark version */
+body:has(.ja26-root) .ja-dark.ja-closing { border-bottom: 1px solid rgba(175,130,75,.35); }
+body:has(.ja26-root) .ja-dark .ja-next li { border-color: rgba(244,243,241,.14); }
+body:has(.ja26-root) .ja-dark .ja-next li::before { border-color: var(--ja-brass); color: var(--ja-brass-light); }
+body:has(.ja26-root) .ja-dark .ja-next strong { color: var(--ja-on-dark); }
+body:has(.ja26-root) .ja-dark .ja-next span { color: var(--ja-on-dark-muted); }
