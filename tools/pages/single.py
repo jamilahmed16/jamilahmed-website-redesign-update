@@ -28,8 +28,8 @@ au = p.row(bg="stone", cls="ja-after", pad=(0, 64), pad_mobile=(0, 40), width=12
 pic, a = au.cols(20, 80, gap=32, cls=["ja-author-wrap", "ja-author-wrap"], mobile=[30, 70])
 pic.photo(871, "https://jamilahmed.com/wp-content/uploads/2026/11/jamil-ahmed-author.jpg", alt="Jamil Ahmed, SEO and AI Search Consultant", cls="ja-author-pic")
 a.heading("<a href=\"/about-me/\">Jamil Ahmed</a>", tag="h3", mb=10)
-a.text("<p>SEO &amp; AI Search Consultant, Semrush Ambassador and Founder &amp; CEO of Reinforce Lab Ltd. A pharmacist by "
-       "training with 13+ years across SEO, digital strategy and international pharmaceutical business. Named a Top 3 Business "
+a.text("<p>SEO &amp; AI Search Consultant, Semrush Ambassador and Founder &amp; CEO of Reinforce Lab Ltd, with 13+ "
+       "years across SEO, digital strategy and international pharmaceutical business. Named a Top 3 Business "
        "Intelligence Marketing Influencer by Onalytica.</p>", cls="ja-author-text", mb=20)
 a.button("Work with Jamil", "/consulting/", ghost=True)
 (nav,) = au.cols(100, cls="ja-hair")
