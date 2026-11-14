@@ -8,8 +8,8 @@ p = Page()
 
 hero = p.row(bg="ink", cls="ja26-root ja-dark", pad=(120, 112), pad_mobile=(64, 64))
 (h,) = hero.cols(100)
-h.heading("Consulting for Google <em>and</em> AI search", tag="h1", mb=28, cls="ja-measure")
-h.text("<p>Senior, hands-on help for founders, C-suite leaders, B2B and pharmaceutical companies that want to be found, "
+h.heading("SEO consulting for Google <em>and</em> AI search", tag="h1", mb=28, cls="ja-measure")
+h.text("<p>Senior, hands-on SEO consulting services for founders, C-suite leaders, B2B and pharmaceutical companies that want to be found, "
        "cited and chosen. You work with me directly.</p>", cls="ja-lead", mb=40)
 h.button("Book a consultation", "/contact/")
 

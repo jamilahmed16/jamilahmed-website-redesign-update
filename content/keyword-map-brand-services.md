@@ -50,6 +50,6 @@ Source: `data/semrush-keyword-overview-seo-consultant-us-2026-11-14.pdf`.
 ### Actions
 | Page | Change |
 |---|---|
-| Consulting `/consulting/` | Target **seo consulting services** (9.9K, KD 28) + seo consulting (9.9K, KD 24) + ai seo consultant |
+| Consulting `/consulting/` (applied 14 Nov 2026) | Target **seo consulting services** (9.9K, KD 28) + seo consulting (9.9K, KD 24) + ai seo consultant |
 | Home `/` | Keep **seo consultant** (18.1K) |
 | New guide | "What does an SEO consultant do? (and what to ask before you hire one)": the question cluster, links to Consulting and the audit page |
