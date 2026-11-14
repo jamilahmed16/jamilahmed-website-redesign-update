@@ -90,7 +90,7 @@ wm = p.row(bg="stone", pad=(64, 112), pad_mobile=(40, 64))
 ml, mr = wm.cols(40, 60, gap=80)
 ml.heading("Why work with me", tag="h2", mb=24)
 mr.text("<ul>"
-        "<li><strong>Pharma from the inside.</strong> Product Manager, Immunology at Janssen (Johnson &amp; Johnson), International Marketing at Square Group and International Business at Beacon Pharmaceuticals.</li>"
+        "<li><strong>A pharmacist who worked inside the industry.</strong> Product Manager, Immunology at Janssen (Johnson &amp; Johnson), International Marketing at Square Group and International Business at Beacon Pharmaceuticals.</li>"
         "<li><strong>Regulated, export-driven markets.</strong> I've worked where every claim needs evidence and every market has its own rules.</li>"
         "<li><strong>Founder &amp; CEO of Reinforce Lab</strong>, an AI growth company since 2018, and a Semrush Ambassador.</li>"
         "<li><strong>Google and AI search together</strong>, so your teams follow one plan.</li>"

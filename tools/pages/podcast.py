@@ -1,6 +1,7 @@
 """Podcast page (/podcast/)."""
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from _cta import closing_cta
 from bb import Page, SITE, payload
 UP = f"{SITE}/wp-content/uploads"
 POST_ID = int(os.environ.get("POST_ID", "0"))
@@ -26,12 +27,13 @@ b.text("<ul>"
        "<li><strong>AI in practice</strong>: automation that pays for itself</li>"
        "</ul>", cls="ja-list")
 
-g = p.row(bg="ink", cls="ja-dark", pad=(112, 112), pad_mobile=(64, 64))
-(gc,) = g.cols(100)
-gc.heading("Have a story worth sharing?", tag="h2", mb=24, cls="ja-measure")
-gc.text("<p>I invite operators, founders and specialists with real experience to share. Tell me about yourself and the "
-        "topic you would bring.</p>", cls="ja-lead", mb=40)
-gc.button("Be a guest", "/contact/")
+# Closing call to action (shared style)
+closing_cta(p, "Have a story worth <em>sharing</em>?",
+            "I invite operators, founders and specialists with real experience to share. Tell me about yourself and the topic you would bring.",
+            [("Be a guest", "/contact/", False), ("Read the newsletter", "/newsletter/", True)],
+            "How it works", [("Send your idea", "Who you are and the topic you'd bring."),
+                              ("Quick call", "We shape the conversation together."),
+                              ("Record the episode", "A relaxed, practical conversation.")])
 
 if __name__ == "__main__":
     print(payload(POST_ID, p))

@@ -1,6 +1,7 @@
 """Newsletter page (/newsletter/)."""
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from _cta import closing_cta
 from bb import Page, SITE, payload
 UP = f"{SITE}/wp-content/uploads"
 POST_ID = int(os.environ.get("POST_ID", "0"))
@@ -34,11 +35,12 @@ for col, (title, body) in zip(who.cols(33.33, 33.33, 33.34, gap=40, cls="ja-rule
     col.heading(title, tag="h3", mb=10)
     col.text(f"<p>{body}</p>")
 
-cta = p.row(bg="ink", cls="ja-dark", pad=(112, 112), pad_mobile=(64, 64))
-l2, r2 = cta.cols(50, 50, align="center", gap=64)
-l2.heading("Get the next issue", tag="h2", mb=16)
-l2.text("<p>One email, practical and to the point.</p>", cls="ja-lead")
-r2.subscribe("Subscribe")
+# Closing call to action (shared style, with the subscribe form)
+closing_cta(p, "Get the next <em>issue</em>", "One email, practical and to the point.", [],
+            "What you get", [("Practical AI solutions", "Tools and ideas you can use this week."),
+                              ("Automation workflows", "Step-by-step systems that save your team hours."),
+                              ("Search strategy and case studies", "What's working on Google and in AI search.")],
+            form=lambda col: col.subscribe("Subscribe"))
 
 if __name__ == "__main__":
     print(payload(POST_ID, p))

@@ -1,6 +1,7 @@
 """About page (/about-me/)."""
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from _cta import closing_cta
 from bb import Page, SITE, payload
 UP = f"{SITE}/wp-content/uploads"
 POST_ID = int(os.environ.get("POST_ID", "0"))
@@ -75,11 +76,11 @@ e.text("<ul><li><strong>Bachelor's degree</strong> East West University</li>"
        "<li><strong>Content Strategy for Professionals</strong> Northwestern University, 2026</li></ul>",
        cls="ja-list")
 
-cta = p.row(bg="ink", cls="ja-dark", pad=(112, 112), pad_mobile=(64, 64))
-(c,) = cta.cols(100)
-c.heading("Let's talk about your search visibility", tag="h2", mb=24, cls="ja-measure")
-c.text("<p>If your buyers research in Google and AI assistants, I can show you where you stand and what to fix first.</p>", cls="ja-lead", mb=40)
-c.button("Book a consultation", "/contact/")
+# Closing call to action (shared style)
+closing_cta(p, "Let's talk about your search <em>visibility</em>",
+            "If your buyers research in Google and AI assistants, I can show you where you stand and what to fix first.",
+            [("Book a consultation", "/contact/", False), ("See consulting", "/consulting/", True)],
+            "What happens next", [('Send a short brief', 'Your company, markets and goals.'), ('Short call', 'We agree what to fix first, scope and timeline.'), ('Audit or kickoff', 'Usually the audit first, then a 90-day plan your team can ship.')])
 
 if __name__ == "__main__":
     print(payload(POST_ID, p))

@@ -1,6 +1,7 @@
 """Consulting page (/consulting/)."""
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from _cta import closing_cta
 from bb import Page, SITE, payload
 UP = f"{SITE}/wp-content/uploads"
 POST_ID = int(os.environ.get("POST_ID", "0"))
@@ -31,7 +32,7 @@ b.text("<ul>"
 eng = p.row(bg="graphite", cls="ja-dark", pad=(112, 112), pad_mobile=(64, 64))
 (eh,) = eng.cols(100)
 eh.heading("Engagements", tag="h2", mb=20)
-eh.text('<p>Specialist services: <a href="/enterprise-seo-consultant/">Enterprise SEO consulting</a> and <a href="/b2b-saas-seo-consultant/">B2B &amp; SaaS SEO consulting</a>.</p>', cls="ja-specialist", mb=48)
+eh.text('<p>Specialist services: <a href="/enterprise-seo-consultant/">Enterprise SEO consulting</a> , <a href="/b2b-saas-seo-consultant/">B2B &amp; SaaS SEO consulting</a> and <a href="/pharma-healthcare-seo/">Pharma &amp; healthcare SEO</a>.</p>', cls="ja-specialist", mb=48)
 for title, desc, items in [
     ("SEO &amp; AI Search Audit",
      "A senior diagnostic of your visibility on Google and inside AI answers, delivered in 24 to 72 hours with a walkthrough and a prioritised 90-day plan. <a href=\"/seo-ai-search-audit/\">See what the audit includes</a>.",
@@ -81,11 +82,11 @@ for q, ans in [
     qc.heading(q, tag="h3", mb=10)
     qc.text(f"<p>{ans}</p>", mb=32)
 
-cta = p.row(bg="ink", cls="ja-dark", pad=(112, 112), pad_mobile=(64, 64))
-(c,) = cta.cols(100)
-c.heading("Start with a conversation", tag="h2", mb=24)
-c.text("<p>Tell me about your company and what you want search to do for it.</p>", cls="ja-lead", mb=40)
-c.button("Book a consultation", "/contact/")
+# Closing call to action (shared style)
+closing_cta(p, "Start with a <em>conversation</em>",
+            "Tell me about your company and what you want search to do for it. If I'm not the right fit, I'll say so.",
+            [("Book a consultation", "/contact/", False), ("Start with an audit", "/seo-ai-search-audit/", True)],
+            "What happens next", [('Send a short brief', 'Your company, markets and goals.'), ('Short call', 'We agree what to fix first, scope and timeline.'), ('Audit or kickoff', 'Usually the audit first, then a 90-day plan your team can ship.')])
 
 if __name__ == "__main__":
     print(payload(POST_ID, p))
