@@ -31,7 +31,7 @@ b.text("<ul>"
 eng = p.row(bg="graphite", cls="ja-dark", pad=(112, 112), pad_mobile=(64, 64))
 (eh,) = eng.cols(100)
 eh.heading("Engagements", tag="h2", mb=20)
-eh.text('<p>Specialist services: <a href="/enterprise-seo-consultant/">Enterprise SEO consulting</a>.</p>', cls="ja-specialist", mb=48)
+eh.text('<p>Specialist services: <a href="/enterprise-seo-consultant/">Enterprise SEO consulting</a> and <a href="/b2b-saas-seo-consultant/">B2B &amp; SaaS SEO consulting</a>.</p>', cls="ja-specialist", mb=48)
 for title, desc, items in [
     ("SEO &amp; AI Search Audit",
      "A senior diagnostic of your visibility on Google and inside AI answers, delivered in 24 to 72 hours with a walkthrough and a prioritised 90-day plan. <a href=\"/seo-ai-search-audit/\">See what the audit includes</a>.",

@@ -46,7 +46,7 @@ def css():
     print("css:", php(code))
 
 
-PAGES = {"home": 853, "about": 854, "consulting": 855, "newsletter": 856, "podcast": 857, "contact": 858, "header": 865, "footer": 866, "single": 232, "archive": 393, "blog": 870, "privacy": 867, "terms": 868, "disclosure": 869, "audit": 872, "enterprise": 873, "b2b": 874}
+PAGES = {"home": 853, "about": 854, "consulting": 855, "newsletter": 856, "podcast": 857, "contact": 858, "header": 865, "footer": 866, "single": 232, "archive": 393, "blog": 870, "privacy": 867, "terms": 868, "disclosure": 869, "audit": 872, "enterprise": 873, "b2b": 874, "pharma": 875}
 
 
 THEMER = {
