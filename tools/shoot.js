@@ -28,7 +28,7 @@ function accessLink() {
   for (const id of ids.split(',')) {
     for (const w of widths) {
       await page.setViewportSize({ width: w, height: w < 600 ? 844 : 900 });
-      await page.goto(`https://jamilahmed.com/?page_id=${id}&preview=true`, { waitUntil: 'networkidle' });
+      await page.goto(`https://jamilahmed.com/?${process.argv[5] === "post" ? "p" : "page_id"}=${id}&preview=true`, { waitUntil: 'networkidle' });
       await page.addStyleTag({ content: '#wpadminbar{display:none!important} html{margin-top:0!important}' });
       await page.evaluate(() => document.fonts.ready);
       await page.screenshot({ path: `${outdir}/p${id}-${w}.png`, fullPage: true });
