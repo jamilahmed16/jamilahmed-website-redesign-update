@@ -134,9 +134,9 @@ FAQ = [
     ("How do we start?",
      "Book a consultation. Most enterprise engagements start with the SEO &amp; AI Search Audit, which gives you a prioritised 90-day plan."),
 ]
-qa = p.row(bg="stone", pad=(112, 112), pad_mobile=(64, 64))
+qa = p.row(bg="stone", cls="ja-faq", pad=(112, 112), pad_mobile=(64, 64))
 (qh,) = qa.cols(100)
-qh.heading("Questions", tag="h2", mb=40)
+qh.heading("Frequently Asked Questions (FAQs)", tag="h2", cls="ja-faq-title", mb=48)
 for q, ans in FAQ:
     (qc,) = qa.cols(100, cls="ja-qa")
     qc.heading(q, tag="h3", mb=10)

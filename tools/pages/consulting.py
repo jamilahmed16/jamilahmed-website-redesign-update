@@ -30,7 +30,8 @@ b.text("<ul>"
 
 eng = p.row(bg="graphite", cls="ja-dark", pad=(112, 112), pad_mobile=(64, 64))
 (eh,) = eng.cols(100)
-eh.heading("Engagements", tag="h2", mb=48)
+eh.heading("Engagements", tag="h2", mb=20)
+eh.text('<p>Specialist services: <a href="/enterprise-seo-consultant/">Enterprise SEO consulting</a>.</p>', cls="ja-specialist", mb=48)
 for title, desc, items in [
     ("SEO &amp; AI Search Audit",
      "A senior diagnostic of your visibility on Google and inside AI answers, delivered in 24 to 72 hours with a walkthrough and a prioritised 90-day plan. <a href=\"/seo-ai-search-audit/\">See what the audit includes</a>.",
@@ -63,9 +64,9 @@ for col, (step, title, body) in zip(hw.cols(25, 25, 25, 25, gap=40, cls="ja-rule
     col.heading(title, tag="h3", mb=10)
     col.text(f"<p>{body}</p>")
 
-qa = p.row(bg="stone", pad=(0, 112), pad_mobile=(0, 64))
+qa = p.row(bg="stone", cls="ja-faq", pad=(0, 112), pad_mobile=(0, 64))
 (qh,) = qa.cols(100)
-qh.heading("Questions", tag="h2", mb=40)
+qh.heading("Frequently Asked Questions (FAQs)", tag="h2", cls="ja-faq-title", mb=48)
 for q, ans in [
     ("What is AI Search Optimization?",
      "It is the work of making your company the source AI assistants such as ChatGPT, Perplexity, Gemini and Google's AI Overviews rely on and cite. It builds on SEO, and adds evidence, structure, entity clarity and authority signals that language models use."),

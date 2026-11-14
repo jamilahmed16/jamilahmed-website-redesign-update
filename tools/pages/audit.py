@@ -127,9 +127,9 @@ FAQ = [
     ("Can you implement the fixes?",
      "Yes. Your team can run the plan, I can advise them, or my company Reinforce Lab can implement it end to end."),
 ]
-qa = p.row(bg="stone", pad=(112, 112), pad_mobile=(64, 64))
+qa = p.row(bg="stone", cls="ja-faq", pad=(112, 112), pad_mobile=(64, 64))
 (qh,) = qa.cols(100)
-qh.heading("Questions", tag="h2", mb=40)
+qh.heading("Frequently Asked Questions (FAQs)", tag="h2", cls="ja-faq-title", mb=48)
 for q, ans in FAQ:
     (qc,) = qa.cols(100, cls="ja-qa")
     qc.heading(q, tag="h3", mb=10)
