@@ -853,3 +853,112 @@ body:has(.ja26-root) .ja-faq-title .fl-heading, body:has(.ja26-root) h2.ja-faq-t
 	body:has(.ja26-root) a.fl-post-grid-more { display: inline-block; padding: 12px 0; }
 	body:has(.ja26-root) .ja-crumbs a { display: inline-block; padding: 12px 4px; }
 }
+
+/* =====================================================================
+ * Service pages v2: hero illustrations, credentials, definitions,
+ * ways to work, journey table, review workflow
+ * ===================================================================== */
+body:has(.ja26-root) .ja-svc-hero h1 { font-size: clamp(44px, 5.2vw, 76px) !important; }
+body:has(.ja26-root) .ja-art-wrap { margin: 0 !important; }
+body:has(.ja26-root) .ja-art {
+	background: var(--ja-graphite); border: 1px solid rgba(205,165,111,.3); border-top: 3px solid var(--ja-brass);
+	padding: 28px 28px 26px; color: var(--ja-on-dark); font-family: var(--ja-body);
+}
+body:has(.ja26-root) .ja-art p { margin: 0; max-width: none; }
+body:has(.ja26-root) .ja-art .ja-art-k { font-family: var(--ja-mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--ja-brass-light); margin-bottom: 10px; }
+body:has(.ja26-root) .ja-art .ja-art-t { font-family: var(--ja-head); font-size: 26px; line-height: 1.15; text-transform: uppercase; color: var(--ja-on-dark); margin-bottom: 20px; }
+body:has(.ja26-root) .ja-art-cap { font-size: 14px !important; color: var(--ja-on-dark-muted); margin-top: 14px !important; }
+body:has(.ja26-root) .fl-row:not(.ja-dark) .ja-art-cap { color: var(--ja-muted); }
+
+/* Report contents */
+body:has(.ja26-root) .ja-art-toc { list-style: none; counter-reset: toc; margin: 0; padding: 0; }
+body:has(.ja26-root) .ja-art-toc li { counter-increment: toc; display: flex; gap: 14px; align-items: baseline; padding: 11px 0; border-top: 1px solid rgba(244,243,241,.12); font-size: 16px; color: var(--ja-on-dark); margin: 0; }
+body:has(.ja26-root) .ja-art-toc li::before { content: counter(toc); font-family: var(--ja-mono); font-size: 13px; color: var(--ja-brass-light); width: 18px; flex: none; }
+body:has(.ja26-root) .ja-art-toc li:last-child { color: var(--ja-brass-light); font-weight: 600; }
+
+/* Definition-style details used by finding and review cards */
+body:has(.ja26-root) .ja-art dl { margin: 0; display: grid; grid-template-columns: 150px 1fr; }
+body:has(.ja26-root) .ja-art dt, body:has(.ja26-root) .ja-art dd { margin: 0; padding: 11px 0; border-top: 1px solid rgba(244,243,241,.12); font-size: 15px; line-height: 1.5; }
+body:has(.ja26-root) .ja-art dt { color: var(--ja-on-dark-muted); font-weight: 500; padding-right: 16px; }
+body:has(.ja26-root) .ja-art dd { color: var(--ja-on-dark); }
+body:has(.ja26-root) .ja-pill { display: inline-block; font-family: var(--ja-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; padding: 2px 8px; border: 1px solid var(--ja-brass); color: var(--ja-brass-light); margin-right: 8px; }
+body:has(.ja26-root) .ja-pill-hi { background: var(--ja-brass); color: var(--ja-ink); }
+body:has(.ja26-root) .ja-art-finding .ja-art-t { font-size: 24px; }
+
+/* Priority matrix */
+body:has(.ja26-root) .ja-mx { position: relative; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto; gap: 1px; background: rgba(244,243,241,.14); margin: 8px 0 26px 22px; }
+body:has(.ja26-root) .ja-mx-q { background: var(--ja-graphite); padding: 16px 16px 18px; min-height: 120px; }
+body:has(.ja26-root) .ja-mx-q b { display: block; font-family: var(--ja-mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--ja-on-dark-muted); font-weight: 500; margin-bottom: 10px; }
+body:has(.ja26-root) .ja-mx-q.q1 b { color: var(--ja-brass-light); }
+body:has(.ja26-root) .ja-mx-q i { display: block; font-style: normal; font-size: 14.5px; line-height: 1.4; color: var(--ja-on-dark); padding-left: 14px; position: relative; margin-top: 8px; }
+body:has(.ja26-root) .ja-mx-q i::before { content: ""; position: absolute; left: 0; top: .5em; width: 6px; height: 6px; background: var(--ja-brass); }
+body:has(.ja26-root) .ja-mx-q.q4 i { color: var(--ja-on-dark-muted); }
+body:has(.ja26-root) .ja-mx-q.q4 i::before { background: var(--ja-on-dark-muted); }
+body:has(.ja26-root) .ja-mx-y { position: absolute; left: -22px; top: 50%; transform: translate(-50%, -50%) rotate(-90deg); font-family: var(--ja-mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ja-on-dark-muted); }
+body:has(.ja26-root) .ja-mx-x { position: absolute; bottom: -24px; left: 50%; transform: translateX(-50%); font-family: var(--ja-mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ja-on-dark-muted); }
+
+/* AI shortlist answer */
+body:has(.ja26-root) .ja-art-q { background: var(--ja-ink); border: 1px solid rgba(244,243,241,.14); padding: 14px 16px; font-size: 15.5px; line-height: 1.45; color: var(--ja-on-dark); margin-bottom: 20px !important; }
+body:has(.ja26-root) .ja-art-a { display: grid; gap: 10px; margin-bottom: 22px; }
+body:has(.ja26-root) .ja-l { display: block; height: 10px; background: rgba(244,243,241,.18); }
+body:has(.ja26-root) .ja-l.s { width: 72%; } body:has(.ja26-root) .ja-l.m { width: 86%; }
+body:has(.ja26-root) .ja-art-src { list-style: none; margin: 0; padding: 16px 0 0; border-top: 1px solid rgba(244,243,241,.12); display: grid; gap: 10px; }
+body:has(.ja26-root) .ja-art-src li { display: flex; align-items: center; gap: 12px; font-size: 16px; color: var(--ja-on-dark-muted); margin: 0; padding: 0 !important; border: 0 !important; }
+body:has(.ja26-root) .ja-art-src li::before { display: none !important; }
+body:has(.ja26-root) .ja-art-src span { width: 28px; height: 24px; border: 1px solid var(--ja-brass); color: var(--ja-brass-light); font-family: var(--ja-mono); font-size: 13px; display: inline-flex; align-items: center; justify-content: center; }
+body:has(.ja26-root) .ja-art-src li.you { color: var(--ja-on-dark); font-weight: 600; }
+body:has(.ja26-root) .ja-art-src li.you span { border-style: dashed; }
+
+/* Credentials strip (service pages) */
+body:has(.ja26-root) .ja-cred .ja-cred-t { font-family: var(--ja-head); font-size: 22px; line-height: 1.2; color: var(--ja-ink); margin: 0 0 6px; }
+body:has(.ja26-root) .ja-cred .ja-cred-s { font-size: 15px; color: var(--ja-muted); margin: 0; }
+
+/* Definitions in "where I help" */
+body:has(.ja26-root) .ja-defs h3 { font-size: 24px; }
+body:has(.ja26-root) .ja-defs .fl-rich-text p { color: var(--ja-on-dark-muted); font-size: 17px; line-height: 1.6; }
+
+/* Ways to work together, inside pricing */
+body:has(.ja26-root) .ja-ways { margin: 0; }
+body:has(.ja26-root) .ja-ways dt { font-weight: 600; color: var(--ja-on-dark); padding-top: 14px; border-top: 1px solid rgba(244,243,241,.14); font-size: 17px; }
+body:has(.ja26-root) .ja-ways dd { margin: 4px 0 14px; color: var(--ja-on-dark-muted); font-size: 16px; line-height: 1.55; }
+body:has(.ja26-root) .ja-ways a { color: var(--ja-brass-light) !important; }
+
+/* Buying journey table */
+body:has(.ja26-root) .ja-table { width: 100%; border-collapse: collapse; font-size: 16.5px; }
+body:has(.ja26-root) .ja-table th { text-align: left; font-family: var(--ja-mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--ja-muted); font-weight: 500; padding: 0 20px 14px 0; border-bottom: 2px solid var(--ja-ink); }
+body:has(.ja26-root) .ja-table td { padding: 18px 20px 18px 0; border-bottom: 1px solid var(--ja-line); vertical-align: top; line-height: 1.5; }
+body:has(.ja26-root) .ja-table td:first-child { font-family: var(--ja-head); font-size: 22px; text-transform: uppercase; width: 18%; }
+body:has(.ja26-root) .ja-table td:nth-child(2) { color: var(--ja-muted); width: 42%; }
+
+/* Review workflow */
+body:has(.ja26-root) .ja-flow { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; counter-reset: fl; }
+body:has(.ja26-root) .ja-flow li { position: relative; margin: 0; padding: 22px 24px 0 0; border-top: 2px solid var(--ja-ink); counter-increment: fl; }
+body:has(.ja26-root) .ja-flow li::before { content: ""; position: absolute; top: -7px; left: 0; width: 12px; height: 12px; background: var(--ja-brass); }
+body:has(.ja26-root) .ja-flow strong { display: block; font-family: var(--ja-head); font-size: 21px; font-weight: 500; line-height: 1.2; text-transform: uppercase; margin-bottom: 10px; }
+body:has(.ja26-root) .ja-flow span { display: block; color: var(--ja-muted); font-size: 16px; line-height: 1.55; }
+
+@media (max-width: 992px) {
+	body:has(.ja26-root) .ja-svc-art-col { margin-top: 48px; }
+	body:has(.ja26-root) .ja-flow { grid-template-columns: 1fr; gap: 28px; }
+	body:has(.ja26-root) .ja-flow li { padding: 18px 0 0; }
+}
+@media (max-width: 768px) {
+	body:has(.ja26-root) .ja-art { padding: 22px 20px; }
+	body:has(.ja26-root) .ja-art dl { grid-template-columns: 1fr; }
+	body:has(.ja26-root) .ja-art dd { border-top: 0; padding-top: 0; }
+	body:has(.ja26-root) .ja-table thead { display: none; }
+	body:has(.ja26-root) .ja-table, body:has(.ja26-root) .ja-table tbody, body:has(.ja26-root) .ja-table tr, body:has(.ja26-root) .ja-table td { display: block; width: auto !important; }
+	body:has(.ja26-root) .ja-table tr { padding: 18px 0; border-bottom: 1px solid var(--ja-line); }
+	body:has(.ja26-root) .ja-table td { border: 0; padding: 4px 0; }
+	body:has(.ja26-root) .ja-mx-q { min-height: 0; }
+}
+body:has(.ja26-root) .ja-flow, body:has(.ja26-root) .ja-table { max-width: none !important; }
+body:has(.ja26-root) .ja-mx > p, body:has(.ja26-root) .ja-mx > br, body:has(.ja26-root) .ja-art > br { display: none; }
+body:has(.ja26-root) .ja-mx-q.q1 { grid-area: 1 / 1; } body:has(.ja26-root) .ja-mx-q.q2 { grid-area: 1 / 2; }
+body:has(.ja26-root) .ja-mx-q.q3 { grid-area: 2 / 1; } body:has(.ja26-root) .ja-mx-q.q4 { grid-area: 2 / 2; }
+@media (max-width: 768px) {
+	body:has(.ja26-root) .ja-recognition .fl-col-group:has(.ja-cred) { display: flex; flex-wrap: wrap; }
+	body:has(.ja26-root) .ja-recognition .fl-col:has(.ja-cred) { width: 50% !important; }
+	body:has(.ja26-root) .ja-cred .ja-cred-t { font-size: 18px; }
+	body:has(.ja26-root) .ja-cred .ja-cred-s { font-size: 14px; }
+}
