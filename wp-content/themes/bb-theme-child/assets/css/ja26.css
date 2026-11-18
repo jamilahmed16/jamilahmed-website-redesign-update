@@ -832,14 +832,14 @@ body:has(.ja26-root) .ja-nav .fl-menu .current-menu-item > a, body:has(.ja26-roo
 }
 
 /* Contact form errors: readable, AA, and marked on the field. */
-body:has(.ja26-root) .fl-contact-form .fl-contact-error { font-size: 14px !important; color: #A3261B !important; font-weight: 500; margin-top: 6px; display: block; }
+body:has(.ja26-root) .fl-contact-form .fl-contact-error { font-size: 14px !important; color: #A3261B !important; font-weight: 500; margin-top: 6px; }
 body:has(.ja26-root) .fl-contact-form .fl-error input, body:has(.ja26-root) .fl-contact-form .fl-error textarea,
 body:has(.ja26-root) .fl-contact-form [aria-invalid="true"] { border: 2px solid #A3261B !important; }
 body:has(.ja26-root) .fl-contact-form textarea { resize: vertical; }
 
 /* Reading measure: about 70 to 75 characters. */
 body:has(.ja26-root) .ja-article-col .ja-prose { max-width: 720px; }
-body:has(.ja26-root) .fl-row:not(.ja-header):not(.ja-footer) .fl-module-rich-text:not(.ja-prose) p { max-width: 68ch; }
+body:has(.ja26-root) .fl-row:not(.ja-header):not(.ja-footer) .fl-module-rich-text:not(.ja-prose):not(.ja-marquee-wrap) p:not(.ja-marquee-set) { max-width: 68ch; }
 body:has(.ja26-root) .ja-faq-title, body:has(.ja26-root) .ja-faq-title .fl-heading { font-size: clamp(32px, 4vw, 48px) !important; }
 body:has(.ja26-root) .ja-faq-title .fl-heading, body:has(.ja26-root) h2.ja-faq-title { text-wrap: balance; }
 
