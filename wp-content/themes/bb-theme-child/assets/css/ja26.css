@@ -14,7 +14,7 @@ body:has(.ja26-root) {
 	--ja-muted: #5E5A55;
 	--ja-line: #CFCAC2;
 	--ja-brass: #AF824B;
-	--ja-brass-deep: #87622F;
+	--ja-brass-deep: #7A5727;
 	--ja-brass-light: #CDA56F;
 	--ja-on-dark: #F4F3F1;
 	--ja-on-dark-muted: #B3ADA5;
@@ -338,7 +338,7 @@ body:has(.ja26-root) .ja-form textarea {
 	box-shadow: none !important;
 }
 body:has(.ja26-root) .ja-form textarea { min-height: 160px; }
-body:has(.ja26-root) .ja-form input::placeholder, body:has(.ja26-root) .ja-form textarea::placeholder { color: #8A847D; }
+body:has(.ja26-root) .ja-form input::placeholder, body:has(.ja26-root) .ja-form textarea::placeholder { color: #6F6A64; }
 body:has(.ja26-root) .ja-form label { font-family: var(--ja-body); font-size: 15px; font-weight: 500; color: inherit; margin-bottom: 6px; }
 body:has(.ja26-root) .ja-form a.fl-button,
 body:has(.ja26-root) .ja-form a.fl-button:visited {
@@ -413,10 +413,7 @@ body:has(.ja26-root) .ja-nav .fl-menu-mobile-toggle { color: var(--ja-on-dark); 
 body:has(.ja26-root) .ja-nav .fl-menu-mobile-toggle .hamburger-menu rect { fill: var(--ja-on-dark); }
 body:has(.ja26-root) .ja-header .fl-module-button { text-align: right; }
 body:has(.ja26-root) .ja-header .fl-button-wrap a.fl-button { padding: 13px 18px; }
-@media (max-width: 992px) {
-	body:has(.ja26-root) .ja-header .fl-col:last-child { display: none; }
-	body:has(.ja26-root) .ja-nav .fl-menu .menu { background: var(--ja-ink); }
-}
+
 
 /* ---------- Footer (Themer) ---------- */
 body:has(.ja26-root) .ja-footer h4 { font-family: var(--ja-mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ja-brass-light) !important; }
@@ -758,7 +755,7 @@ body:has(.ja26-root) .ja-next span { color: var(--ja-muted); font-size: 15.5px; 
 	body:has(.ja26-root) .ja-price-card > .fl-col-content { padding: 24px 4px 28px; margin: 40px 20px 0; }
 }
 /* Closing CTA, dark version */
-body:has(.ja26-root) .ja-dark.ja-closing { border-bottom: 1px solid rgba(175,130,75,.35); }
+body:has(.ja26-root) .ja-dark.ja-closing { border-bottom: 1px solid #4A3B28; }
 body:has(.ja26-root) .ja-dark .ja-next li { border-color: rgba(244,243,241,.14); }
 body:has(.ja26-root) .ja-dark .ja-next li::before { border-color: var(--ja-brass); color: var(--ja-brass-light); }
 body:has(.ja26-root) .ja-dark .ja-next strong { color: var(--ja-on-dark); }
@@ -767,3 +764,92 @@ body:has(.ja26-root) .ja-dark .ja-next span { color: var(--ja-on-dark-muted); }
 /* FAQ sections on pages: centred heading and a centred reading column */
 body:has(.ja26-root) .ja-faq .fl-col-group { max-width: 860px; margin-left: auto !important; margin-right: auto !important; }
 body:has(.ja26-root) .ja-faq-title, body:has(.ja26-root) .ja-faq-title .fl-heading, body:has(.ja26-root) .ja-faq-title h2 { text-align: center; }
+
+/* =====================================================================
+ * Audit fixes (Nov 2026): contrast, sticky header, dropdown, mobile CTA,
+ * form errors, reading measure, tap targets
+ * ===================================================================== */
+/* Brass text on light backgrounds uses the deep tone (AA); brass stays for dark rows. */
+body:has(.ja26-root) .fl-row:not(.ja-dark) :where(h1, h2) em { color: var(--ja-brass-deep); }
+body:has(.ja26-root) .fl-row:not(.ja-dark) :is(a, button, input, textarea):focus-visible { outline-color: var(--ja-brass-deep); }
+body:has(.ja26-root) .ja-dark :is(a, button, input, textarea):focus-visible { outline-color: var(--ja-brass-light); }
+body:has(.ja26-root) textarea:focus-visible { outline: 2px solid var(--ja-brass-deep); outline-offset: 3px; }
+
+/* Sticky header on every screen size. */
+body:has(.ja26-root) .fl-builder-content[data-type="header"] { position: sticky; top: 0; z-index: 100; }
+body.admin-bar:has(.ja26-root) .fl-builder-content[data-type="header"] { top: 32px; }
+body:has(.ja26-root) .ja-header { border-bottom: 1px solid #2A2826; }
+body:has(.ja26-root) .ja-header .fl-module-content { margin-top: 0 !important; margin-bottom: 0 !important; }
+body:has(.ja26-root) .ja-header .ja-logo img { max-height: 40px; }
+body:has(.ja26-root) .ja-header .fl-col-group { display: flex; align-items: center; }
+body:has(.ja26-root) .ja-header .fl-module { margin-top: 0 !important; margin-bottom: 0 !important; }
+body:has(.ja26-root) .ja-header .fl-col-content { min-height: 0 !important; }
+body:has(.ja26-root) .ja-toc-wrap { top: 104px; }
+
+/* Desktop dropdown under Consulting. */
+body:has(.ja26-root) .ja-nav .fl-menu .sub-menu {
+	background: var(--ja-ink); border-top: 2px solid var(--ja-brass); min-width: 260px; padding: 8px 0;
+	box-shadow: 0 18px 40px rgba(0,0,0,.35);
+}
+body:has(.ja26-root) .ja-nav .fl-menu .sub-menu a { padding: 11px 20px; font-size: 15px; display: block; }
+body:has(.ja26-root) .ja-nav .fl-menu .sub-menu li:last-child { border-top: 1px solid rgba(244,243,241,.12); margin-top: 6px; padding-top: 6px; }
+body:has(.ja26-root) .ja-nav .fl-menu .fl-menu-toggle:before, body:has(.ja26-root) .ja-nav .fl-menu .fl-menu-toggle:after { border-color: var(--ja-on-dark) !important; }
+body:has(.ja26-root) .ja-nav .fl-menu .current-menu-item > a, body:has(.ja26-root) .ja-nav .fl-menu .current-menu-ancestor > .fl-has-submenu-container > a { color: var(--ja-brass-light) !important; }
+
+/* Tablet and phone header: logo | Book | menu, full-width menu panel below. */
+@media (max-width: 992px) {
+	body:has(.ja26-root) .ja-header .fl-col-group { display: flex; align-items: center; position: static; }
+	body:has(.ja26-root) .ja-header .fl-row-content-wrap { position: relative; }
+	body:has(.ja26-root) .ja-header .fl-col, body:has(.ja26-root) .ja-header .fl-col-content,
+	body:has(.ja26-root) .ja-header .fl-module, body:has(.ja26-root) .ja-header .fl-menu { position: static !important; }
+	body:has(.ja26-root) .ja-hd-logo { order: 1; flex: 1 1 auto !important; width: auto !important; }
+	body:has(.ja26-root) .ja-hd-cta { order: 2; flex: 0 0 auto !important; width: auto !important; }
+	body:has(.ja26-root) .ja-hd-nav { order: 3; flex: 0 0 auto !important; width: auto !important; }
+	body:has(.ja26-root) .ja-header .ja-logo img { height: 30px; max-height: none; width: auto; max-width: none; }
+	body:has(.ja26-root) .ja-hd-logo { padding-right: 12px; }
+	body:has(.ja26-root) .ja-header .fl-module-photo { margin: 0 !important; }
+	body:has(.ja26-root) .ja-header .fl-module-photo .fl-photo { text-align: left; }
+	body:has(.ja26-root) .ja-header .fl-module-button { margin: 0 10px 0 0 !important; }
+	body:has(.ja26-root) .ja-header .fl-button-wrap a.fl-button { padding: 0 14px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 0; }
+	body:has(.ja26-root) .ja-header .fl-button-wrap a.fl-button > :not(.fl-button-text) { display: none; }
+	body:has(.ja26-root) .ja-header .fl-button-wrap a.fl-button .fl-button-text { letter-spacing: 0; }
+	body:has(.ja26-root) .ja-header .fl-button-wrap a.fl-button .fl-button-text { font-size: 0; }
+	body:has(.ja26-root) .ja-header .fl-button-wrap a.fl-button .fl-button-text::after { content: "Book a call"; font-size: 12px; }
+	body:has(.ja26-root) .ja-nav .fl-menu-mobile-toggle { margin: 0 !important; float: none; width: 46px; height: 46px; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
+	body:has(.ja26-root) .ja-nav .fl-menu .menu {
+		position: absolute; left: 0; right: 0; top: 100%; background: var(--ja-ink);
+		border-top: 1px solid rgba(244,243,241,.12); border-bottom: 2px solid var(--ja-brass); padding: 8px 20px 16px;
+		box-shadow: 0 24px 40px rgba(0,0,0,.4); text-align: left;
+	}
+	body:has(.ja26-root) .ja-nav .fl-menu .menu li { border-top: 1px solid rgba(244,243,241,.08); text-align: left; }
+	body:has(.ja26-root) .ja-nav .fl-menu .menu li:first-child { border-top: 0; }
+	body:has(.ja26-root) .ja-nav .fl-menu .menu a { font-size: 17px !important; padding: 13px 0 !important; min-height: 48px; display: flex; align-items: center; }
+	body:has(.ja26-root) .ja-nav .fl-menu .sub-menu { box-shadow: none; border-top: 0; padding: 0 0 8px 16px; min-width: 0; background: transparent; }
+	body:has(.ja26-root) .ja-nav .fl-menu .sub-menu a { font-size: 16px !important; color: var(--ja-on-dark-muted) !important; }
+	body:has(.ja26-root) .ja-nav .fl-menu .sub-menu li:last-child { border-top: 1px solid rgba(244,243,241,.08); margin: 0; padding: 0; }
+	body:has(.ja26-root) .ja-nav .fl-menu .fl-menu-toggle { width: 48px; height: 48px; top: 0; right: -14px; }
+	body:has(.ja26-root) .ja-toc-wrap { top: 80px; }
+}
+
+/* Contact form errors: readable, AA, and marked on the field. */
+body:has(.ja26-root) .fl-contact-form .fl-contact-error { font-size: 14px !important; color: #A3261B !important; font-weight: 500; margin-top: 6px; display: block; }
+body:has(.ja26-root) .fl-contact-form .fl-error input, body:has(.ja26-root) .fl-contact-form .fl-error textarea,
+body:has(.ja26-root) .fl-contact-form [aria-invalid="true"] { border: 2px solid #A3261B !important; }
+body:has(.ja26-root) .fl-contact-form textarea { resize: vertical; }
+
+/* Reading measure: about 70 to 75 characters. */
+body:has(.ja26-root) .ja-article-col .ja-prose { max-width: 720px; }
+body:has(.ja26-root) .fl-row:not(.ja-header):not(.ja-footer) .fl-module-rich-text:not(.ja-prose) p { max-width: 68ch; }
+body:has(.ja26-root) .ja-faq-title, body:has(.ja26-root) .ja-faq-title .fl-heading { font-size: clamp(32px, 4vw, 48px) !important; }
+body:has(.ja26-root) .ja-faq-title .fl-heading, body:has(.ja26-root) h2.ja-faq-title { text-wrap: balance; }
+
+/* Tap targets on phones. */
+@media (max-width: 768px) {
+	body:has(.ja26-root) .ja-footer-links p { line-height: 1.4; }
+	body:has(.ja26-root) .ja-footer-links a { display: block; padding: 11px 0; }
+	body:has(.ja26-root) .ja-footer-links br { display: none; }
+	body:has(.ja26-root) .ja-social a { width: 44px !important; height: 44px !important; }
+	body:has(.ja26-root) .ja-footer-latest .fl-post-feed-title a, body:has(.ja26-root) .ja-footer-latest a { display: inline-block; padding: 8px 0; }
+	body:has(.ja26-root) a.fl-post-grid-more { display: inline-block; padding: 12px 0; }
+	body:has(.ja26-root) .ja-crumbs a { display: inline-block; padding: 12px 4px; }
+}

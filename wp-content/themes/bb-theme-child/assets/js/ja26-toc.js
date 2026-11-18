@@ -81,3 +81,28 @@
 	window.addEventListener('resize', update);
 	update();
 })();
+
+/* Contact form helpers: autofill hints, a correct error label for the
+ * "Company and website" field, and focus moved to the first error on submit. */
+(function () {
+	var form = document.querySelector('.fl-contact-form');
+	if (!form) return;
+	var hints = { 'fl-name': 'name', 'fl-email': 'email', 'fl-subject': 'organization' };
+	Object.keys(hints).forEach(function (n) {
+		var el = form.querySelector('[name="' + n + '"]');
+		if (el) el.setAttribute('autocomplete', hints[n]);
+	});
+	var subject = form.querySelector('[name="fl-subject"]');
+	if (subject) {
+		var wrap = subject.closest('.fl-input-group') || subject.parentNode;
+		var err = wrap && wrap.querySelector('.fl-contact-error');
+		if (err) err.textContent = 'Please add your company and website.';
+	}
+	var btn = form.querySelector('.fl-button');
+	if (btn) btn.addEventListener('click', function () {
+		setTimeout(function () {
+			var bad = form.querySelector('[aria-invalid="true"], .fl-error input, .fl-error textarea');
+			if (bad) bad.focus();
+		}, 60);
+	});
+})();

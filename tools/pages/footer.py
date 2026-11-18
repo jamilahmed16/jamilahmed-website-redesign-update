@@ -19,11 +19,10 @@ social = "<p>" + "".join(
     f'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="{path}"/></svg></a>'
     for name, (url, path) in ICONS.items()) + "</p>"
 
-GUIDES = [("What is SEO", "/what-is-seo/"), ("SEO basics", "/seo-basics/"), ("Small business SEO", "/small-business-seo/"),
-          ("SEO for CEOs", "/seo-for-ceos/"), ("SEO glossary", "/seo-glossary/"), ("SEO FAQs", "/seo-faqs/"),
-          ("What is personal branding", "/what-is-personal-branding/"), ("Personal branding strategy", "/personal-branding-strategy/"),
-          ("How to start a blog", "/how-to-start-a-blog/")]
-QUICK = [("Home", "/"), ("About", "/about-me/"), ("Consulting", "/consulting/"), ("Blog", "/blog/"),
+SERVICES = [("SEO &amp; AI Search Audit", "/seo-ai-search-audit/"), ("Enterprise SEO", "/enterprise-seo-consultant/"),
+            ("B2B &amp; SaaS SEO", "/b2b-saas-seo-consultant/"), ("Pharma &amp; Healthcare SEO", "/pharma-healthcare-seo/"),
+            ("All consulting", "/consulting/"), ("Book a consultation", "/contact/")]
+QUICK = [("Home", "/"), ("About", "/about-me/"), ("Consulting", "/consulting/"), ("Writing", "/blog/"),
          ("Newsletter", "/newsletter/"), ("Podcast", "/podcast/"), ("Contact", "/contact/")]
 LEGAL = [("Privacy Policy", "/privacy-policy/"), ("Terms &amp; Conditions", "/terms-conditions/"),
          ("Affiliate Disclosure", "/affiliate-disclosure/"), ("Sitemap", "/sitemap_index.xml")]
@@ -37,8 +36,8 @@ brand.text("<p>Jamil Ahmed is an SEO &amp; AI Search Consultant, Semrush Ambassa
            "<a href=\"https://reinforcelab.com/\">Reinforce Lab Ltd</a>. He helps founders, B2B and pharmaceutical "
            "companies get found on Google and cited in AI search.</p>", mb=24)
 brand.text(social, cls="ja-social")
-guides.heading("Guides", tag="h4", mb=14)
-guides.text(links(GUIDES), cls="ja-footer-links")
+guides.heading("Services", tag="h4", mb=14)
+guides.text(links(SERVICES), cls="ja-footer-links")
 latest.heading("Latest posts", tag="h4", mb=14)
 latest._add("post-grid", {"layout": "feed", "data_source": "custom_query", "post_type": "post", "posts_per_page": "6",
                            "order": "DESC", "order_by": "date", "show_image": "0", "show_author": "0", "show_date": "0",

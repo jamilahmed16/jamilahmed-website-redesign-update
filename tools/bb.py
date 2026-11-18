@@ -174,7 +174,7 @@ class Col:
 
     def menu(self, slug, cls=""):
         return self._add("menu", {
-            "menu": slug, "menu_layout": "horizontal", "submenu_hover_toggle": "none",
+            "menu": slug, "menu_layout": "horizontal", "submenu_hover_toggle": "arrows", "submenu_click_toggle": "arrows",
             "collapse": "1", "mobile_toggle": "hamburger", "mobile_full_width": "below",
             "mobile_breakpoint": "medium-mobile", "mobile_stacked": "yes", "menu_search": "hide",
             "menu_align": "right", "class": cls,
