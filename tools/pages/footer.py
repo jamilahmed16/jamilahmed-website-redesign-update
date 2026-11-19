@@ -39,7 +39,8 @@ brand.text(social, cls="ja-social")
 guides.heading("Services", tag="h4", mb=14)
 guides.text(links(SERVICES), cls="ja-footer-links")
 latest.heading("Latest posts", tag="h4", mb=14)
-latest._add("post-grid", {"layout": "feed", "data_source": "custom_query", "post_type": "post", "posts_per_page": "6",
+latest._add("post-grid", {"layout": "feed", "data_source": "custom_query", "post_type": "post", "posts_per_page": "5",
+                           "tax_post_post_tag": "24", "tax_post_post_tag_matching": "0",
                            "order": "DESC", "order_by": "date", "show_image": "0", "show_author": "0", "show_date": "0",
                            "show_comments": "0", "show_terms": "0", "show_content": "0", "show_more_link": "0",
                            "posts_title_tag": "h4", "pagination": "none", "show_search": "0", "feed_post_spacing": 0,

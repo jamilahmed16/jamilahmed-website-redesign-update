@@ -6,9 +6,9 @@ p = Page()
 
 hero = p.row(bg="ink", cls="ja26-root ja-dark", pad=(120, 96), pad_mobile=(64, 56))
 (h,) = hero.cols(100)
-h.heading("This page has <em>moved</em>", tag="h1", mb=24, cls="ja-measure")
-h.text("<p>The page you were looking for isn't here. Some older articles were retired or merged when the site was "
-       "rebuilt, so the link you followed may be out of date.</p>", cls="ja-lead", mb=40)
+h.heading("Page not <em>found</em>", tag="h1", mb=24, cls="ja-measure")
+h.text("<p>There's nothing at this address. If you followed an older link, the article may have been retired or merged "
+       "when the site was rebuilt.</p>", cls="ja-lead", mb=40)
 h.button("Go to the homepage", "/", inline=True)
 h.button("Read the writing", "/blog/", ghost=True, inline=True)
 

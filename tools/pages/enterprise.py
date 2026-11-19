@@ -58,6 +58,18 @@ SPEC = {
               "Several markets, languages or business units compete for the same keywords",
               "SEO reports talk about rankings while leadership asks about revenue"],
     "help_h2": "Where I help enterprise teams",
+    "help_rows": [
+        ("Strategy and governance", "Teams optimise their own pages and compete for the same searches.",
+         "Decide what to own by product, market and audience, and build SEO requirements into release processes."),
+        ("Technical SEO at scale", "Millions of URLs, duplicate templates and crawl budget spent on the wrong pages.",
+         "Fix indexing, canonicals, internal linking and JavaScript rendering at the template level."),
+        ("International SEO", "Regions and languages outrank each other or show the wrong market.",
+         "Market and language structure, hreflang, and clear ownership of each market's searches."),
+        ("AI search visibility", "AI assistants describe the brand from old or third-party pages.",
+         "Entity, structured data and evidence work so ChatGPT, Perplexity and AI Overviews cite you correctly."),
+        ("Reporting", "Rankings reports that leadership can't connect to revenue.",
+         "A short set of measures tied to pipeline that the board can follow."),
+    ],
     "help": [
         ("Strategy and governance", "What to own in search by product, market and audience, and SEO requirements built "
                                     "into how product and engineering already work."),
@@ -72,6 +84,9 @@ SPEC = {
         ("Regulated content", "Evidence-led content and workflows that pass medical, legal and compliance review."),
     ],
     "unique": unique,
+    "order": ['hero', 'unique', 'intro', 'help_table', 'pricing_short', 'faq', 'close'],
+    "close_h2": 'Make search a revenue channel your board <em>understands</em>',
+    "close_text": "Tell me which sites, markets and teams are involved. I'll suggest where an outside view helps most, and where your team is already fine on its own.",
     "price_intro": "Enterprise work is scoped to your sites, markets and teams. After a short call you get a written "
                    "proposal with a fixed price.",
     "ways": [("SEO &amp; AI Search Audit", 'A senior diagnostic of the whole site and a ranked plan. '
@@ -92,19 +107,9 @@ SPEC = {
         ("Can you help with a site migration?",
          "Yes. I plan the redirect map and pre-launch checks with your teams, monitor the launch, and track recovery "
          "against a benchmark taken before the move."),
-        ("Do you work with regulated industries?",
-         "Yes. My background is in pharmaceuticals, including Janssen (Johnson &amp; Johnson), so evidence-led content "
-         "and compliance review are familiar ground."),
-        ("How do we start?",
-         "Book a consultation. Most enterprise engagements start with the SEO &amp; AI Search Audit."),
     ],
     "service_name": "Enterprise SEO consulting", "service_type": "Enterprise SEO consulting",
     "service_desc": "Senior enterprise SEO consulting for large, complex and regulated websites, covering Google and AI search.",
-    "close_h2": "Make search a revenue channel your board <em>understands</em>",
-    "close_text": "Tell me about your sites, markets and what leadership expects from search, and I'll recommend where to start.",
-    "steps": [("Send a short brief", "Your sites, markets and what you need from search."),
-              ("Call and proposal", "We agree scope, stakeholders and timeline."),
-              ("Audit or kickoff", "Most engagements start with the audit, then a plan your teams can ship.")],
 }
 
 if __name__ == "__main__":

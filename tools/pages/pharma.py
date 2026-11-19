@@ -9,13 +9,13 @@ from _service import build
 POST_ID = int(os.environ.get("POST_ID", "875"))
 
 ART = ('<div class="ja-art ja-art-review" aria-hidden="true">'
-       '<p class="ja-art-k">Health article</p><p class="ja-art-t">Managing [condition] at home</p>'
+       '<p class="ja-art-k">Fictional example</p><p class="ja-art-t">Managing eczema flare-ups at home</p>'
        '<dl>'
-       '<dt>Written by</dt><dd>[Author], health writer</dd>'
-       '<dt>Medically reviewed by</dt><dd>[Reviewer], MD</dd>'
-       '<dt>Sources</dt><dd>9 references, linked</dd>'
-       '<dt>Last reviewed</dt><dd>[date]</dd>'
-       '<dt>Next review</dt><dd>[date + 12 months]</dd>'
+       '<dt>Written by</dt><dd>Sara Malik, health writer</dd>'
+       '<dt>Medically reviewed by</dt><dd>Dr Amir Rahman, consultant dermatologist</dd>'
+       '<dt>Sources</dt><dd>9 references, each linked in the text</dd>'
+       '<dt>Last reviewed</dt><dd>12 October 2026</dd>'
+       '<dt>Next review</dt><dd>October 2027</dd>'
        '</dl></div>')
 
 
@@ -42,7 +42,23 @@ SPEC = {
             "sciences and healthcare companies become the source Google and AI assistants trust, with content built to "
             "pass medical, legal and regulatory review.",
     "art": ART,
-    "art_caption": "Illustration: the trust signals health content needs.",
+    "art_caption": "A fictional article showing the trust signals Google and AI look for on health content.",
+    "story": {
+        "photo_id": 791, "photo_url": "https://jamilahmed.com/wp-content/uploads/2025/09/Jamil-Ahmed-Personal-Avatar.jpg",
+        "photo_alt": "Jamil Ahmed, pharmacist and SEO and AI search consultant",
+        "h2": "I learned content in a regulated industry",
+        "paras": [
+            "Before search, I was a pharmacist working in pharmaceutical international business. At Beacon "
+            "Pharmaceuticals I coordinated markets from Sri Lanka, Ghana and Kenya to Latin America, and prepared "
+            "regulatory dossiers country by country. Later I was Product Manager for Immunology at Janssen, part of "
+            "Johnson &amp; Johnson.",
+            "That work taught me two things that matter in health search: nothing goes out without a source, and every "
+            "market has its own rules. My SEO work started there too, building and optimising Beacon's product websites "
+            "myself.",
+            "So I plan health content the way a regulatory file is built: evidence first, reviewers involved from the "
+            "brief, and nothing published that you would have to take back.",
+        ],
+    },
     "intro_h2": "Health search holds you to a higher standard",
     "intro": ["Google treats health as \"Your Money or Your Life\" content: pages that can affect someone's health are "
               "held to the highest bar for expertise, accuracy and trust. AI assistants are just as cautious about "
@@ -68,6 +84,9 @@ SPEC = {
         ("Fractional SEO leadership", "Part-time senior SEO direction that works with your medical, regulatory and brand teams."),
     ],
     "unique": unique,
+    "order": ['hero', 'story', 'unique', 'intro', 'help', 'pricing_short', 'faq', 'close'],
+    "close_h2": 'Become the source patients and doctors <em>trust</em>',
+    "close_text": "Tell me your therapy areas and how your review process works. I'll tell you honestly what search can and can't do inside those limits.",
     "price_intro": "Every engagement is scoped to your products, markets and review process. After a short call you "
                    "get a written proposal with a fixed price.",
     "ways": [("SEO &amp; AI Search Audit", 'A senior diagnostic of your site, condition areas and competitors, with a '
@@ -89,19 +108,10 @@ SPEC = {
         ("Do you cover AI search for health topics?",
          "Yes. I check how ChatGPT, Perplexity, Gemini and Google's AI Overviews answer questions in your condition "
          "areas, which sources they cite, and what it takes for your content to become one of them."),
-        ("Do you work with healthcare providers and clinics?",
-         "Yes, including local SEO: Google Business Profiles, location and service pages, and reviews."),
-        ("How do we start?",
-         "Book a consultation. Most pharma and healthcare clients start with the SEO &amp; AI Search Audit."),
     ],
     "service_name": "Pharma and healthcare SEO consulting", "service_type": "Healthcare SEO consulting",
     "service_desc": "SEO and AI search consulting for pharmaceutical, life sciences and healthcare companies: expertise "
                     "and trust signals, review-ready content, AI visibility and local healthcare SEO.",
-    "close_h2": "Become the source patients and doctors <em>trust</em>",
-    "close_text": "Tell me about your products, markets and review process, and I'll recommend where to start.",
-    "steps": [("Send a short brief", "Your products, audiences and markets."),
-              ("Call and proposal", "We agree scope, review process and timeline."),
-              ("Audit or kickoff", "Usually the audit first, then a plan your teams can ship.")],
 }
 
 if __name__ == "__main__":

@@ -15,3 +15,14 @@ def closing_cta(p, heading, text, buttons, steps_title, steps, form=None):
     cr.text("<ol class=\"ja-next\">" + "".join(f"<li><strong>{t}</strong><span>{s}</span></li>" for t, s in steps)
             + "</ol>", cls="ja-next-wrap")
     return cta
+
+
+def short_cta(p, heading, text, buttons):
+    """Same graphite band and brass rule as closing_cta, but one message and the buttons only: no step list."""
+    cta = p.row(bg="graphite", cls="ja-dark ja-closing ja-closing-short", pad=(104, 104), pad_mobile=(64, 64))
+    (c,) = cta.cols(100)
+    c.heading(heading, tag="h2", mb=24, cls="ja-measure")
+    c.text(f"<p>{text}</p>", cls="ja-lead", mb=40)
+    for label, href, ghost in buttons:
+        c.button(label, href, ghost=ghost, inline=True)
+    return cta

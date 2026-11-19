@@ -39,7 +39,7 @@ nav.text("<p>__THEMER__fl-post-navigation</p>", cls="ja-postnav")
 kr = p.row(bg="stone", cls="ja-writing", pad=(64, 96), pad_mobile=(40, 56), width=1200)
 (k,) = kr.cols(100)
 k.heading("Keep reading", tag="h2", mb=40)
-k.posts(3, cls="ja-posts")
+k.posts(3, cls="ja-posts", exclude_self=True)
 
 # Newsletter.
 nl = p.row(bg="ink", cls="ja-dark", pad=(96, 96), pad_mobile=(56, 56))

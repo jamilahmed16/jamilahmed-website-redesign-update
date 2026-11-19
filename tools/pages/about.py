@@ -1,7 +1,7 @@
 """About page (/about-me/)."""
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from _cta import closing_cta
+from _cta import closing_cta, short_cta
 from bb import Page, SITE, payload
 UP = f"{SITE}/wp-content/uploads"
 POST_ID = int(os.environ.get("POST_ID", "0"))
@@ -76,11 +76,10 @@ e.text("<ul><li><strong>Bachelor's degree</strong> East West University</li>"
        "<li><strong>Content Strategy for Professionals</strong> Northwestern University, 2026</li></ul>",
        cls="ja-list")
 
-# Closing call to action (shared style)
-closing_cta(p, "Let's talk about your search <em>visibility</em>",
-            "If your buyers research in Google and AI assistants, I can show you where you stand and what to fix first.",
-            [("Book a consultation", "/contact/", False), ("See consulting", "/consulting/", True)],
-            "What happens next", [('Send a short brief', 'Your company, markets and goals.'), ('Short call', 'We agree what to fix first, scope and timeline.'), ('Audit or kickoff', 'Usually the audit first, then a 90-day plan your team can ship.')])
+# Closing: a personal note, not the sales step list.
+short_cta(p, "If this sounds like your <em>problem</em>, let's talk",
+          "If something on this page is close to what you're working on, I'd like to hear about it. I read every message myself.",
+          [("Book a consultation", "/contact/", False), ("Connect on LinkedIn", "https://www.linkedin.com/in/ahmedjamil16/", True)])
 
 if __name__ == "__main__":
     print(payload(POST_ID, p))

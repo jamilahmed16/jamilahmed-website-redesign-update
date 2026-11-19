@@ -13,7 +13,9 @@ h.text("<p>Articles on SEO, AI search, automation and building authority online,
 lst = p.row(bg="stone", cls="ja-writing", pad=(72, 96), pad_mobile=(40, 56))
 (c,) = lst.cols(100)
 c._add("post-grid", {
-    "layout": "grid", "post_width": 340, "data_source": "main_query",
+    "layout": "columns", "post_width": 340, "data_source": "custom_query", "post_type": "post",
+    "order": "DESC", "order_by": "date", "tax_post_post_tag": "24", "tax_post_post_tag_matching": "0",
+    "post_columns": 3, "post_columns_medium": 2, "post_columns_responsive": 1,
     "post_spacing": 40, "post_padding": 0, "match_height": "1", "posts_title_tag": "h2",
     "show_image": "0", "show_author": "0", "show_date": "1", "date_format": "M j, Y",
     "show_comments": "0", "show_comments_grid": "0", "show_terms": "0",

@@ -962,3 +962,66 @@ body:has(.ja26-root) .ja-mx-q.q3 { grid-area: 2 / 1; } body:has(.ja26-root) .ja-
 	body:has(.ja26-root) .ja-cred .ja-cred-t { font-size: 18px; }
 	body:has(.ja26-root) .ja-cred .ja-cred-s { font-size: 14px; }
 }
+body:has(.ja26-root) .ja-art-ans { font-size: 15.5px !important; line-height: 1.55; color: var(--ja-on-dark-muted); margin-bottom: 20px !important; }
+
+/* =====================================================================
+ * De-roboting pass (Nov 2026)
+ * ===================================================================== */
+/* Anchor links land below the sticky header. */
+html:has(body .ja26-root) { scroll-padding-top: 104px; }
+body:has(.ja26-root) :is(h2, h3)[id] { scroll-margin-top: 104px; }
+@media (max-width: 992px) { html:has(body .ja26-root) { scroll-padding-top: 92px; } }
+
+/* Hide Beaver's blank placeholder when a post has no featured image. */
+body:has(.ja26-root) .ja-featured:has(img[src*="pixel.png"]) { display: none; }
+
+/* Short closing band. */
+body:has(.ja26-root) .ja-closing-short .fl-col-content { max-width: 880px; }
+
+/* FAQ accordion. */
+body:has(.ja26-root) .ja-faq-list { max-width: 860px; margin-left: auto !important; margin-right: auto !important; }
+body:has(.ja26-root) .ja-acc { border-top: 1px solid var(--ja-line); }
+body:has(.ja26-root) .ja-acc:last-of-type { border-bottom: 1px solid var(--ja-line); }
+body:has(.ja26-root) .ja-acc summary {
+	list-style: none; cursor: pointer; position: relative; padding: 22px 48px 22px 0; min-height: 44px;
+	font-family: var(--ja-head); font-size: 22px; font-weight: 500; line-height: 1.3; color: var(--ja-ink);
+}
+body:has(.ja26-root) .ja-acc summary::-webkit-details-marker { display: none; }
+body:has(.ja26-root) .ja-acc summary::after {
+	content: ""; position: absolute; right: 6px; top: 50%; width: 12px; height: 12px; margin-top: -9px;
+	border-right: 2px solid var(--ja-brass-deep); border-bottom: 2px solid var(--ja-brass-deep); transform: rotate(45deg);
+	transition: transform .2s ease;
+}
+body:has(.ja26-root) .ja-acc[open] summary::after { transform: rotate(-135deg); margin-top: -3px; }
+body:has(.ja26-root) .ja-acc summary:hover { color: var(--ja-brass-deep); }
+body:has(.ja26-root) .ja-acc summary:focus-visible { outline: 2px solid var(--ja-brass-deep); outline-offset: 4px; }
+body:has(.ja26-root) .ja-acc p { margin: 0 0 24px; color: var(--ja-muted); font-size: 17px; line-height: 1.65; max-width: 68ch; }
+
+/* Ways to work together, light version, with the pricing rule underneath. */
+body:has(.ja26-root) .ja-ways-light dt { color: var(--ja-ink); border-top-color: var(--ja-line); }
+body:has(.ja26-root) .ja-ways-light dd { color: var(--ja-muted); }
+body:has(.ja26-root) .ja-ways-light a { color: var(--ja-brass-deep) !important; }
+body:has(.ja26-root) .ja-price-note { margin-top: 24px !important; padding-top: 20px; border-top: 2px solid var(--ja-ink); font-size: 17px; color: var(--ja-ink); }
+
+/* Dark help table (enterprise). */
+body:has(.ja26-root) .ja-table-dark th { color: var(--ja-on-dark-muted); border-bottom-color: var(--ja-brass); }
+body:has(.ja26-root) .ja-table-dark td { border-bottom-color: rgba(244,243,241,.12); color: var(--ja-on-dark-muted); }
+body:has(.ja26-root) .ja-table-dark td:first-child { color: var(--ja-on-dark); width: 22%; font-size: 21px; }
+body:has(.ja26-root) .ja-table-dark td:last-child { color: var(--ja-on-dark); }
+body:has(.ja26-root) .ja-table-dark td:nth-child(2) { width: 36%; }
+
+/* Story band portrait (pharma). */
+body:has(.ja26-root) .ja-story .ja-portrait img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 15%; }
+
+/* Tap targets that were still small. */
+body:has(.ja26-root) .ja-footer-latest .fl-post-feed-title a { display: inline-block; padding: 4px 0; }
+@media (max-width: 768px) {
+	body:has(.ja26-root) .ja-ways dd a, body:has(.ja26-root) .ja-list li > a,
+	body:has(.ja26-root) .ja-prose td a, body:has(.ja26-root) .ja-contact-aside a { display: inline-block; padding: 12px 0; }
+	body:has(.ja26-root) #fl-to-top { width: 44px !important; height: 44px !important; }
+}
+
+/* Post grid in columns (no masonry jump). */
+body:has(.ja26-root) .ja-posts .fl-post-column { padding-bottom: 40px; }
+body:has(.ja26-root) .ja-faq-list { width: 100%; align-self: center; }
+body:has(.ja26-root) .ja-table.ja-table-dark td:nth-child(2) { color: var(--ja-on-dark-muted); }

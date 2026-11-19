@@ -10,10 +10,12 @@ from _service import build
 POST_ID = int(os.environ.get("POST_ID", "874"))
 
 ART = ('<div class="ja-art ja-art-chat" aria-hidden="true">'
-       '<p class="ja-art-q">Which platforms should a 200-person SaaS team shortlist for [your category]?</p>'
-       '<div class="ja-art-a"><span class="ja-l"></span><span class="ja-l s"></span><span class="ja-l"></span><span class="ja-l m"></span></div>'
-       '<ul class="ja-art-src"><li><span>1</span>Competitor A</li><li><span>2</span>Competitor B</li>'
-       '<li class="you"><span>3</span>Your company?</li></ul></div>')
+       '<p class="ja-art-k">Fictional example</p>'
+       '<p class="ja-art-q">Which customer success platforms should a 200-person SaaS company shortlist?</p>'
+       '<p class="ja-art-ans">For a team that size, three platforms come up most often in reviews and comparisons: '
+       'Northpeak, Tallyfield and Brightloop. Northpeak is strongest on onboarding playbooks...</p>'
+       '<ul class="ja-art-src"><li><span>1</span>Northpeak: comparison page</li><li><span>2</span>G2 category report</li>'
+       '<li class="you"><span>3</span>Is your company cited here?</li></ul></div>')
 
 
 def unique(p):
@@ -27,7 +29,7 @@ def unique(p):
            '<th>The page that should answer</th></tr></thead><tbody>'
            '<tr><td>Problem</td><td>"how to reduce churn in B2B SaaS"</td><td>A guide built on your own data and expertise</td></tr>'
            '<tr><td>Category</td><td>"best customer success platforms"</td><td>A category page and honest comparison content</td></tr>'
-           '<tr><td>Shortlist</td><td>"Competitor A vs Competitor B", "Competitor A alternatives"</td><td>Comparison and alternatives pages</td></tr>'
+           '<tr><td>Shortlist</td><td>"Northpeak vs Tallyfield", "Northpeak alternatives"</td><td>Comparison and alternatives pages</td></tr>'
            '<tr><td>Validation</td><td>"pricing", "reviews", "does it integrate with HubSpot"</td><td>Pricing, integration and proof pages</td></tr>'
            '</tbody></table>', cls="ja-table-wrap")
 
@@ -39,8 +41,8 @@ SPEC = {
             "SaaS companies show up at each step of that research, on Google and in AI answers, and connect it to "
             "pipeline.",
     "art": ART,
-    "art_caption": "Illustration: buyers now ask AI for a vendor shortlist.",
-    "intro_h2": "B2B search is won before the demo request",
+    "art_caption": "Fictional brands. Buyers now ask AI for a vendor shortlist, and the answer cites its sources.",
+    "intro_h2": "Most buyers never search your brand name first",
     "intro": ["Most B2B and SaaS buyers never search your brand name first. They search the problem, compare "
               "categories, read alternatives pages and ask AI assistants for a shortlist. If you only rank for your "
               "own name, you meet buyers after the decision is half made.",
@@ -68,6 +70,9 @@ SPEC = {
                                       "that aren't ready for a full-time SEO lead."),
     ],
     "unique": unique,
+    "order": ['hero', 'creds', 'unique', 'intro', 'help', 'pricing_short', 'faq', 'close'],
+    "close_h2": 'Be on the shortlist <em>before</em> the demo request',
+    "close_text": "Send me your category and the three competitors you lose deals to most often. I'll show you where they are cited in AI answers and you aren't.",
     "price_intro": "Every engagement is scoped to your stage, market and goals. After a short call you get a written "
                    "proposal with a fixed price.",
     "ways": [("SEO &amp; AI Search Audit", 'A senior diagnostic of your site and category, with a ranked plan. '
@@ -88,20 +93,10 @@ SPEC = {
         ("Do you work with startups?",
          "Yes. Early-stage companies usually start with the audit or a fractional engagement, so the first pages target "
          "the searches most likely to produce customers."),
-        ("Do you cover AI search as well as Google?",
-         "Yes. B2B buyers increasingly ask ChatGPT, Perplexity and Gemini for vendor shortlists, so every engagement "
-         "covers AI visibility alongside classic SEO."),
-        ("How do we start?",
-         "Book a consultation. Most B2B and SaaS clients start with the SEO &amp; AI Search Audit."),
     ],
     "service_name": "B2B and SaaS SEO consulting", "service_type": "B2B SEO consulting",
     "service_desc": "SEO and AI search consulting for B2B and SaaS companies, focused on pipeline: buyer-journey strategy, "
                     "comparison and alternatives pages, AI visibility and fractional SEO leadership.",
-    "close_h2": "Be on the shortlist <em>before</em> the demo request",
-    "close_text": "Tell me about your product, buyers and pipeline goals, and I'll recommend where to start.",
-    "steps": [("Send a short brief", "Your product, buyers and what you need from search."),
-              ("Call and proposal", "We agree scope, priorities and timeline."),
-              ("Audit or kickoff", "Usually the audit first, then a plan tied to pipeline.")],
 }
 
 if __name__ == "__main__":

@@ -14,18 +14,15 @@ h.text("<p>Tell me about your company and what you want search to do for it. I r
 body = p.row(bg="stone", pad=(96, 112), pad_mobile=(56, 64))
 f, info = body.cols(60, 40, gap=80)
 f.contact()
-info.heading("What helps me reply well", tag="h3", mb=16)
+info.heading("What helps me reply well", tag="h2", mb=16)
 info.text("<ul>"
           "<li>Your company website</li>"
           "<li>Your market and the buyers you want to reach</li>"
           "<li>What is happening with your search traffic today</li>"
           "<li>Any deadline, such as a launch or a migration</li>"
           "</ul>", cls="ja-list", mb=40)
-info.heading("Elsewhere", tag="h3", mb=16)
-info.text("<p><a href=\"https://www.linkedin.com/in/ahmedjamil16/\">LinkedIn</a><br>"
-          "<a href=\"https://www.youtube.com/@jamilahmed.official\">YouTube</a><br>"
-          "<a href=\"https://twitter.com/jamilahmed_16\">X</a></p>"
-          "<p>Need a full team? Visit <a href=\"https://reinforcelab.com/\">Reinforce Lab</a>.</p>")
+info.text("<p>Need a full team rather than a consultant? Say so in your message and I'll point you to "
+          "<a href=\"https://reinforcelab.com/\">Reinforce Lab</a>.</p>")
 
 if __name__ == "__main__":
     print(payload(POST_ID, p))

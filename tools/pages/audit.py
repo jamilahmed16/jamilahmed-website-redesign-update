@@ -67,6 +67,9 @@ SPEC = {
                                    "the quick wins already close to page one."),
     ],
     "unique": unique,
+    "order": ['hero', 'creds', 'intro', 'unique', 'help', 'pricing', 'faq', 'close'],
+    "close_h2": "Find out what's holding you back on Google <em>and</em> in AI answers",
+    "close_text": "Send me your domain and the three searches or AI questions you most want to win. I'll tell you what I would look at first, and whether an audit is the right next step.",
     "price_intro": "The audit is quoted on the size of your site, the number of markets and how deep the AI search "
                    "analysis needs to go. You get a fixed price after a short call.",
     "ways": [("The audit on its own", "The report, the walkthrough and the 90-day plan. Your team takes it from there."),
@@ -84,21 +87,10 @@ SPEC = {
          "the timeline before we start."),
         ("What access do you need?",
          "Read access to Google Search Console and Google Analytics. Access to your CMS isn't needed for the audit."),
-        ("How much does an SEO and AI search audit cost?",
-         "It depends on site size, markets and goals. You get a fixed price in writing after a short call, before any "
-         "work begins."),
-        ("Can you implement the fixes?",
-         "Yes. Your team can run the plan, I can advise them, or my company Reinforce Lab can implement it end to end."),
     ],
     "service_name": "SEO & AI Search Audit", "service_type": "SEO audit",
     "service_desc": "A senior SEO audit covering Google and AI search (ChatGPT, Perplexity, Gemini, Google AI "
                     "Overviews), delivered in 24 to 72 hours with a walkthrough and a ranked 90-day plan.",
-    "close_h2": "Find out what's holding you back on Google <em>and</em> in AI answers",
-    "close_text": "Tell me about your company and I'll come back with a fixed quote and a delivery date.",
-    "close_secondary": ("See all consulting", "/consulting/", True),
-    "steps": [("Send a short brief", "Your site, markets and goals. It takes two minutes."),
-              ("Short call and fixed quote", "We agree scope, competitors and timeline."),
-              ("Report and walkthrough", "Delivered in 24 to 72 hours, then we go through it together.")],
 }
 
 if __name__ == "__main__":

@@ -153,9 +153,13 @@ class Col:
             "margin_bottom": mb, "margin_unit": "px", "alt": alt,
         })
 
-    def posts(self, count=3, cls=""):
+    ARCHIVED_TAG = "24"  # post_tag "ja-archived": live but hidden from lists
+
+    def posts(self, count=3, cls="", exclude_self=False):
         return self._add("post-grid", {
-            "layout": "grid", "post_width": 340, "data_source": "custom_query", "post_type": "post",
+            "tax_post_post_tag": self.ARCHIVED_TAG, "tax_post_post_tag_matching": "0",
+            "exclude_self": "yes" if exclude_self else "no",
+            "layout": "columns", "post_width": 340, "data_source": "custom_query", "post_type": "post",
             "posts_per_page": str(count), "order": "DESC", "order_by": "date",
             "post_columns": 3, "post_columns_medium": 2, "post_columns_responsive": 1,
             "post_spacing": 40, "post_padding": 0, "match_height": "1",
