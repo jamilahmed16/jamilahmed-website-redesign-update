@@ -11,7 +11,8 @@ LinkedIn not yet compared (needs the current headline and About text).
 |---|---|---|
 | Name | Jamil Ahmed | agreed |
 | Headline | SEO and AI Search Consultant | agreed |
-| Roles | Founder & CEO, Reinforce Lab Ltd | GitHub bio still says "CEO & Managing Director" |
+| Short bio (GitHub, X, directories) | SEO & AI Search Consultant. Founder & CEO of Reinforce Lab Ltd | agreed 21 Nov 2026 |
+| Roles | Founder & CEO, Reinforce Lab Ltd | agreed 21 Nov 2026; GitHub bio, company field and README still to update |
 | Location | Dhaka, Bangladesh (Reinforce Lab offices: Dhaka and Katy, Texas) | agreed |
 | Background | Pharmacist. Beacon Pharmaceuticals (international business, regulatory dossiers, export), Square Group (international marketing), Janssen / Johnson & Johnson (Product Manager, Immunology) | agreed |
 | Email | hello@jamilahmed.com | on GitHub and Contact page |
