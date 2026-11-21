@@ -34,7 +34,7 @@ top = p.row(bg="ink", cls="ja-dark ja-footer", pad=(96, 48), pad_mobile=(64, 32)
 brand, guides, latest, quick, legal = top.cols(27, 18, 23, 16, 16, gap=28)
 brand.photo(72, f"{UP}/2023/01/Jamil-Ahmed-logo.png", alt="Jamil Ahmed", cls="ja-logo", mb=20)
 brand.text("<p>Jamil Ahmed is an SEO &amp; AI Search Consultant, Semrush Ambassador and Founder &amp; CEO of "
-           "<a href=\"https://reinforcelab.com/\">Reinforce Lab Ltd</a>. He helps founders, B2B and pharmaceutical "
+           "<a href=\"https://reinforcelab.com/\">Reinforce Lab Ltd</a>, and CEO of Ranks On Fire LLC. He helps founders, B2B and pharmaceutical "
            "companies get found on Google and cited in AI search.</p>", mb=24)
 brand.text(social, cls="ja-social")
 guides.heading("Services", tag="h4", mb=14)

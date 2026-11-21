@@ -21,6 +21,7 @@ info.text("<ul>"
           "<li>What is happening with your search traffic today</li>"
           "<li>Any deadline, such as a launch or a migration</li>"
           "</ul>", cls="ja-list", mb=40)
+info.text('<p>Prefer email? Write to <a href="mailto:hello@jamilahmed.com">hello@jamilahmed.com</a>.</p>', mb=16)
 info.text("<p>Need a full team rather than a consultant? Say so in your message and I'll point you to "
           "<a href=\"https://reinforcelab.com/\">Reinforce Lab</a>.</p>")
 

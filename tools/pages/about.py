@@ -10,7 +10,7 @@ p = Page()
 hero = p.row(bg="ink", cls="ja26-root ja-dark ja-hero", pad=(96, 0), pad_mobile=(56, 0))
 l, r = hero.cols(58, 42, align="center", gap=64)
 l.heading("About <em>Jamil Ahmed</em>", tag="h1", mb=28)
-l.text("<p>SEO &amp; AI Search Consultant, Semrush Ambassador, pharmacist, and Founder &amp; CEO of Reinforce Lab Ltd. "
+l.text("<p>SEO &amp; AI Search Consultant, Semrush Ambassador, pharmacist, Founder &amp; CEO of Reinforce Lab Ltd and CEO of Ranks On Fire LLC. "
        "For 13+ years I have worked across SEO, international business development, pharmaceutical marketing and digital strategy.</p>",
        cls="ja-lead", mb=40)
 l.button("Book a consultation", "/contact/", inline=True)
@@ -60,21 +60,39 @@ rl.text("<ul>"
         "<li><strong>2018</strong> Top 8 Ecommerce Influencer, Fit Small Business</li>"
         "<li><strong>New York</strong> Featured in Times Square</li>"
         "<li><strong>2024</strong> Reinforce Lab: Winner, HackerNoon Startups of the Year, Dhaka</li>"
+        "<li><strong>Clients</strong> HP, Bikroy.com and United International University, among others</li>"
+        "<li><strong>Community</strong> 37K+ followers on LinkedIn and 7,600+ newsletter subscribers</li>"
         "</ul>", cls="ja-list ja-timeline")
 
 vn = p.row(bg="stone", pad=(112, 112), pad_mobile=(64, 64))
 v, e = vn.cols(50, 50, gap=64, cls=["ja-rule", "ja-rule"])
 v.heading("Ventures", tag="h3", mb=16)
-v.text("<p>I lead a group of connected ventures across consulting, media and digital products, including:</p>"
-       "<ul><li><strong><a href=\"https://reinforcelab.com/\">Reinforce Lab</a></strong>: AI Growth Systems, AI search and SEO for growth-stage and B2B companies</li>"
-       "<li><strong>FarSightX Media Group</strong>: media and publishing</li>"
-       "<li><strong><a href=\"https://jadirectives.com/\">JA Directives</a></strong>: business intelligence and marketing publication</li></ul>",
+v.text("<p>The ventures I run, across consulting, media and education:</p>"
+       "<ul><li><strong><a href=\"https://reinforcelab.com/\">Reinforce Lab Limited</a></strong>: AI Growth Systems for growth-stage founders and B2B brands. Flagship system: Search Authority OS. Offices in Dhaka and Katy, Texas.</li>"
+       "<li><strong>Ranks On Fire LLC</strong>: SEO and GEO services (US entity)</li>"
+       "<li><strong><a href=\"https://jadirectives.com/\">JA Directives</a></strong>: free online courses and small business insights for career-focused learners and aspiring entrepreneurs</li>"
+       "<li><strong><a href=\"https://farsightx.com/\">FarSightX Media Group</a></strong>: a portfolio of niche digital magazines, including BestSportsMag, run on AI-assisted editorial and SEO workflows</li></ul>",
        cls="ja-list")
 e.heading("Education", tag="h3", mb=16)
 e.text("<ul><li><strong>Bachelor's degree</strong> East West University</li>"
        "<li><strong>Digital Marketing</strong> University of Illinois Urbana-Champaign, 2026</li>"
        "<li><strong>Content Strategy for Professionals</strong> Northwestern University, 2026</li></ul>",
        cls="ja-list")
+
+# Open work: the same projects listed on GitHub.
+fw = p.row(bg="stone", cls="ja-open-work", pad=(0, 112), pad_mobile=(0, 64))
+fh, fl = fw.cols(35, 65, gap=64)
+fh.heading("Open work", tag="h2", mb=16)
+fh.text('<p>Tools and standards I publish on <a href="https://github.com/jamilahmed16">GitHub</a>.</p>')
+fl.text("<ul>"
+        '<li><strong><a href="https://github.com/jamilahmed16/seo-geo-aeo-playbook">SEO, GEO and AEO Playbook</a></strong>: '
+        "a vendor-neutral standard for building and fixing sites so they rank in Google and get cited by AI search: build gates, "
+        "crawl waste fixes and a URL disposition framework for migrations</li>"
+        '<li><strong><a href="https://github.com/jamilahmed16/trendblog-ai">TrendBlog AI</a></strong>: an AI editorial tool that turns '
+        "live sports trends into research-backed, SEO and GEO ready articles, with source grounding, extractability scoring and schema export</li>"
+        '<li><strong><a href="https://reinforcelab.com/search-authority-diagnostic/">Search Authority Diagnostic</a></strong>: a free '
+        "baseline of where your site stands in Google and AI search, with your gaps and the first fixes to make</li>"
+        "</ul>", cls="ja-list")
 
 # Closing: a personal note, not the sales step list.
 short_cta(p, "If this sounds like your <em>problem</em>, let's talk",

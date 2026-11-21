@@ -27,8 +27,8 @@ rec = p.row(bg="stone", cls="ja-recognition", pad=(56, 56), pad_mobile=(40, 24))
 for col, (title, source) in zip(rec.cols(25, 25, 25, 25, gap=40, cls="ja-hair"), [
     ("Semrush Ambassador", "Semrush"),
     ("Top 3 BI Marketing Influencer", "Onalytica, 2018"),
-    ("Top 50 eCommerce Influencers", "SaleHoo"),
-    ("Featured in Times Square", "New York"),
+    ("HackerNoon Startups of the Year", "Reinforce Lab, Dhaka winner, 2024"),
+    ("Clients include HP", "Bikroy.com, United International University"),
 ]):
     col.heading(title, tag="h3", mb=8)
     col.text(f"<p>{source}</p>", cls="ja-caption")
@@ -80,6 +80,9 @@ side.text(
     "<p>When the plan needs a team, my company <a href=\"https://reinforcelab.com/\">Reinforce Lab</a> "
     "builds the full AI Growth System: SEO, AI search, content and automation as one engine.</p>",
 )
+side.heading("Start with a free baseline", tag="h3", mb=12, mt=40)
+side.text('<p>Not ready for a call? The free <a href="https://reinforcelab.com/search-authority-diagnostic/">Search Authority '
+          'Diagnostic</a> shows where your site stands in Google and AI search, and the first fixes to make.</p>')
 
 # 5. Background: portrait with brass frame, story and career rows.
 bg = p.row(bg="stone", cls="ja-story", pad=(112, 112), pad_mobile=(64, 64))
@@ -104,7 +107,7 @@ story.button("Read my story", "/about-me/", ghost=True)
 
 # 6. Industries: one line scrolling left to right (pauses on hover, static for reduced motion).
 IND = ["Pharmaceutical &amp; Life Sciences", "Healthcare", "B2B SaaS", "Manufacturing", "Technology",
-       "Professional Services", "E-commerce"]
+       "Professional Services", "E-commerce", "Education"]
 strip = "".join(f"<span>{x}</span><i aria-hidden=\"true\">/</i>" for x in IND)
 ind = p.row(bg="ink", cls="ja-dark ja-industries", pad=(88, 88), pad_mobile=(56, 56))
 (ic,) = ind.cols(100)

@@ -10,8 +10,8 @@ from _cta import short_cta
 CREDENTIALS = [
     ("Semrush Ambassador", "Semrush"),
     ("Janssen (Johnson &amp; Johnson)", "Product Manager, Immunology"),
-    ("Founder &amp; CEO, Reinforce Lab", "Since 2018"),
-    ("7,600+ readers", "AI Growth Systems newsletter"),
+    ("HackerNoon Startups of the Year", "Reinforce Lab, Dhaka winner, 2024"),
+    ("Clients include HP", "Bikroy.com, United International University"),
 ]
 
 PRICE_FIXED = [

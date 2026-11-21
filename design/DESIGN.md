@@ -87,7 +87,7 @@ All corners 0px: buttons, images, inputs, panels. A 3px brass top rule is the si
 ## Do's and Don'ts
 
 ### Do's
-- Do use only facts from Jamil's LinkedIn, Crunchbase and about.me profiles or the existing sites: 13+ years; Semrush Ambassador; Onalytica Top 3 Business Intelligence Marketing Influencer (2018); jadirectives.com in Onalytica's Top 20 BI marketing blogs; SaleHoo Top 50 eCommerce Online Sellers & Influencers; Fit Small Business Top 8 Ecommerce Influencer (2018); featured in Times Square, New York; 37,000+ LinkedIn followers; 7,600+ newsletter subscribers; Janssen (Johnson & Johnson), Beacon Pharmaceuticals, Square Group; Founder & CEO of Reinforce Lab Ltd; 4 ventures including Reinforce Lab, FarSightX Media Group and JA Directives.
+- Do use only facts from Jamil's LinkedIn, GitHub (content/profile/jamil-ahmed-profile.md), Crunchbase and about.me profiles or the existing sites: 13+ years; Semrush Ambassador; Onalytica Top 3 Business Intelligence Marketing Influencer (2018); jadirectives.com in Onalytica's Top 20 BI marketing blogs; SaleHoo Top 50 eCommerce Online Sellers & Influencers; Fit Small Business Top 8 Ecommerce Influencer (2018); featured in Times Square, New York; 37,000+ LinkedIn followers; 7,600+ newsletter subscribers; Janssen (Johnson & Johnson), Beacon Pharmaceuticals, Square Group; Founder & CEO of Reinforce Lab Ltd; 4 ventures including Reinforce Lab, FarSightX Media Group and JA Directives.
 - Do keep one call to action label per intent: "Book a consultation" for consulting, "Subscribe" for the newsletter.
 - Do alternate stone and off-black bands to pace long pages.
 - Do use the real portrait from the Media Library.
