@@ -70,20 +70,32 @@ def themer_patch(post_id):
     print("themer modules:", php(code))
 
 
+JS_FILES = ["vendor/gsap.min.js", "vendor/ScrollTrigger.min.js", "vendor/SplitText.min.js", "ja26-toc.js", "ja26-motion.js"]
+JS_HEAD = ("<script>if(document.querySelector&&!matchMedia('(prefers-reduced-motion: reduce)').matches)"
+           "document.documentElement.classList.add('ja-m')</script>")
+
+
 def js():
-    src = open(os.path.join(ROOT, "wp-content/themes/bb-theme-child/assets/js/ja26-toc.js"), "rb").read()
-    b64 = base64.b64encode(src).decode()
+    """Upload theme JS (GSAP is self-hosted under assets/js/vendor) and register deferred tags in HFC sitewide."""
+    base = os.path.join(ROOT, "wp-content/themes/bb-theme-child/assets/js")
+    for rel in JS_FILES:
+        b64 = base64.b64encode(open(os.path.join(base, rel), "rb").read()).decode()
+        code = (f"$f=get_stylesheet_directory().'/assets/js/{rel}'; wp_mkdir_p(dirname($f));"
+                f"$w=file_put_contents($f,base64_decode('{b64}'));clearstatcache();return [$w,filemtime($f)];")
+        print("js:", rel, php(code))
+    files = json.dumps(JS_FILES)
+    head = base64.b64encode(JS_HEAD.encode()).decode()
     code = (
-        "$f=get_stylesheet_directory().'/assets/js/ja26-toc.js'; wp_mkdir_p(dirname($f));"
-        f"$w=file_put_contents($f,base64_decode('{b64}'));clearstatcache();$v=filemtime($f);"
-        "$tag='<script src=\"'.get_stylesheet_directory_uri().'/assets/js/ja26-toc.js?ver='.$v.'\" defer></script>';"
+        f"$tags='';foreach(json_decode('{files}') as $r){{$f=get_stylesheet_directory().'/assets/js/'.$r;"
+        "$tags.='<script src=\"'.get_stylesheet_directory_uri().'/assets/js/'.$r.'?ver='.filemtime($f).'\" defer></script>';}"
         "$sw=(array)get_option('auhfc_settings_sitewide');"
-        "$sw['footer']=trim(preg_replace('#<!-- ja26-js -->.*<!-- /ja26-js -->#s','',$sw['footer']??'')).\"\\n<!-- ja26-js -->\".$tag.'<!-- /ja26-js -->';"
+        "$sw['footer']=trim(preg_replace('#<!-- ja26-js -->.*<!-- /ja26-js -->#s','',$sw['footer']??'')).\"\\n<!-- ja26-js -->\".$tags.'<!-- /ja26-js -->';"
+        f"$sw['head']=trim(preg_replace('#<!-- ja26-head -->.*<!-- /ja26-head -->#s','',$sw['head']??'')).\"\\n<!-- ja26-head -->\".base64_decode('{head}').'<!-- /ja26-head -->';"
         "update_option('auhfc_settings_sitewide',$sw);"
-        "if(class_exists('WpeCommon')){WpeCommon::purge_varnish_cache();}"
-        "return ['bytes'=>$w,'ver'=>$v];"
+        "return ['keys'=>array_keys($sw),'footer'=>$sw['footer']];"
     )
     print("js:", php(code))
+    purge()
 
 
 def page(script):
