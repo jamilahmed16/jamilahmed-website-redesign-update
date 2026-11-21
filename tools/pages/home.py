@@ -2,7 +2,7 @@
 
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from _cta import closing_cta
+from _cta import brief_cta
 from bb import Page, SITE, payload
 
 UP = f"{SITE}/wp-content/uploads"
@@ -164,10 +164,8 @@ show.button("Listen to the show", "/podcast/", ghost=True)
 
 # 9. Closing call to action.
 # 9. Closing call to action (shared style)
-closing_cta(p, "Want a clear plan for Google <em>and</em> AI search?",
-            "Tell me where you are today. I'll tell you honestly what to fix first, and whether I'm the right person to help.",
-            [("Book a consultation", "/contact/", False), ("Start with an audit", "/seo-ai-search-audit/", True)],
-            "What happens next", [('Send a short brief', 'Your company, markets and goals.'), ('Short call', 'We agree what to fix first, scope and timeline.'), ('Audit or kickoff', 'Usually the audit first, then a 90-day plan your team can ship.')])
+brief_cta(p, "Want a clear plan for Google <em>and</em> AI search?",
+          "Tell me where you are today. I'll tell you honestly what to fix first, and whether I'm the right person to help.")
 
 if __name__ == "__main__":
     print(payload(853, p))

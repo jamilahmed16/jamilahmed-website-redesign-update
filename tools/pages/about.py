@@ -1,7 +1,7 @@
 """About page (/about-me/)."""
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from _cta import closing_cta, short_cta
+from _cta import brief_cta
 from bb import Page, SITE, payload
 UP = f"{SITE}/wp-content/uploads"
 POST_ID = int(os.environ.get("POST_ID", "0"))
@@ -94,9 +94,9 @@ fl.text("<ul>"
         "</ul>", cls="ja-list")
 
 # Closing: a personal note, not the sales step list.
-short_cta(p, "If this sounds like your <em>problem</em>, let's talk",
+brief_cta(p, "If this sounds like your <em>problem</em>, let's talk",
           "If something on this page is close to what you're working on, I'd like to hear about it. I read every message myself.",
-          [("Book a consultation", "/contact/", False), ("Connect on LinkedIn", "https://www.linkedin.com/in/ahmedjamil16/", True)])
+          secondary=("Connect on LinkedIn", "https://www.linkedin.com/in/ahmedjamil16/"))
 
 if __name__ == "__main__":
     print(payload(POST_ID, p))

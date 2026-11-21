@@ -67,6 +67,7 @@ SPEC = {
                                    "the quick wins already close to page one."),
     ],
     "unique": unique,
+    "brief_need": "audit",
     "order": ['hero', 'creds', 'intro', 'unique', 'help', 'pricing', 'faq', 'close'],
     "close_h2": "Find out what's holding you back on Google <em>and</em> in AI answers",
     "close_text": "Send me your domain and the three searches or AI questions you most want to win. I'll tell you what I would look at first, and whether an audit is the right next step.",

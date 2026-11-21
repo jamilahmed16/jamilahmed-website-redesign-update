@@ -84,6 +84,7 @@ SPEC = {
         ("Regulated content", "Evidence-led content and workflows that pass medical, legal and compliance review."),
     ],
     "unique": unique,
+    "brief_need": "enterprise",
     "order": ["hero", "creds", "unique", "intro", "help_table", "pricing_short", "faq", "close"],
     "close_h2": 'Make search a revenue channel your board <em>understands</em>',
     "close_text": "Tell me which sites, markets and teams are involved. I'll suggest where an outside view helps most, and where your team is already fine on its own.",

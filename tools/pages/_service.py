@@ -5,7 +5,7 @@ hero, creds, story, intro, help, help_table, unique, pricing, pricing_short, faq
 """
 import json
 from bb import Page
-from _cta import short_cta
+from _cta import brief_cta
 
 CREDENTIALS = [
     ("Top 3 BI Marketing Influencer", "Onalytica"),
@@ -122,7 +122,7 @@ def _faq(p, spec):
 
 
 def _close(p, spec):
-    short_cta(p, spec["close_h2"], spec["close_text"], [("Book a consultation", "/contact/", False)])
+    brief_cta(p, spec["close_h2"], spec["close_text"], preselect=spec.get("brief_need"))
 
 
 SECTIONS = {"hero": _hero, "creds": _creds, "story": _story, "intro": _intro, "help": _help,

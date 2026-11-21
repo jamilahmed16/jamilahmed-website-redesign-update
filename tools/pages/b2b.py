@@ -70,6 +70,7 @@ SPEC = {
                                       "that aren't ready for a full-time SEO lead."),
     ],
     "unique": unique,
+    "brief_need": "b2b",
     "order": ['hero', 'creds', 'unique', 'intro', 'help', 'pricing_short', 'faq', 'close'],
     "close_h2": 'Be on the shortlist <em>before</em> the demo request',
     "close_text": "Send me your category and the three competitors you lose deals to most often. I'll show you where they are cited in AI answers and you aren't.",

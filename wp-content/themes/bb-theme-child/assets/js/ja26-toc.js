@@ -112,6 +112,12 @@
 		var err = wrap && wrap.querySelector('.fl-contact-error');
 		if (err) err.textContent = 'Please add your company and website.';
 	}
+	/* A brief written in a closing call to action arrives in the message field. */
+	try {
+		var brief = new URLSearchParams(location.search).get('brief');
+		var box = form.querySelector('textarea');
+		if (brief && box && !box.value) box.value = brief.slice(0, 600);
+	} catch (e) {}
 	var btn = form.querySelector('.fl-button');
 	if (btn) btn.addEventListener('click', function () {
 		setTimeout(function () {

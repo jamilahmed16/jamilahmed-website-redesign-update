@@ -19,6 +19,7 @@
 
 	/* The console works with or without GSAP. */
 	$('[data-console]').forEach(function (c) { consoleInit(c); });
+	$('[data-brief]').forEach(function (b) { briefInit(b); });
 
 	if (!gsap) { reveal(); return; }
 	var ST = window.ScrollTrigger;
@@ -54,6 +55,13 @@
 		if (art) heroArt(art, tl);
 		if (fine) glow(hero);
 	}
+
+	if (fine) $('.ja-brief-row').forEach(glow);
+	$('.ja-brief-title').forEach(function (t) {
+		if (!ST || !window.SplitText || t.getBoundingClientRect().top < innerHeight) return;
+		var sp = new window.SplitText(t.querySelector('.fl-heading-text') || t, { type: 'words', mask: 'words' });
+		gsap.from(sp.words, { yPercent: 110, duration: 0.9, stagger: 0.05, ease: 'power3.out', scrollTrigger: { trigger: t, start: 'top 80%', once: true } });
+	});
 
 	if (!ST) return;
 
@@ -288,6 +296,56 @@
 				window.gsap.fromTo(toggle, { boxShadow: '0 0 0 0 rgba(175,130,75,.8)' }, { boxShadow: '0 0 0 10px rgba(175,130,75,0)', duration: 1.1, repeat: 2, delay: 2.4 });
 			} });
 		}
+	}
+
+
+	/* ---------- Closing call to action: two clicks write the first message ---------- */
+	function briefInit(b) {
+		var NEED = {
+			audit: 'an SEO and AI search audit', enterprise: 'help with enterprise SEO',
+			b2b: 'SEO and AI search for our B2B / SaaS company', pharma: 'SEO for a pharma or healthcare brand',
+			unsure: 'advice on where to start with SEO and AI search'
+		};
+		var NOW = {
+			falling: 'our organic traffic is falling', ai: "competitors are cited in AI answers and we aren't",
+			migration: 'we have a migration or redesign coming up', scratch: "we're starting from scratch"
+		};
+		var st = { need: b.getAttribute('data-pre') || '', now: '' };
+		var out = b.querySelector('[data-out]'), send = b.querySelector('[data-send]');
+		var typing;
+		b.classList.add('is-live');
+		function msg() {
+			var need = st.need ? NEED[st.need] : 'help with SEO and AI search';
+			var t = 'Hi Jamil, we are looking for ' + need + '.';
+			if (st.now) t += ' Right now ' + NOW[st.now] + '.';
+			return t + ' Could we talk about where to start?';
+		}
+		function render(animate) {
+			$('[data-need]', b).forEach(function (c) { c.setAttribute('aria-pressed', c.getAttribute('data-need') === st.need ? 'true' : 'false'); });
+			$('[data-now]', b).forEach(function (c) { c.setAttribute('aria-pressed', c.getAttribute('data-now') === st.now ? 'true' : 'false'); });
+			var text = msg();
+			send.href = '/contact/?brief=' + encodeURIComponent(text);
+			b.classList.toggle('is-ready', !!(st.need && st.now));
+			clearInterval(typing);
+			if (!animate || reduce) { out.textContent = text; return; }
+			/* Keep what is unchanged, type the rest. */
+			var cur = out.textContent, i = 0;
+			while (i < cur.length && cur[i] === text[i]) i++;
+			out.classList.add('is-typing');
+			typing = setInterval(function () {
+				i += 2;
+				out.textContent = text.slice(0, i);
+				if (i >= text.length) { out.textContent = text; out.classList.remove('is-typing'); clearInterval(typing); }
+			}, 16);
+		}
+		b.addEventListener('click', function (e) {
+			var c = e.target.closest('.ja-chip');
+			if (!c) return;
+			if (c.hasAttribute('data-need')) st.need = st.need === c.getAttribute('data-need') ? '' : c.getAttribute('data-need');
+			else st.now = st.now === c.getAttribute('data-now') ? '' : c.getAttribute('data-now');
+			render(true);
+		});
+		render(false);
 	}
 
 	function wrapWordsKeepMarks(p) {

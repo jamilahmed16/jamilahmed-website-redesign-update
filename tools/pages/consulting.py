@@ -1,7 +1,7 @@
 """Consulting page (/consulting/)."""
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from _cta import closing_cta
+from _cta import brief_cta
 from bb import Page, SITE, payload
 UP = f"{SITE}/wp-content/uploads"
 POST_ID = int(os.environ.get("POST_ID", "0"))
@@ -83,10 +83,8 @@ for q, ans in [
     qc.text(f"<p>{ans}</p>", mb=32)
 
 # Closing call to action (shared style)
-closing_cta(p, "Start with a <em>conversation</em>",
-            "Tell me about your company and what you want search to do for it. If I'm not the right fit, I'll say so.",
-            [("Book a consultation", "/contact/", False), ("Start with an audit", "/seo-ai-search-audit/", True)],
-            "What happens next", [('Send a short brief', 'Your company, markets and goals.'), ('Short call', 'We agree what to fix first, scope and timeline.'), ('Audit or kickoff', 'Usually the audit first, then a 90-day plan your team can ship.')])
+brief_cta(p, "Start with a <em>conversation</em>",
+          "Tell me about your company and what you want search to do for it. If I'm not the right fit, I'll say so.")
 
 if __name__ == "__main__":
     print(payload(POST_ID, p))
