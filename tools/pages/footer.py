@@ -35,7 +35,7 @@ brand, guides, latest, quick, legal = top.cols(27, 18, 23, 16, 16, gap=28)
 brand.photo(72, f"{UP}/2023/01/Jamil-Ahmed-logo.png", alt="Jamil Ahmed", cls="ja-logo", mb=20)
 brand.text("<p>SEO &amp; AI Search Consultant, Founder &amp; CEO of <a href=\"https://reinforcelab.com/\">Reinforce Lab</a>. "
            "A pharmacist with 13+ years across SEO, digital strategy and international pharmaceutical business. "
-           "Named a Top 3 Business Intelligence Marketing Influencer by Onalytica. Semrush Ambassador.</p>", mb=24)
+           "Named a Top 3 Business Intelligence Marketing Influencer by Onalytica.</p>", mb=24)
 brand.text(social, cls="ja-social")
 guides.heading("Services", tag="h4", mb=14)
 guides.text(links(SERVICES), cls="ja-footer-links")
