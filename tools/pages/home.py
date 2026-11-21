@@ -6,6 +6,27 @@ from _cta import closing_cta
 from bb import Page, SITE, payload
 
 UP = f"{SITE}/wp-content/uploads"
+CONSOLE = (
+    '<div class="ja-console" data-console>'
+    '<div class="ja-console-bar">'
+    '<div class="ja-console-tabs" role="tablist" aria-label="Where the buyer asks">'
+    '<button type="button" role="tab" aria-selected="false" data-tab="google">Google</button>'
+    '<button type="button" role="tab" aria-selected="true" data-tab="chatgpt">ChatGPT</button>'
+    '<button type="button" role="tab" aria-selected="false" data-tab="perplexity">Perplexity</button>'
+    '</div>'
+    '<button type="button" class="ja-console-toggle" aria-pressed="false" data-cited>'
+    '<span class="ja-console-knob" aria-hidden="true"></span><span>After evidence work</span></button>'
+    '</div>'
+    '<p class="ja-console-q"><span data-q>Which ERP implementation partners are best for a mid-size manufacturer?</span></p>'
+    '<div class="ja-console-a" data-a aria-live="polite"><p>For a mid-size manufacturer, three partners come up most '
+    'often in reviews and case studies: Corvane, Meridian Works and Halden Group. Corvane is strongest on '
+    'shop-floor integrations...</p></div>'
+    '<ol class="ja-console-src" data-src><li>Corvane: manufacturing case study</li><li>Gartner peer reviews</li>'
+    '<li>Halden Group: ERP buyer guide</li></ol>'
+    '<p class="ja-console-cap">Illustration with fictional brands. Switch the surface, then switch on the evidence work.</p>'
+    '</div>'
+)
+
 p = Page()
 
 # 1. Hero: dark band, copy left, editorial photo bleeding to the band's bottom edge.
@@ -37,15 +58,15 @@ for col, (title, source) in zip(rec.cols(25, 25, 25, 25, gap=40, cls="ja-hair"),
 pov = p.row(bg="stone", cls="ja-pov", pad=(56, 112), pad_mobile=(40, 64))
 (head,) = pov.cols(100)
 head.heading("Your buyers now ask AI <em>before</em> they ask Google.", tag="h2", mb=48, cls="ja-measure")
-a, b = pov.cols(50, 50, gap=64)
+a, b = pov.cols(44, 56, gap=72, align="top")
 a.text(
     "<p>Ranking on page one used to be the whole job. Today a CFO compares vendors in ChatGPT, a "
     "procurement lead asks Perplexity for a shortlist, and Google answers before anyone clicks. If your "
     "company is not the source those answers are built on, you are invisible at the moment the decision forms.</p>"
     "<p>I build search strategies for that reality: classic SEO that still drives demand, plus the evidence, "
-    "structure and authority that make AI engines cite you by name.</p>",
+    "structure and authority that make AI engines cite you by name.</p>", mb=32,
 )
-b.text(
+a.text(
     "<ul>"
     "<li><strong>SEO strategy</strong> for enterprise, technical and international sites</li>"
     "<li><strong>AI Search Optimization</strong>: AEO, GEO and LLM visibility</li>"
@@ -55,6 +76,8 @@ b.text(
     "</ul>",
     cls="ja-list",
 )
+# The argument, made tangible: one buyer question, three surfaces, cited or not.
+b.text(CONSOLE, cls="ja-console-wrap")
 
 # 4. Ways to work together: one primary offer, two secondary, asymmetric.
 work = p.row(bg="graphite", cls="ja-dark ja-work", pad=(112, 112), pad_mobile=(64, 64))
