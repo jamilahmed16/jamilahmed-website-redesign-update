@@ -25,10 +25,10 @@ right.photo(182, f"{UP}/2023/02/Jamil-Ahmed-Hero-Image-2.jpg",
 # 2. Recognition strip: four real credentials, hairline separated.
 rec = p.row(bg="stone", cls="ja-recognition", pad=(56, 56), pad_mobile=(40, 24))
 for col, (title, source) in zip(rec.cols(25, 25, 25, 25, gap=40, cls="ja-hair"), [
-    ("Semrush Ambassador", "Semrush"),
-    ("Top 3 BI Marketing Influencer", "Onalytica, 2018"),
+    ("Top 3 BI Marketing Influencer", "Onalytica"),
     ("HackerNoon Startups of the Year", "Reinforce Lab, Dhaka winner, 2024"),
     ("Clients include HP", "Bikroy.com, United International University"),
+    ("Semrush Ambassador", "Semrush"),
 ]):
     col.heading(title, tag="h3", mb=8)
     col.text(f"<p>{source}</p>", cls="ja-caption")

@@ -8,10 +8,10 @@ from bb import Page
 from _cta import short_cta
 
 CREDENTIALS = [
-    ("Semrush Ambassador", "Semrush"),
-    ("Janssen (Johnson &amp; Johnson)", "Product Manager, Immunology"),
+    ("Top 3 BI Marketing Influencer", "Onalytica"),
     ("HackerNoon Startups of the Year", "Reinforce Lab, Dhaka winner, 2024"),
     ("Clients include HP", "Bikroy.com, United International University"),
+    ("Semrush Ambassador", "Semrush"),
 ]
 
 PRICE_FIXED = [
