@@ -84,7 +84,7 @@ SPEC = {
         ("Fractional SEO leadership", "Part-time senior SEO direction that works with your medical, regulatory and brand teams."),
     ],
     "unique": unique,
-    "order": ['hero', 'story', 'unique', 'intro', 'help', 'pricing_short', 'faq', 'close'],
+    "order": ["hero", "creds", "story", "unique", "intro", "help", "pricing_short", "faq", "close"],
     "close_h2": 'Become the source patients and doctors <em>trust</em>',
     "close_text": "Tell me your therapy areas and how your review process works. I'll tell you honestly what search can and can't do inside those limits.",
     "price_intro": "Every engagement is scoped to your products, markets and review process. After a short call you "
