@@ -11,7 +11,7 @@ LinkedIn not yet compared (needs the current headline and About text).
 |---|---|---|
 | Name | Jamil Ahmed | agreed |
 | Headline | SEO and AI Search Consultant | agreed |
-| Roles | Founder & CEO, Reinforce Lab Ltd; CEO, Ranks On Fire LLC | site now lists both; GitHub bio still says "CEO & Managing Director" |
+| Roles | Founder & CEO, Reinforce Lab Ltd | GitHub bio still says "CEO & Managing Director" |
 | Location | Dhaka, Bangladesh (Reinforce Lab offices: Dhaka and Katy, Texas) | agreed |
 | Background | Pharmacist. Beacon Pharmaceuticals (international business, regulatory dossiers, export), Square Group (international marketing), Janssen / Johnson & Johnson (Product Manager, Immunology) | agreed |
 | Email | hello@jamilahmed.com | on GitHub and Contact page |
@@ -28,7 +28,7 @@ LinkedIn not yet compared (needs the current headline and About text).
 | Venture | One line | On site | On GitHub |
 |---|---|---|---|
 | Reinforce Lab Ltd | AI Growth Systems for growth-stage founders and B2B brands; offices in Dhaka and Katy, Texas | yes | yes |
-| Ranks On Fire LLC | SEO and GEO services (US entity) | yes (About, footer, author profile) | yes |
+| Ranks On Fire LLC | SEO and GEO services (US entity) | **removed on purpose (21 Nov 2026), to be added later** | yes |
 | JA Directives | Free online courses and small business insights | yes (About) | yes |
 | FarSightX Media Group | Portfolio of niche digital magazines (e.g. BestSportsMag) | yes (About) | yes |
 

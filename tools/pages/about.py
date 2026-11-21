@@ -10,7 +10,7 @@ p = Page()
 hero = p.row(bg="ink", cls="ja26-root ja-dark ja-hero", pad=(96, 0), pad_mobile=(56, 0))
 l, r = hero.cols(58, 42, align="center", gap=64)
 l.heading("About <em>Jamil Ahmed</em>", tag="h1", mb=28)
-l.text("<p>SEO &amp; AI Search Consultant, Semrush Ambassador, pharmacist, Founder &amp; CEO of Reinforce Lab Ltd and CEO of Ranks On Fire LLC. "
+l.text("<p>SEO &amp; AI Search Consultant, Semrush Ambassador, pharmacist and Founder &amp; CEO of Reinforce Lab Ltd. "
        "For 13+ years I have worked across SEO, international business development, pharmaceutical marketing and digital strategy.</p>",
        cls="ja-lead", mb=40)
 l.button("Book a consultation", "/contact/", inline=True)
@@ -69,7 +69,6 @@ v, e = vn.cols(50, 50, gap=64, cls=["ja-rule", "ja-rule"])
 v.heading("Ventures", tag="h3", mb=16)
 v.text("<p>The ventures I run, across consulting, media and education:</p>"
        "<ul><li><strong><a href=\"https://reinforcelab.com/\">Reinforce Lab Limited</a></strong>: AI Growth Systems for growth-stage founders and B2B brands. Flagship system: Search Authority OS. Offices in Dhaka and Katy, Texas.</li>"
-       "<li><strong>Ranks On Fire LLC</strong>: SEO and GEO services (US entity)</li>"
        "<li><strong><a href=\"https://jadirectives.com/\">JA Directives</a></strong>: free online courses and small business insights for career-focused learners and aspiring entrepreneurs</li>"
        "<li><strong><a href=\"https://farsightx.com/\">FarSightX Media Group</a></strong>: a portfolio of niche digital magazines, including BestSportsMag, run on AI-assisted editorial and SEO workflows</li></ul>",
        cls="ja-list")
