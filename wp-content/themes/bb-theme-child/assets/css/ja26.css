@@ -464,7 +464,7 @@ body:has(.ja26-root) .ja-post-hero h1.fl-heading { font-size: clamp(34px, 4.4vw,
 body:has(.ja26-root) .ja-meta p { font-family: var(--ja-mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ja-on-dark-muted); }
 body:has(.ja26-root) .ja-meta a { color: var(--ja-on-dark) !important; text-decoration: none; }
 body:has(.ja26-root) .ja-meta img { display: none; }
-body:has(.ja26-root) .ja-featured img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+body:has(.ja26-root) .ja-featured img { width: 100%; height: auto; aspect-ratio: 40 / 21; object-fit: cover; }
 
 /* ---------- Article prose (post content) ---------- */
 body:has(.ja26-root) .ja-prose { font-size: 19px; line-height: 1.72; color: var(--ja-ink); }
@@ -1025,3 +1025,26 @@ body:has(.ja26-root) .ja-footer-latest .fl-post-feed-title a { display: inline-b
 body:has(.ja26-root) .ja-posts .fl-post-column { padding-bottom: 40px; }
 body:has(.ja26-root) .ja-faq-list { width: 100%; align-self: center; }
 body:has(.ja26-root) .ja-table.ja-table-dark td:nth-child(2) { color: var(--ja-on-dark-muted); }
+
+/* =====================================================================
+ * Single posts: fixes (Nov 2026)
+ * ===================================================================== */
+/* The post title repeated as an H2 inside older posts. */
+body:has(.ja26-root) .ja-prose h2.ja-dup-title { display: none; }
+/* Breadcrumb: the last crumb repeats the H1, so drop it. */
+body:has(.ja26-root) .ja-crumbs .breadcrumb_last { display: none; }
+/* No contents list (very short posts): centre the article instead of leaving an empty sidebar. */
+@media (min-width: 993px) {
+	html.ja-no-toc body:has(.ja26-root) .ja-toc-col { display: none !important; }
+	html.ja-no-toc body:has(.ja26-root) .ja-article-col { width: 100% !important; }
+	html.ja-no-toc body:has(.ja26-root) .ja-article-col > .fl-col-content { max-width: 760px; margin: 0 auto; }
+	html.ja-no-toc body:has(.ja26-root) .ja-post-hero .fl-col-group { margin-left: auto !important; margin-right: auto !important; max-width: 760px; }
+}
+/* Tables scroll sideways on phones instead of breaking the layout. */
+@media (max-width: 768px) {
+	body:has(.ja26-root) .ja-prose table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
+	body:has(.ja26-root) .ja-crumbs p { line-height: 1.6; }
+}
+/* The featured image is a title card for sharing; on the post itself the H1 already says it. */
+body:has(.ja26-root) .ja-article-col .ja-featured { display: none; }
+body:has(.ja26-root) .ja-crumbs a, body:has(.ja26-root) .ja-crumbs span { display: inline; }

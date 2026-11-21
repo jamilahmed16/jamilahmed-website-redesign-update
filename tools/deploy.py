@@ -100,7 +100,9 @@ def page(script):
 def purge():
     """Clear every cache layer: Beaver asset cache, WP Engine page and object cache, and the Cloudflare edge (CDN)."""
     code = ("if(class_exists('FLBuilderModel')){FLBuilderModel::delete_asset_cache_for_all_posts();}"
-            "if(class_exists('WpeCommon')){WpeCommon::purge_memcached();WpeCommon::purge_varnish_cache_all();WpeCommon::clear_cdn_cache();}"
+            "if(class_exists('WpeCommon')){WpeCommon::purge_memcached();"
+            "foreach(get_posts(['post_type'=>['post','page'],'post_status'=>'publish','numberposts'=>-1,'fields'=>'ids']) as $i){WpeCommon::purge_varnish_cache($i);}"
+            "WpeCommon::purge_varnish_cache_all();WpeCommon::clear_cdn_cache();}"
             "return 'purged';")
     print("cache:", php(code))
 

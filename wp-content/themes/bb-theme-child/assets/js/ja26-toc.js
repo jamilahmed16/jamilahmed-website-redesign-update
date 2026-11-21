@@ -11,9 +11,21 @@
 	if (!mount || !article) return;
 
 	var skip = '.ja-takeaways, .ja-answer, .ja-sponsor, #ez-toc-container';
-	var heads = Array.prototype.filter.call(article.querySelectorAll('h2'), function (h) {
-		return !h.closest(skip) && h.textContent.trim();
+	var norm = function (t) { return (t || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim(); };
+	var h1 = document.querySelector('h1');
+	var title = norm(h1 && h1.textContent);
+	// Older posts repeat the post title as the first H2: hide that duplicate.
+	Array.prototype.forEach.call(article.querySelectorAll('h2'), function (h) {
+		if (title && norm(h.textContent) === title) { h.classList.add('ja-dup-title'); }
 	});
+	var pick = function (sel) {
+		return Array.prototype.filter.call(article.querySelectorAll(sel), function (h) {
+			return !h.closest(skip) && !h.classList.contains('ja-dup-title') && h.textContent.trim();
+		});
+	};
+	var heads = pick('h2');
+	// Older posts use H3 for their sections: fall back to H2 + H3 so they still get a contents list.
+	if (heads.length < 3) heads = pick('h2, h3');
 	if (heads.length < 3) { document.documentElement.classList.add('ja-no-toc'); return; }
 
 	var slug = function (t) { return t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60); };
@@ -124,4 +136,16 @@
 	document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setTimeout(sync, 60); });
 	window.addEventListener('resize', sync);
 	if (menu) menu.addEventListener('click', function (e) { if (e.target.closest('a[href]')) { document.documentElement.style.overflow = ''; } });
+})();
+
+/* Breadcrumb on posts: drop the last crumb (it repeats the H1) and the separator before it. */
+(function () {
+	Array.prototype.forEach.call(document.querySelectorAll('.ja-crumbs .breadcrumb_last'), function (last) {
+		var wrap = last.closest('.ja-crumbs');
+		var prev = last.previousSibling;
+		if (prev && prev.nodeType === 3) prev.textContent = prev.textContent.replace(/\s*»\s*$/, '');
+		last.remove();
+		// Only "Home" left (blog index): the breadcrumb adds nothing, so hide it.
+		if (wrap && wrap.querySelectorAll('a').length < 2) wrap.style.display = 'none';
+	});
 })();
